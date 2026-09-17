@@ -6,7 +6,7 @@ export default function PriceTag({ p, size = "md" }: { p: Product; size?: "md" |
     <span className="inline-flex items-baseline gap-1.5">
       <span className={`tag-price ${big ? "text-5xl sm:text-6xl" : "text-2xl"}`}>{p.price ? fmt(p.price) : "—"}</span>
       {p.price && <span className={`tag-price ${big ? "text-3xl" : "text-lg"}`}>₽</span>}
-      <span className={`tag-unit ${big ? "text-base" : ""}`}>{p.price ? `/ ${p.unit}` : "цена по телефону"}</span>
+      <span className={`tag-unit ${big ? "text-base" : ""}`}>{p.price ? `/ ${p.unit}` : p.preorder ? "под заказ · цена по телефону" : "цена по телефону"}</span>
     </span>
   );
 }
