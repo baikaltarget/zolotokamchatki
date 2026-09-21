@@ -1,0 +1,72 @@
+name: Scheduled Publish
+
+on:
+  schedule:
+    - cron: '0 1 * * *'   # 01:00 UTC = 09:00 Иркутск, ежедневно
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Move due posts from queue to blog
+        id: move
+        run: |
+          TODAY=$(TZ=Asia/Irkutsk date +%F)
+          echo "Today (Irkutsk): $TODAY"
+          MOVED=""
+          shopt -s nullglob
+          for F in content/queue/*.md; do
+            D=$(grep -m1 '^date:' "$F" | sed -E 's/date: *"?([0-9-]+)"?.*/\1/')
+            if [[ "$D" < "$TODAY" || "$D" == "$TODAY" ]]; then
+              SLUG=$(basename "$F" .md)
+              git mv "$F" "content/blog/$SLUG.md"
+              MOVED="$MOVED $SLUG"
+              echo "→ publish $SLUG (date $D)"
+            fi
+          done
+          echo "slugs=$MOVED" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.move.outputs.slugs != ''
+        run: |
+          git config user.name "blog-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git commit -m "publish:${{ steps.move.outputs.slugs }}"
+          git push
+
+      - name: Wait for Vercel deploy
+        if: steps.move.outputs.slugs != ''
+        run: sleep 200
+
+      - name: Yandex Webmaster — recrawl
+        if: steps.move.outputs.slugs != ''
+        env:
+          TOKEN: ${{ secrets.YANDEX_WEBMASTER_TOKEN }}
+          USER_ID: ${{ secrets.YANDEX_USER_ID }}
+          HOST_ID: ${{ secrets.YANDEX_HOST_ID }}
+          SITE: "https://xn----8sbazijcdmpba5cg7e.xn--p1ai"
+        run: |
+          if [ -z "$TOKEN" ]; then echo "No Yandex token, skip"; exit 0; fi
+          for SLUG in ${{ steps.move.outputs.slugs }}; do
+            URL="${SITE}/blog/${SLUG}/"
+            CODE=$(curl -s -o /tmp/r.json -w "%{http_code}" -X POST \
+              "https://api.webmaster.yandex.net/v4/user/${USER_ID}/hosts/${HOST_ID}/recrawl/queue/" \
+              -H "Authorization: OAuth ${TOKEN}" -H "Content-Type: application/json" \
+              -d "{\"url\":\"${URL}\"}")
+            echo "Yandex ${URL} -> HTTP ${CODE}"; cat /tmp/r.json; echo
+            sleep 1
+          done
+
+      - name: Sitemap ping
+        if: steps.move.outputs.slugs != ''
+        env:
+          SITE: "https://xn----8sbazijcdmpba5cg7e.xn--p1ai"
+        run: |
+          curl -s "https://webmaster.yandex.ru/ping?sitemap=${SITE}/sitemap.xml" >/dev/null && echo "Yandex sitemap OK"
+          curl -s "https://www.google.com/ping?sitemap=${SITE}/sitemap.xml" >/dev/null && echo "Google sitemap OK"
