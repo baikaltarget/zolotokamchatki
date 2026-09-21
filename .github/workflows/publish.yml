@@ -2,7 +2,7 @@ name: Scheduled Publish
 
 on:
   schedule:
-    - cron: '0 1 * * *'   # 01:00 UTC = 09:00 Иркутск, ежедневно
+    - cron: '0 1 * * *'
   workflow_dispatch:
 
 permissions:
@@ -23,11 +23,12 @@ jobs:
           shopt -s nullglob
           for F in content/queue/*.md; do
             D=$(grep -m1 '^date:' "$F" | sed -E 's/date: *"?([0-9-]+)"?.*/\1/')
+            if [ -z "$D" ]; then echo "skip $F (no date)"; continue; fi
             if [[ "$D" < "$TODAY" || "$D" == "$TODAY" ]]; then
               SLUG=$(basename "$F" .md)
               git mv "$F" "content/blog/$SLUG.md"
               MOVED="$MOVED $SLUG"
-              echo "→ publish $SLUG (date $D)"
+              echo "publish $SLUG (date $D)"
             fi
           done
           echo "slugs=$MOVED" >> $GITHUB_OUTPUT
@@ -44,7 +45,7 @@ jobs:
         if: steps.move.outputs.slugs != ''
         run: sleep 200
 
-      - name: Yandex Webmaster — recrawl
+      - name: Yandex Webmaster recrawl
         if: steps.move.outputs.slugs != ''
         env:
           TOKEN: ${{ secrets.YANDEX_WEBMASTER_TOKEN }}
