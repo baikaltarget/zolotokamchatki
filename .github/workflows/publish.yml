@@ -49,17 +49,20 @@ jobs:
         if: steps.move.outputs.slugs != ''
         env:
           TOKEN: ${{ secrets.YANDEX_WEBMASTER_TOKEN }}
-          USER_ID: ${{ secrets.YANDEX_USER_ID }}
-          HOST_ID: ${{ secrets.YANDEX_HOST_ID }}
           SITE: "https://xn----8sbazijcdmpba5cg7e.xn--p1ai"
         run: |
           if [ -z "$TOKEN" ]; then echo "No Yandex token, skip"; exit 0; fi
+          H="Authorization: OAuth ${TOKEN}"
+          USER_ID=$(curl -s -H "$H" https://api.webmaster.yandex.net/v4/user/ | grep -o '"user_id":[0-9]*' | grep -o '[0-9]*')
+          echo "user_id=$USER_ID"
+          HOST_ID=$(curl -s -H "$H" "https://api.webmaster.yandex.net/v4/user/${USER_ID}/hosts/" | grep -o '"host_id":"https:xn----8sbazijcdmpba5cg7e[^"]*"' | head -1 | cut -d'"' -f4)
+          echo "host_id=$HOST_ID"
+          if [ -z "$HOST_ID" ]; then echo "host not found, skip"; exit 0; fi
           for SLUG in ${{ steps.move.outputs.slugs }}; do
             URL="${SITE}/blog/${SLUG}/"
             CODE=$(curl -s -o /tmp/r.json -w "%{http_code}" -X POST \
               "https://api.webmaster.yandex.net/v4/user/${USER_ID}/hosts/${HOST_ID}/recrawl/queue/" \
-              -H "Authorization: OAuth ${TOKEN}" -H "Content-Type: application/json" \
-              -d "{\"url\":\"${URL}\"}")
+              -H "$H" -H "Content-Type: application/json" -d "{\"url\":\"${URL}\"}")
             echo "Yandex ${URL} -> HTTP ${CODE}"; cat /tmp/r.json; echo
             sleep 1
           done
