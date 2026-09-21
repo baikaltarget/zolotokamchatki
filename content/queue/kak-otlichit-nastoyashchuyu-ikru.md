@@ -1,7 +1,7 @@
 ---
 title: "Как отличить настоящую красную икру от искусственной: 7 признаков подделки"
 description: "Проверка кипятком, по этикетке, на вкус и внешний вид. Как не купить имитированную икру — с примерами из магазина в Иркутске."
-date: "2026-09-22"
+date: "2026-09-21"
 image: "/img/blog-poddelka-ikry.webp"
 updated: "2026-09-22"
 related: ["kak-vybrat-krasnuyu-ikru", "iskusstvennaya-ikra-chto-eto", "vidy-krasnoj-ikry"]
