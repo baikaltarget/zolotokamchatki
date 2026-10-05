@@ -19,6 +19,7 @@ export function getPosts(): Post[] {
 export function unlinkUnpublished(htmlStr: string) {
   const live = new Set(getPosts().map((p) => p.slug));
   // заодно — слэш в конце внутренних ссылок, как в canonical (без 308-редиректа)
+  htmlStr = htmlStr.replace(/<img /g, '<img loading="lazy" decoding="async" ');
   htmlStr = htmlStr.replace(/href="(\/[^"#?.]*[^/"#?.])"/g, 'href="$1/"');
   return htmlStr.replace(/<a href="\/blog\/([^"/]+)\/?"[^>]*>([\s\S]*?)<\/a>/g, (m, slug: string, text: string) => (live.has(slug) ? m : text));
 }

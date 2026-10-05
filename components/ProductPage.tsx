@@ -79,7 +79,7 @@ export default function ProductPage({ p }: { p: Product }) {
         <section className="wrap mt-14">
           <h2 className="text-2xl">Читайте в блоге</h2>
           <ul className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {posts.map((x) => <li key={x.slug}><Link href={`/blog/${x.slug}/`} className="block h-full bg-white border border-ivory2 rounded-tag p-4 hover:border-gold"><span className="font-semibold">{x.title}</span><span className="block mt-1 text-sm text-stone line-clamp-2">{x.description}</span></Link></li>)}
+            {posts.map((x) => <li key={x.slug}><Link href={`/blog/${x.slug}/`} className="group block h-full bg-white border border-ivory2 rounded-tag overflow-hidden hover:border-gold"><span className="relative block aspect-[16/9] bg-ivory2"><Image src={x.image} alt="" fill sizes="(max-width:640px) 92vw, 380px" className="object-cover group-hover:scale-[1.02] transition duration-500" /></span><span className="block p-4"><span className="font-semibold group-hover:text-caviar2">{x.title}</span><span className="block mt-1 text-sm text-stone line-clamp-2">{x.description}</span></span></Link></li>)}
           </ul>
         </section>
       )}
