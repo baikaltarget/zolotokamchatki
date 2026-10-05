@@ -52,29 +52,30 @@ export default function ProductPage({ p }: { p: Product }) {
           </div>
         </div>
       </section>
-      {(p.specs?.length || (p.intro && p.desc)) && (
-        <section className="wrap mt-14 grid lg:grid-cols-[1fr_420px] gap-8 items-start">
-          <div>
-            <h2 className="text-2xl">Описание и характеристики</h2>
-            {p.intro && p.desc && <p className="mt-3 text-[17px] leading-relaxed text-ink/85">{p.desc}</p>}
+      {(p.specs?.length || p.details?.length || (p.intro && p.desc)) ? (
+        <section className="wrap mt-14 grid lg:grid-cols-[minmax(0,1fr)_400px] gap-x-12 gap-y-10 items-start">
+          <div className="max-w-3xl">
+            <h2 className="text-2xl sm:text-3xl">Описание</h2>
+            {p.intro && p.desc && <p className="mt-4 text-[17px] leading-relaxed text-ink/85">{p.desc}</p>}
+            {p.details?.map((d) => (
+              <div key={d.h} className="mt-8">
+                <h3 className="text-xl">{d.h}</h3>
+                <p className="mt-2 text-[17px] leading-relaxed text-ink/85">{d.p}</p>
+              </div>
+            ))}
           </div>
           {p.specs && p.specs.length > 0 && (
-            <table className="w-full text-[15px] bg-white border border-ivory2 rounded-tag overflow-hidden">
-              <caption className="text-left font-display uppercase text-sm tracking-wider text-stone pb-2">Характеристики</caption>
-              <tbody>
-                {p.specs.map(([k, v]) => <tr key={k} className="border-b border-ivory2 last:border-0"><th scope="row" className="text-left font-normal text-stone py-2 px-3 w-2/5 align-top">{k}</th><td className="py-2 px-3">{v}</td></tr>)}
-                {p.price && <tr className="border-b border-ivory2 last:border-0"><th scope="row" className="text-left font-normal text-stone py-2 px-3 align-top">Цена</th><td className="py-2 px-3">{fmt(p.price)} ₽ / {p.unit}{perKg && g !== 1000 ? ` (≈ ${fmt(perKg)} ₽/кг)` : ""}</td></tr>}
-              </tbody>
-            </table>
+            <aside className="lg:sticky lg:top-24">
+              <h2 className="text-2xl sm:text-3xl">Характеристики</h2>
+              <dl className="mt-4 bg-white border border-ivory2 rounded-tag divide-y divide-ivory2 text-[15px]">
+                {p.specs.map(([k, v]) => <div key={k} className="grid grid-cols-[40%_1fr] gap-3 px-4 py-2.5"><dt className="text-stone">{k}</dt><dd>{v}</dd></div>)}
+                {p.price && <div className="grid grid-cols-[40%_1fr] gap-3 px-4 py-2.5"><dt className="text-stone">Цена</dt><dd className="font-semibold">{fmt(p.price)} ₽ / {p.unit}{perKg && g !== 1000 ? ` (≈ ${fmt(perKg)} ₽/кг)` : ""}</dd></div>}
+              </dl>
+            </aside>
           )}
         </section>
-      )}
-      {p.details && p.details.length > 0 && (
-        <section className="wrap mt-14 grid lg:grid-cols-3 gap-6">
-          {p.details.map((d) => <div key={d.h} className="bg-white border border-ivory2 rounded-tag p-5 sm:p-6"><h2 className="text-xl">{d.h}</h2><p className="mt-3 text-[15px] leading-relaxed text-ink/85">{d.p}</p></div>)}
-        </section>
-      )}
-      {p.faq && p.faq.length > 0 && <Faq items={p.faq} title={`Вопросы про ${p.name.toLowerCase()}`} />}
+      ) : null}
+      {p.faq && p.faq.length > 0 && <Faq items={p.faq} title="Частые вопросы" />}
       {posts.length > 0 && (
         <section className="wrap mt-14">
           <h2 className="text-2xl">Читайте в блоге</h2>
@@ -84,7 +85,7 @@ export default function ProductPage({ p }: { p: Product }) {
         </section>
       )}
       <section id="zakaz" className="wrap mt-14 grid lg:grid-cols-2 gap-8">
-        <div><h2>Заказать {p.name.toLowerCase()}</h2><p className="mt-2 text-stone">Оставьте телефон — {BRAND.manager} перезвонит, уточнит наличие и время доставки.</p></div>
+        <div><h2>Заказать с доставкой или отложить</h2><p className="mt-2 text-stone">Оставьте телефон — {BRAND.manager} перезвонит, уточнит наличие и время доставки.</p></div>
         <LeadForm compact product={p.name} />
       </section>
       {related.length > 0 && <section className="wrap mt-14"><h2 className="text-2xl">Ещё из раздела «{c.name}»</h2><div className="mt-5 grid gap-4 sm:grid-cols-3">{related.map((r) => <ProductCard key={r.slug} p={r} />)}</div><Link href={c.path} className="mt-4 inline-block text-caviar2 underline">Все позиции раздела →</Link></section>}
