@@ -12,7 +12,7 @@ type P = Promise<{ slug: string }>;
 export function generateStaticParams() { return getPosts().map((p) => ({ slug: p.slug })); }
 export async function generateMetadata({ params }: { params: P }) {
   const { slug } = await params; const p = getPosts().find((x) => x.slug === slug); if (!p) return {};
-  return meta({ title: p.title, description: p.description, path: `/blog/${p.slug}`, image: p.image, type: "article" });
+  return meta({ title: p.title, description: p.description, path: `/blog/${p.slug}/`, image: p.image, type: "article" });
 }
 export default async function Page({ params }: { params: P }) {
   const post = await renderPost((await params).slug); if (!post) notFound();
@@ -24,7 +24,7 @@ export default async function Page({ params }: { params: P }) {
     <>
       <JsonLd data={ld} />
       <article className="wrap pt-6">
-        <Breadcrumbs items={[{ name: "Блог", path: "/blog" }, { name: post.title, path: `/blog/${post.slug}` }]} />
+        <Breadcrumbs items={[{ name: "Блог", path: "/blog/" }, { name: post.title, path: `/blog/${post.slug}/` }]} />
         <div className="mt-4 grid lg:grid-cols-[1fr_340px] gap-10">
           <div>
             <h1>{post.title}</h1>
@@ -37,7 +37,7 @@ export default async function Page({ params }: { params: P }) {
                 <h2>Читайте также</h2>
                 <ul className="mt-4 divide-y divide-ivory2 border-y border-ivory2">
                   {related.map((r) => (
-                    <li key={r.slug}><Link href={`/blog/${r.slug}`} className="flex gap-4 py-4 group items-center">
+                    <li key={r.slug}><Link href={`/blog/${r.slug}/`} className="flex gap-4 py-4 group items-center">
                       <span className="relative w-24 h-16 shrink-0 rounded-tag overflow-hidden"><Image src={r.image} alt="" fill sizes="96px" className="object-cover" /></span>
                       <span><span className="block font-semibold group-hover:text-caviar2 transition-colors">{r.title}</span><span className="text-sm text-stone line-clamp-2">{r.description}</span></span>
                     </Link></li>
@@ -47,8 +47,8 @@ export default async function Page({ params }: { params: P }) {
             )}
           </div>
           <aside className="space-y-6 lg:sticky lg:top-24 self-start">
-            <Vitrina title="Икра сегодня" items={byCat("ikra").slice(0, 4)} href="/ikra" />
-            <div className="bg-white border border-ivory2 rounded-tag p-5"><p className="font-display uppercase">Заказать</p><a href={`tel:${BRAND.phoneRaw}`} className="block font-display text-2xl text-caviar2 mt-1">{BRAND.phone}</a><p className="text-sm text-stone mt-1">{BRAND.addressShort}</p><Link href="/dostavka" className="text-sm underline mt-2 inline-block">Доставка по Иркутску</Link></div>
+            <Vitrina title="Икра сегодня" items={byCat("ikra").slice(0, 4)} href="/ikra/" />
+            <div className="bg-white border border-ivory2 rounded-tag p-5"><p className="font-display uppercase">Заказать</p><a href={`tel:${BRAND.phoneRaw}`} className="block font-display text-2xl text-caviar2 mt-1">{BRAND.phone}</a><p className="text-sm text-stone mt-1">{BRAND.addressShort}</p><Link href="/dostavka/" className="text-sm underline mt-2 inline-block">Доставка по Иркутску</Link></div>
           </aside>
         </div>
       </article>

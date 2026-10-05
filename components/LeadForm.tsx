@@ -49,7 +49,7 @@ export default function LeadForm({ product, compact = false }: { product?: strin
       <div className="mt-3 flex flex-wrap gap-2 items-center">
         <button onClick={submit} disabled={state === "sending"} className="btn btn-caviar">{state === "sending" ? "Отправляем…" : "Отправить"}</button>
         <a className="btn btn-ghost" href={`${(BRAND as unknown as { telegramPersonal: string }).telegramPersonal}?text=${tgText}`} rel="noopener">Написать в Telegram</a>
-        <span className="text-xs text-stone">Нажимая, вы соглашаетесь с <a href="/politika" className="underline">политикой</a>.</span>
+        <span className="text-xs text-stone">Нажимая, вы соглашаетесь с <a href="/politika/" className="underline">политикой</a>.</span>
       </div>
       {state === "fallback" && <p className="mt-3 text-sm text-nerka">Отправка заявок с сайта ещё не настроена. Позвоните: <a href={`tel:${BRAND.phoneRaw}`} className="font-semibold">{BRAND.phone}</a> — или нажмите «Написать в Telegram».</p>}
       {state === "err" && <p className="mt-3 text-sm text-nerka">Не получилось отправить. Позвоните: <a href={`tel:${BRAND.phoneRaw}`} className="font-semibold">{BRAND.phone}</a>.</p>}

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { cat, byCat, categories, SITE } from "@/lib/site";
+import { cat, byCat, categories, SITE, productPath } from "@/lib/site";
+import { md } from "@/lib/md";
 import Breadcrumbs from "./Breadcrumbs";
 import ProductCard from "./ProductCard";
 import Vitrina from "./Vitrina";
@@ -24,15 +25,21 @@ const catFaq: Record<string, { q: string; a: string }[]> = {
   zamorozka: [
     { q: "Рыба размораживалась?", a: "Нет. Шоковая заморозка на производстве, храним при −18 °C, на витрине не оттаивает." },
     { q: "Как правильно разморозить?", a: "В холодильнике 8–12 часов. В воде и микроволновке рыба теряет сок." },
-    { q: "Масло только брусками?", a: "Да, сладко-сливочное 72,5 %, брусками от 1 кг. От 5 кг — 850 ₽, от 20 кг — 790 ₽ за кг." },
+    { q: "Масло только брусками?", a: "Да, сливочное 72,5 %, брусками от 1 кг. От 5 кг — 850 ₽, от 20 кг — 790 ₽ за кг." },
+  ],
+  moreprodukty: [
+    { q: "Креветки сырые или варёные?", a: "Тигровые — сырые замороженные, в глазури: варить 3–4 минуты в панцире, 1,5–2 минуты очищенные. Мидии — варёно-мороженые, их достаточно прогреть 5–7 минут." },
+    { q: "Как не сделать кальмара резиновым?", a: "Правило «30 секунд или 40 минут»: либо бланшировать до побеления, либо тушить долго. Всё, что между, — резина. С осьминожками так же: 2–3 минуты на сильном огне или 20+ минут тушения." },
+    { q: "Можно заморозить повторно?", a: "Нет. Размораживайте ровно столько, сколько приготовите: креветки и мидии — в холодной воде за 15–30 минут, кальмар и осьминог — в холодильнике 4–6 часов." },
   ],
 };
 
-export default function CategoryPage({ slug }: { slug: string }) {
+export default async function CategoryPage({ slug }: { slug: string }) {
   const c = cat(slug);
+  const seo = c.seoText ? await md(c.seoText) : "";
   const items = byCat(slug);
   const others = categories.filter((x) => x.slug !== slug);
-  const ld = { "@context": "https://schema.org", "@type": "ItemList", name: c.name, itemListElement: items.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: abs(`${c.path}/${p.slug}`), name: p.name })) };
+  const ld = { "@context": "https://schema.org", "@type": "ItemList", name: c.name, itemListElement: items.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: abs(productPath(p)), name: p.name })) };
   return (
     <>
       <JsonLd data={ld} />
@@ -53,10 +60,11 @@ export default function CategoryPage({ slug }: { slug: string }) {
         <Vitrina title={`${c.name}: прайс`} items={items} />
         <div>
           <h2>Заказать с доставкой</h2>
-          <p className="mt-2 text-stone">Минимальный заказ 2000 ₽, Октябрьский и Кировский — бесплатно. <Link href="/dostavka" className="underline">Условия и калькулятор</Link>.</p>
+          <p className="mt-2 text-stone">Минимальный заказ 2000 ₽, Октябрьский и Кировский — бесплатно. <Link href="/dostavka/" className="underline">Условия и калькулятор</Link>.</p>
           <div className="mt-4"><LeadForm compact product={c.name} /></div>
         </div>
       </section>
+      {seo && <section className="wrap mt-14"><div className="prose max-w-3xl" dangerouslySetInnerHTML={{ __html: seo }} /></section>}
       <Faq items={catFaq[slug] ?? []} />
       <section className="wrap mt-14">
         <h2 className="text-xl">Ещё на витрине</h2>

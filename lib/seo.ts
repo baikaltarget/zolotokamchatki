@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { SITE_URL, BRAND, abs } from "./site";
+import { SITE_URL, BRAND, abs, fmt, productPath, productTitle, type Product } from "./site";
 
-export function meta(o: { title: string; description: string; path: string; image?: string; type?: "website" | "article" }): Metadata {
+export function meta(o: { title: string; description: string; path: string; image?: string; type?: "website" | "article"; noindex?: boolean }): Metadata {
   const url = abs(o.path);
   return {
     title: o.title, description: o.description,
     alternates: { canonical: url },
+    ...(o.noindex ? { robots: { index: false, follow: true } } : {}),
     openGraph: { title: o.title, description: o.description, url, siteName: BRAND.name, locale: "ru_RU", type: o.type ?? "website", images: [{ url: abs(o.image ?? "/img/hero-ikra.webp") }] },
   };
 }
@@ -30,3 +31,14 @@ export const faqLd = (faq: { q: string; a: string }[]) => ({
   "@context": "https://schema.org", "@type": "FAQPage",
   mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
 });
+
+/** Единый шаблон title/description для карточки товара */
+export function productMeta(p: Product): Metadata {
+  const price = p.price ? `, ${fmt(p.price)} ₽ за ${p.unit}` : "";
+  const t = productTitle(p);
+  return meta({
+    title: `${t} — купить в Иркутске${price} | Золото Камчатки`,
+    description: `${t}: ${p.short.replace(/\.$/, "")}. Цена ${p.price ? fmt(p.price) + " ₽ / " + p.unit : "по телефону"}. Магазин в ТЦ «Кедр» (Волжская, 3), можно попробовать перед покупкой, доставка по Иркутску от 2000 ₽.`,
+    path: productPath(p), image: p.image, noindex: p.noindex,
+  });
+}

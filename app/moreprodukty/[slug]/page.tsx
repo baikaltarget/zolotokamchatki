@@ -3,8 +3,8 @@ import { productMeta } from "@/lib/seo";
 import { byCat } from "@/lib/site";
 import { notFound } from "next/navigation";
 type P = Promise<{ slug: string }>;
-const find = (slug: string) => byCat("zamorozka").find((x) => x.slug === slug);
-export function generateStaticParams() { return byCat("zamorozka").map((p) => ({ slug: p.slug })); }
+const find = (slug: string) => byCat("moreprodukty").find((x) => x.slug === slug);
+export function generateStaticParams() { return byCat("moreprodukty").map((p) => ({ slug: p.slug })); }
 export async function generateMetadata({ params }: { params: P }) {
   const p = find((await params).slug); return p ? productMeta(p) : {};
 }

@@ -14,7 +14,7 @@ export default function CookieBar() {
       <div className="wrap bg-ink text-ivory/90 border border-gold/40 rounded-tag shadow-2xl px-4 py-3 sm:px-6 sm:py-4 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-6">
         <p className="text-sm leading-relaxed">
           Сайт использует файлы cookie и сервисы статистики. Продолжая пользоваться сайтом, вы соглашаетесь с{" "}
-          <Link href="/politika" className="text-gold2 underline">политикой обработки персональных данных</Link>.
+          <Link href="/politika/" className="text-gold2 underline">политикой обработки персональных данных</Link>.
         </p>
         <button
           onClick={() => { try { localStorage.setItem("cookie_ok", "1"); } catch {} setShow(false); }}
