@@ -55,7 +55,7 @@ export default function ProductPage({ p }: { p: Product }) {
       {(p.specs?.length || (p.intro && p.desc)) && (
         <section className="wrap mt-14 grid lg:grid-cols-[1fr_420px] gap-8 items-start">
           <div>
-            <h2 className="text-2xl">{title}: какой он</h2>
+            <h2 className="text-2xl">Описание и характеристики</h2>
             {p.intro && p.desc && <p className="mt-3 text-[17px] leading-relaxed text-ink/85">{p.desc}</p>}
           </div>
           {p.specs && p.specs.length > 0 && (
