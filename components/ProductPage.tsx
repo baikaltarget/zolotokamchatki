@@ -75,7 +75,7 @@ export default function ProductPage({ p }: { p: Product }) {
           )}
         </section>
       ) : null}
-      {p.faq && p.faq.length > 0 && <Faq items={p.faq} title={`Вопросы про ${p.name.toLowerCase()}`} />}
+      {p.faq && p.faq.length > 0 && <Faq items={p.faq} title="Частые вопросы" />}
       {posts.length > 0 && (
         <section className="wrap mt-14">
           <h2 className="text-2xl">Читайте в блоге</h2>
@@ -85,7 +85,7 @@ export default function ProductPage({ p }: { p: Product }) {
         </section>
       )}
       <section id="zakaz" className="wrap mt-14 grid lg:grid-cols-2 gap-8">
-        <div><h2>Заказать {p.name.toLowerCase()}</h2><p className="mt-2 text-stone">Оставьте телефон — {BRAND.manager} перезвонит, уточнит наличие и время доставки.</p></div>
+        <div><h2>Заказать с доставкой или отложить</h2><p className="mt-2 text-stone">Оставьте телефон — {BRAND.manager} перезвонит, уточнит наличие и время доставки.</p></div>
         <LeadForm compact product={p.name} />
       </section>
       {related.length > 0 && <section className="wrap mt-14"><h2 className="text-2xl">Ещё из раздела «{c.name}»</h2><div className="mt-5 grid gap-4 sm:grid-cols-3">{related.map((r) => <ProductCard key={r.slug} p={r} />)}</div><Link href={c.path} className="mt-4 inline-block text-caviar2 underline">Все позиции раздела →</Link></section>}
