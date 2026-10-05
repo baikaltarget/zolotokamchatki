@@ -2,11 +2,11 @@ import Image from "next/image";
 import { meta } from "@/lib/seo";
 import { BRAND } from "@/lib/site";
 import Breadcrumbs from "@/components/Breadcrumbs";
-export const metadata = meta({ title: "О магазине «Золото Камчатки» — икра и рыба в Иркутске с 2013 года", description: "Магазин красной икры и рыбы в ТЦ «Кедр», Иркутск. Прямые поставки с рыбокомбинатов Камчатки, собственное холодное копчение, более 10 лет на рынке.", path: "/o-magazine" });
+export const metadata = meta({ title: "О магазине «Золото Камчатки» — икра и рыба в Иркутске с 2013 года", description: "Магазин красной икры и рыбы в ТЦ «Кедр», Иркутск. Прямые поставки с рыбокомбинатов Камчатки, собственное холодное копчение, более 10 лет на рынке.", path: "/o-magazine/" });
 export default function Page() {
   return (
     <section className="wrap pt-6">
-      <Breadcrumbs items={[{ name: "О магазине", path: "/o-magazine" }]} />
+      <Breadcrumbs items={[{ name: "О магазине", path: "/o-magazine/" }]} />
       <div className="mt-4 grid lg:grid-cols-2 gap-8 items-start">
         <div className="prose">
           <h1>«Золото Камчатки» — икорный магазин в Иркутске</h1>

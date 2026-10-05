@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { meta } from "@/lib/seo";
-import { zones, SITE, BRAND, byCat, products, fmt, abs } from "@/lib/site";
+import { zones, zonePages, SITE, BRAND, byCat, products, fmt, abs } from "@/lib/site";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import DeliveryCalc from "@/components/DeliveryCalc";
 import Vitrina from "@/components/Vitrina";
@@ -10,16 +10,17 @@ import LeadForm from "@/components/LeadForm";
 import JsonLd from "@/components/JsonLd";
 import Faq from "@/components/Faq";
 type P = Promise<{ zone: string }>;
-export function generateStaticParams() { return zones.map((z) => ({ zone: z.slug })); }
+export const dynamicParams = false;
+export function generateStaticParams() { return zonePages.map((z) => ({ zone: z.slug })); }
 const gen = (n: string) => n.replace(/ район$/, "");
 export async function generateMetadata({ params }: { params: P }) {
-  const { zone } = await params; const z = zones.find((x) => x.slug === zone); if (!z) return {};
+  const { zone } = await params; const z = zonePages.find((x) => x.slug === zone); if (!z) return {};
   const cost = z.free ? "бесплатно" : `${SITE.delivery.perKm} ₽/км`;
-  return meta({ title: `Доставка красной икры и рыбы — ${z.name}, Иркутск | ${cost}`, description: `Красная икра, рыба холодного копчения и слабого посола с доставкой: ${z.name}. ${z.free ? "Бесплатно" : `${SITE.delivery.perKm} ₽ за км`} при заказе от ${fmt(z.minOrder)} ₽. Магазин «Золото Камчатки», ТЦ «Кедр».`, path: `/dostavka/${z.slug}` });
+  return meta({ title: `Доставка икры и рыбы в ${z.where || z.name} из Иркутска — от ${fmt(z.minOrder)} ₽, ${cost}`, description: `Красная икра, рыба холодного копчения и слабого посола с доставкой: ${z.name}. ${z.free ? "Бесплатно" : `${SITE.delivery.perKm} ₽ за км`} при заказе от ${fmt(z.minOrder)} ₽. Магазин «Золото Камчатки», ТЦ «Кедр».`, path: `/dostavka/${z.slug}/` });
 }
 export default async function Page({ params }: { params: P }) {
-  const { zone } = await params; const z = zones.find((x) => x.slug === zone); if (!z) notFound();
-  const others = zones.filter((x) => x.slug !== z.slug);
+  const { zone } = await params; const z = zonePages.find((x) => x.slug === zone); if (!z) notFound();
+  const others = zonePages.filter((x) => x.slug !== z.slug);
   const hits = products.filter((p) => p.hit).slice(0, 3);
   const faq = [
     { q: `Сколько стоит доставка в ${z.name}?`, a: z.free ? `Бесплатно при заказе от ${fmt(z.minOrder)} ₽.` : `${SITE.delivery.perKm} ₽ за километр по 2ГИС от магазина (ул. Волжская, 3), при заказе от ${fmt(z.minOrder)} ₽. Ориентир для ${z.name}: около ${fmt(z.km * SITE.delivery.perKm)} ₽.` },
@@ -31,7 +32,7 @@ export default async function Page({ params }: { params: P }) {
     <>
       <JsonLd data={ld} />
       <section className="bg-ink text-ivory"><div className="wrap py-8 sm:py-12">
-        <Breadcrumbs dark items={[{ name: "Доставка", path: "/dostavka" }, { name: z.name, path: `/dostavka/${z.slug}` }]} />
+        <Breadcrumbs dark items={[{ name: "Доставка", path: "/dostavka/" }, { name: z.name, path: `/dostavka/${z.slug}/` }]} />
         <h1 className="mt-4 text-gold2">Доставка красной икры и рыбы — {z.name}</h1>
         <div className="mt-6 flex flex-wrap items-baseline gap-x-8 gap-y-3">
           <span><span className="tag-price text-5xl">{z.free ? "0 ₽" : `${SITE.delivery.perKm} ₽/км`}</span><span className="block text-ivory/60 text-sm mt-1">{z.free ? "бесплатно" : `≈ ${fmt(z.km * SITE.delivery.perKm)} ₽ для ${gen(z.name)}`}</span></span>
@@ -39,14 +40,15 @@ export default async function Page({ params }: { params: P }) {
           <span><span className="font-display text-3xl">{BRAND.hours.replace("Ежедневно ", "")}</span><span className="block text-ivory/60 text-sm mt-1">ежедневно, в день заказа</span></span>
         </div>
         <p className="mt-6 text-ivory/80 text-lg max-w-2xl">{z.text}</p>
+        {z.extra && <p className="mt-4 text-ivory/70 max-w-2xl">{z.extra}</p>}
         {z.landmarks.length > 0 && <p className="mt-3 text-ivory/55 text-sm">Возим: {z.landmarks.join(", ")} и другие адреса района.</p>}
         <a href={`tel:${BRAND.phoneRaw}`} className="btn btn-caviar mt-6">Заказать: {BRAND.phone}</a>
       </div></section>
       <section className="wrap mt-10"><DeliveryCalc defaultZone={z.slug} /></section>
       <section className="wrap mt-14"><h2>Что чаще всего заказывают с доставкой</h2><div className="mt-5 grid gap-4 sm:grid-cols-3">{hits.map((p) => <ProductCard key={p.slug} p={p} />)}</div></section>
-      <section className="wrap mt-14 grid lg:grid-cols-2 gap-6"><Vitrina title="Красная икра" items={byCat("ikra")} href="/ikra" /><Vitrina title="Холодное копчение" items={byCat("kholodnoe-kopchenie")} href="/ryba/kholodnoe-kopchenie" /></section>
+      <section className="wrap mt-14 grid lg:grid-cols-2 gap-6"><Vitrina title="Красная икра" items={byCat("ikra")} href="/ikra/" /><Vitrina title="Холодное копчение" items={byCat("kholodnoe-kopchenie")} href="/ryba/kholodnoe-kopchenie/" /></section>
       <Faq items={faq} />
-      <section className="wrap mt-14 grid lg:grid-cols-2 gap-8"><div><h2>Заказать в {gen(z.name)}</h2><p className="mt-2 text-stone">Оставьте телефон и адрес — перезвоним и посчитаем доставку.</p><div className="mt-5 flex flex-wrap gap-2">{others.map((o) => <Link key={o.slug} href={`/dostavka/${o.slug}`} className="text-sm border border-ink/20 rounded-tag px-3 py-1.5 hover:border-ink">{o.name}</Link>)}</div></div><LeadForm compact product={`доставка, ${z.name}`} /></section>
+      <section className="wrap mt-14 grid lg:grid-cols-2 gap-8"><div><h2>Заказать в {gen(z.name)}</h2><p className="mt-2 text-stone">Оставьте телефон и адрес — перезвоним и посчитаем доставку.</p><div className="mt-5 flex flex-wrap gap-2"><Link href="/dostavka/" className="text-sm border border-ink/20 rounded-tag px-3 py-1.5 hover:border-ink">Все районы Иркутска</Link>{others.map((o) => <Link key={o.slug} href={`/dostavka/${o.slug}/`} className="text-sm border border-ink/20 rounded-tag px-3 py-1.5 hover:border-ink">{o.name}</Link>)}</div></div><LeadForm compact product={`доставка, ${z.name}`} /></section>
     </>
   );
 }

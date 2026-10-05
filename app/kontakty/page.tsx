@@ -3,11 +3,11 @@ import { BRAND } from "@/lib/site";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import MapEmbed from "@/components/MapEmbed";
 import LeadForm from "@/components/LeadForm";
-export const metadata = meta({ title: "Контакты магазина «Золото Камчатки» — ТЦ «Кедр», ул. Волжская, 3, Иркутск", description: `Магазин красной икры и рыбы в Иркутске: ТЦ «Кедр», ул. Волжская, 3, павильоны 4 и 4А. ${BRAND.hours}. Телефон ${BRAND.phone}.`, path: "/kontakty" });
+export const metadata = meta({ title: "Контакты магазина «Золото Камчатки» — ТЦ «Кедр», ул. Волжская, 3, Иркутск", description: `Магазин красной икры и рыбы в Иркутске: ТЦ «Кедр», ул. Волжская, 3, павильоны 4 и 4А. ${BRAND.hours}. Телефон ${BRAND.phone}.`, path: "/kontakty/" });
 export default function Page() {
   return (
     <section className="wrap pt-6">
-      <Breadcrumbs items={[{ name: "Контакты", path: "/kontakty" }]} />
+      <Breadcrumbs items={[{ name: "Контакты", path: "/kontakty/" }]} />
       <h1 className="mt-4">Контакты</h1>
       <div className="mt-6 grid lg:grid-cols-[1fr_1.2fr] gap-8">
         <div className="space-y-5">

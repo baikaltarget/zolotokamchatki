@@ -3,11 +3,11 @@ import { meta } from "@/lib/seo";
 import { categories, byCat, productPath, fmt, BRAND } from "@/lib/site";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Todo from "@/components/Todo";
-export const metadata = meta({ title: "Цены на красную икру и рыбу в Иркутске — прайс-лист Золото Камчатки", description: "Полный прайс магазина: икра кеты от 2125 ₽/250 г, нерка, филе слабой соли от 225 ₽, холодное копчение от 1250 ₽/кг, заморозка и морепродукты. Обновляется в магазине.", path: "/tseny" });
+export const metadata = meta({ title: "Цены на красную икру и рыбу в Иркутске — прайс-лист Золото Камчатки", description: "Полный прайс магазина: икра кеты от 2125 ₽/250 г, нерка, филе слабой соли от 225 ₽, холодное копчение от 1250 ₽/кг, заморозка и морепродукты. Обновляется в магазине.", path: "/tseny/" });
 export default function Page() {
   return (
     <section className="wrap pt-6">
-      <Breadcrumbs items={[{ name: "Цены", path: "/tseny" }]} />
+      <Breadcrumbs items={[{ name: "Цены", path: "/tseny/" }]} />
       <h1 className="mt-4">Прайс-лист</h1>
       <p className="mt-3 text-stone max-w-2xl">Цены магазина в ТЦ «Кедр» на сегодня. Икра меняется в цене с новым выловом — если сомневаетесь, позвоните: <a href={`tel:${BRAND.phoneRaw}`} className="text-caviar2 font-semibold">{BRAND.phone}</a>. Оплата наличными.</p>
       <div className="mt-8 grid gap-8 lg:grid-cols-2">

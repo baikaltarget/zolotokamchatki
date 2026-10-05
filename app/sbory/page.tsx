@@ -2,7 +2,7 @@ import { meta } from "@/lib/seo";
 import { SITE, BRAND } from "@/lib/site";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Faq from "@/components/Faq";
-export const metadata = meta({ title: "Сборы — совместные закупки икры, рыбы и масла в Иркутске | Золото Камчатки", description: "Как работают сборы в магазине «Золото Камчатки»: форель по 1200 ₽/кг, масло 790 ₽/кг, икра кеты по спеццене. Без предоплаты, расчёт в магазине.", path: "/sbory" });
+export const metadata = meta({ title: "Сборы — совместные закупки икры, рыбы и масла в Иркутске | Золото Камчатки", description: "Как работают сборы в магазине «Золото Камчатки»: форель по 1200 ₽/кг, масло 790 ₽/кг, икра кеты по спеццене. Без предоплаты, расчёт в магазине.", path: "/sbory/" });
 const steps = [
   ["Объявляем сбор в Telegram и MAX", "Пост с товаром, ценой и датой окончания сбора. Обычно 3–4 дня."],
   ["Вы пишете количество в комментариях", "«1», «2», «0,5 кг» — этого достаточно. Предоплаты нет."],
@@ -12,7 +12,7 @@ export default function Page() {
   return (
     <>
       <section className="wrap pt-6">
-        <Breadcrumbs items={[{ name: "Сборы", path: "/sbory" }]} />
+        <Breadcrumbs items={[{ name: "Сборы", path: "/sbory/" }]} />
         <h1 className="mt-4">Сборы: закупка по цене ниже витрины</h1>
         <p className="mt-4 text-lg text-stone max-w-2xl">{SITE.sbory.intro}</p>
         <ol className="mt-8 grid md:grid-cols-3 gap-4">{steps.map(([t, d], i) => <li key={t} className="bg-white border border-ivory2 rounded-tag p-5"><span className="font-display text-caviar text-3xl">{i + 1}</span><h2 className="text-lg mt-2">{t}</h2><p className="text-stone text-sm mt-1">{d}</p></li>)}</ol>

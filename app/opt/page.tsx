@@ -9,7 +9,7 @@ import ProductCard from "@/components/ProductCard";
 
 const opt = (SITE as unknown as { opt: { h1: string; title: string; description: string; intro: string; points: { h: string; p: string }[]; maslo: { h: string; p: string }; faq: { q: string; a: string }[] } }).opt;
 
-export const metadata = meta({ title: opt.title, description: opt.description, path: "/opt", image: "/img/opt-kub.webp" });
+export const metadata = meta({ title: opt.title, description: opt.description, path: "/opt/", image: "/img/opt-kub.webp" });
 
 const serviceLd = {
   "@context": "https://schema.org", "@type": "Service", name: "Оптовые поставки красной икры",
@@ -24,7 +24,7 @@ export default function Page() {
     <>
       <JsonLd data={[serviceLd, faqLd(opt.faq)]} />
       <section className="wrap pt-6">
-        <Breadcrumbs items={[{ name: "Опт", path: "/opt" }]} />
+        <Breadcrumbs items={[{ name: "Опт", path: "/opt/" }]} />
         <div className="mt-6 grid lg:grid-cols-[1.1fr_1fr] gap-8 items-center">
           <div>
             <h1>{opt.h1}</h1>
@@ -52,13 +52,13 @@ export default function Page() {
         <h2>Какая икра бывает оптом</h2>
         <p className="mt-2 text-stone max-w-2xl">Та же икра, что на витрине в розницу — можно приехать и попробовать партию перед закупкой:</p>
         <div className="mt-5 grid gap-4 sm:grid-cols-3">{ikra.map((p) => <ProductCard key={p.slug} p={p} />)}</div>
-        <Link href="/ikra" className="mt-4 inline-block text-caviar2 underline">Вся икра и розничные цены →</Link>
+        <Link href="/ikra/" className="mt-4 inline-block text-caviar2 underline">Вся икра и розничные цены →</Link>
       </section>
 
       <section className="wrap mt-14">
         <div className="bg-ink text-ivory rounded-tag p-6 sm:p-8 grid sm:grid-cols-[1fr_auto] gap-4 items-center">
           <div><h2 className="text-gold2">{opt.maslo.h}</h2><p className="mt-2 text-ivory/80 max-w-2xl">{opt.maslo.p}</p></div>
-          <Link href="/zamorozka/maslo-slivochnoe" className="btn btn-ghost-light justify-self-start sm:justify-self-end">Подробнее о масле</Link>
+          <Link href="/zamorozka/maslo-slivochnoe/" className="btn btn-ghost-light justify-self-start sm:justify-self-end">Подробнее о масле</Link>
         </div>
       </section>
 

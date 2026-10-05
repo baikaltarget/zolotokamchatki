@@ -2,11 +2,11 @@ import { meta } from "@/lib/seo";
 import { BRAND } from "@/lib/site";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Todo from "@/components/Todo";
-export const metadata = { ...meta({ title: "Политика конфиденциальности — Золото Камчатки", description: "Как магазин «Золото Камчатки» обрабатывает персональные данные, оставленные через форму на сайте.", path: "/politika" }), robots: { index: false, follow: true } };
+export const metadata = { ...meta({ title: "Политика конфиденциальности — Золото Камчатки", description: "Как магазин «Золото Камчатки» обрабатывает персональные данные, оставленные через форму на сайте.", path: "/politika/" }), robots: { index: false, follow: true } };
 export default function Page() {
   return (
     <section className="wrap pt-6">
-      <Breadcrumbs items={[{ name: "Политика конфиденциальности", path: "/politika" }]} />
+      <Breadcrumbs items={[{ name: "Политика конфиденциальности", path: "/politika/" }]} />
       <Todo k="legalName" className="mt-4">
       <div className="prose max-w-3xl">
         <h1>Политика конфиденциальности</h1>
