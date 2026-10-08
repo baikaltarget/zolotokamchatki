@@ -2,7 +2,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import { addToCart, variantsOf } from "@/lib/cart";
-import { fmt, productPath, productTitle, type Product } from "@/lib/site";
+import { fmt, productPath, productTitle, cat, type Product } from "@/lib/site";
+import { ecom } from "@/lib/ecom";
 
 export default function AddToCart({ p }: { p: Product }) {
   const vars = variantsOf(p);
@@ -14,7 +15,7 @@ export default function AddToCart({ p }: { p: Product }) {
   function add() {
     addToCart({ key: `${p.slug}|${cur.label}`, slug: p.slug, name: productTitle(p), path: productPath(p), variant: cur.label, price: cur.price, byWeight: cur.byWeight }, qty);
     setAdded(true);
-    try { (window as unknown as { ym?: (id: number, a: string, g: string) => void }).ym?.(112026044, "reachGoal", "add_to_cart"); } catch {}
+    ecom("add", [{ id: p.slug, name: productTitle(p), price: cur.price, quantity: qty, variant: cur.label, category: cat(p.category).name }]);
   }
   return (
     <div className="mt-6 bg-white border border-ivory2 rounded-tag p-4">

@@ -10,6 +10,7 @@ import JsonLd from "./JsonLd";
 import Todo from "./Todo";
 import Faq from "./Faq";
 import AddToCart from "./AddToCart";
+import EcomDetail from "./EcomDetail";
 
 function unitToGrams(u: string) { const m = u.match(/([\d,.]+)\s*(кг|г)/); if (!m) return u === "кг" ? 1000 : null; const n = parseFloat(m[1].replace(",", ".")); return m[2] === "кг" ? n * 1000 : n; }
 
@@ -28,6 +29,7 @@ export default function ProductPage({ p }: { p: Product }) {
   return (
     <>
       <JsonLd data={ld} />
+      <EcomDetail id={p.slug} name={title} price={p.price} category={c.name} />
       <section className="wrap pt-6">
         <Breadcrumbs items={[{ name: c.name, path: c.path }, { name: title, path: productPath(p) }]} />
         <div className="mt-6 grid lg:grid-cols-2 gap-8 items-start">

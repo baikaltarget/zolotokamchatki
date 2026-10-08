@@ -5,6 +5,7 @@ import { useCart, setQty, clearCart, cartTotal } from "@/lib/cart";
 import { BRAND, SITE, fmt } from "@/lib/site";
 import { formatPhone, isPhoneValid } from "@/lib/phone";
 import { getSource } from "@/lib/utm";
+import { ecom } from "@/lib/ecom";
 
 export default function CartView() {
   const items = useCart();
@@ -27,8 +28,8 @@ export default function CartView() {
       const r = await fetch("/api/order/", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ...f, way, trap, items: items.map(({ slug, variant, qty }) => ({ slug, variant, qty })), src: getSource(), elapsed: Date.now() - opened.current }) });
       const j = await r.json();
       if (j.ok) {
+        ecom("purchase", items.map((i) => ({ id: i.slug, name: i.name, price: i.price, quantity: i.qty, variant: i.variant })), { id: j.id, revenue: total });
         clearCart(); setState({ s: "ok", id: j.id });
-        try { (window as unknown as { ym?: (id: number, a: string, g: string) => void }).ym?.(112026044, "reachGoal", "order_submit"); } catch {}
       } else setState({ s: j.fallback ? "fallback" : "err", id: j.id });
     } catch { setState({ s: "err" }); }
   }
