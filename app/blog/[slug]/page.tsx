@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { meta } from "@/lib/seo";
 import { getPosts, renderPost } from "@/lib/blog";
-import { BRAND, abs, byCat } from "@/lib/site";
+import { BRAND, SITE, abs, byCat } from "@/lib/site";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JsonLd from "@/components/JsonLd";
 import Vitrina from "@/components/Vitrina";
@@ -14,12 +14,14 @@ export async function generateMetadata({ params }: { params: P }) {
   const { slug } = await params; const p = getPosts().find((x) => x.slug === slug); if (!p) return {};
   return meta({ title: p.title, description: p.description, path: `/blog/${p.slug}/`, image: p.image, type: "article" });
 }
+const AUTHOR = (SITE as unknown as { author: { name: string; role: string; bio: string; image: string } }).author;
+const ru = (d: string) => new Date(d).toLocaleDateString("ru-RU", { day: "numeric", month: "long", year: "numeric" });
 export default async function Page({ params }: { params: P }) {
   const post = await renderPost((await params).slug); if (!post) notFound();
   const all = getPosts();
   const related = (post.related?.map((s) => all.find((x) => x.slug === s)).filter(Boolean) as typeof all)
     ?? all.filter((x) => x.slug !== post.slug).slice(0, 3);
-  const ld = { "@context": "https://schema.org", "@type": "BlogPosting", headline: post.title, description: post.description, image: abs(post.image), datePublished: post.date, dateModified: post.updated || post.date, author: { "@type": "Organization", name: BRAND.name }, publisher: { "@type": "Organization", name: BRAND.name, logo: { "@type": "ImageObject", url: abs("/img/logo.webp") } }, mainEntityOfPage: abs(`/blog/${post.slug}`) };
+  const ld = { "@context": "https://schema.org", "@type": "BlogPosting", headline: post.title, description: post.description, image: abs(post.image), datePublished: post.date, dateModified: post.updated || post.date, author: { "@type": "Person", name: AUTHOR.name, jobTitle: AUTHOR.role, description: AUTHOR.bio, image: abs(AUTHOR.image), worksFor: { "@type": "Organization", name: BRAND.name, url: abs("/") } }, publisher: { "@type": "Organization", name: BRAND.name, logo: { "@type": "ImageObject", url: abs("/img/logo.webp") } }, mainEntityOfPage: abs(`/blog/${post.slug}`) };
   return (
     <>
       <JsonLd data={ld} />
@@ -28,10 +30,24 @@ export default async function Page({ params }: { params: P }) {
         <div className="mt-4 grid lg:grid-cols-[1fr_340px] gap-10">
           <div>
             <h1>{post.title}</h1>
-            <time className="block mt-2 text-sm text-stone">{new Date(post.date).toLocaleDateString("ru-RU", { day: "numeric", month: "long", year: "numeric" })}</time>
+            <div className="mt-4 flex items-center gap-3">
+              <Image src={AUTHOR.image} alt={`${AUTHOR.name}, ${AUTHOR.role}`} width={48} height={48} className="rounded-full object-cover shrink-0" />
+              <div className="text-sm leading-snug">
+                <p><span className="font-semibold">{AUTHOR.name}</span>, {AUTHOR.role}</p>
+                <p className="text-stone"><time dateTime={post.date}>{ru(post.date)}</time>{post.updated && post.updated !== post.date && <> · обновлено <time dateTime={post.updated}>{ru(post.updated)}</time></>}</p>
+              </div>
+            </div>
             <div className="relative aspect-[16/9] rounded-tag overflow-hidden mt-6"><Image src={post.image} alt={post.title} fill priority sizes="(max-width:1024px) 100vw, 800px" className="object-cover" /></div>
             <div className="prose mt-6 max-w-3xl" dangerouslySetInnerHTML={{ __html: post.html }} />
             {post.faq && post.faq.length > 0 && <div className="max-w-3xl"><Faq items={post.faq} title="Частые вопросы" /></div>}
+            <aside className="max-w-3xl mt-12 bg-white border border-ivory2 rounded-tag p-5 sm:p-6 flex gap-4 items-start">
+              <Image src={AUTHOR.image} alt="" width={72} height={72} className="rounded-full object-cover shrink-0" />
+              <div>
+                <p className="text-xs uppercase tracking-wider text-stone font-display">Об авторе</p>
+                <p className="mt-1 font-semibold">{AUTHOR.name}, {AUTHOR.role}</p>
+                <p className="mt-1 text-[15px] text-ink/80">{AUTHOR.bio} Задать вопрос: <a href={`tel:${BRAND.phoneRaw}`} className="text-caviar2 font-semibold whitespace-nowrap">{BRAND.phone}</a></p>
+              </div>
+            </aside>
             {related.length > 0 && (
               <section className="mt-14 max-w-3xl">
                 <h2>Читайте также</h2>
