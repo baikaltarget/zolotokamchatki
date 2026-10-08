@@ -37,7 +37,8 @@ export const priceLabel = (p: Product) => (p.price ? `${fmt(p.price)} ₽` : "п
 export const SITE_URL = (() => {
   try { return new URL(BRAND.siteUrl).origin; } catch { return BRAND.siteUrl; }
 })();
-export const abs = (path: string) => `${SITE_URL}${slash(path)}`;
+/** Абсолютный адрес. Страницам — слэш на конце, файлам (картинки, xml) — нет */
+export const abs = (path: string) => `${SITE_URL}${/\.[a-z0-9]{2,5}$/i.test(path) ? path : slash(path)}`;
 export const todoText = (key?: string) => (key ? (site.todo.items as Record<string, string>)[key] : undefined);
 export const RATINGS = (site.brand as unknown as { ratings: { name: string; score: string; count: string; url: string; note?: string }[] }).ratings;
 export const showTodo = site.todo.showTodoFrames;
