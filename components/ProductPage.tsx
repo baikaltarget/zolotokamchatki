@@ -22,7 +22,7 @@ export default function ProductPage({ p }: { p: Product }) {
   const ld = {
     "@context": "https://schema.org", "@type": "Product", name: title, image: abs(p.image), description: (p as { desc?: string }).desc ?? p.short,
     brand: { "@type": "Brand", name: BRAND.name }, ...(p.origin ? { countryOfOrigin: "RU", additionalProperty: [{ "@type": "PropertyValue", name: "Происхождение", value: p.origin }] } : {}),
-    ...(p.price ? { offers: { "@type": "Offer", price: p.price, priceCurrency: "RUB", availability: p.preorder ? "https://schema.org/PreOrder" : "https://schema.org/InStock", url: abs(productPath(p)), seller: { "@type": "Organization", name: BRAND.name }, areaServed: "Иркутск", eligibleQuantity: { "@type": "QuantitativeValue", unitText: p.unit } } } : {}),
+    ...(p.price ? { offers: { "@type": "Offer", price: p.price, priceCurrency: "RUB", ...(p.unit === "кг" ? { priceSpecification: { "@type": "UnitPriceSpecification", price: p.price, priceCurrency: "RUB", referenceQuantity: { "@type": "QuantitativeValue", value: 1, unitCode: "KGM" } } } : {}), availability: p.preorder ? "https://schema.org/PreOrder" : "https://schema.org/InStock", url: abs(productPath(p)), seller: { "@type": "Organization", name: BRAND.name }, areaServed: "Иркутск", eligibleQuantity: { "@type": "QuantitativeValue", unitText: p.unit } } } : {}),
   };
   return (
     <>
