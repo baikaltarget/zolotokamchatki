@@ -9,6 +9,7 @@ import LeadForm from "./LeadForm";
 import JsonLd from "./JsonLd";
 import Todo from "./Todo";
 import Faq from "./Faq";
+import AddToCart from "./AddToCart";
 
 function unitToGrams(u: string) { const m = u.match(/([\d,.]+)\s*(кг|г)/); if (!m) return u === "кг" ? 1000 : null; const n = parseFloat(m[1].replace(",", ".")); return m[2] === "кг" ? n * 1000 : n; }
 
@@ -48,7 +49,8 @@ export default function ProductPage({ p }: { p: Product }) {
               <li className="bg-white border border-ivory2 rounded-tag p-3"><span className="block text-stone text-xs uppercase tracking-wider">Доставка</span>от 2000 ₽, <Link href="/dostavka/" className="underline">условия</Link></li>
               <li className="bg-white border border-ivory2 rounded-tag p-3"><span className="block text-stone text-xs uppercase tracking-wider">Оплата</span>наличными</li>
             </ul>
-            <div className="mt-6 flex flex-wrap gap-3"><a href={`tel:${BRAND.phoneRaw}`} className="btn btn-caviar">Позвонить {BRAND.phone}</a><a href="#zakaz" className="btn btn-ghost">Заказать с доставкой</a></div>
+            <AddToCart p={p} />
+            <div className="mt-4 flex flex-wrap gap-3"><a href={`tel:${BRAND.phoneRaw}`} className="btn btn-ghost">Позвонить {BRAND.phone}</a>{!p.price && <a href="#zakaz" className="btn btn-caviar">Оставить заявку</a>}</div>
           </div>
         </div>
       </section>
