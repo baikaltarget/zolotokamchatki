@@ -17,11 +17,11 @@ const P = (slug: string) => products.find((p) => p.slug === slug) as Product;
 /** Пример заказа: [товар, количество в единицах прайса (банка/упаковка) или в кг для весовых] */
 type Line = [string, number];
 const sets: { name: string; who: string; lines: Line[] }[] = [
-  { name: "Семейный стол", who: "на 4–6 человек", lines: [["ikra-kety-kamchatka", 1], ["file-semgi", 1], ["tushka-foreli-hk", 1], ["maslo-slivochnoe", 1]] },
-  { name: "Большая компания", who: "на 8–12 человек", lines: [["ikra-kety-kamchatka", 2], ["file-semgi", 2], ["file-nerki", 1], ["file-muksuna", 1], ["file-foreli-hk", 0.5], ["steyki-semgi", 1.5]] },
-  { name: "Подарок знатоку", who: "икра и рыба в подарок", lines: [["ikra-chavychi", 1], ["ikra-kizhucha", 1], ["file-semgi-hk", 0.5]] },
+  { name: "Семейный стол", who: "на 4–6 человек", lines: [["ikra-kety-kamchatka", 0.25], ["file-semgi", 1], ["tushka-foreli-hk", 1], ["maslo-slivochnoe", 1]] },
+  { name: "Большая компания", who: "на 8–12 человек", lines: [["ikra-kety-kamchatka", 0.5], ["file-semgi", 2], ["file-nerki", 1], ["file-muksuna", 1], ["file-foreli-hk", 0.5], ["steyki-semgi", 1.5]] },
+  { name: "Подарок знатоку", who: "икра и рыба в подарок", lines: [["ikra-chavychi", 0.25], ["ikra-kizhucha", 0.25], ["file-semgi-hk", 0.5]] },
 ];
-const qty = (p: Product, n: number) => (p.unit === "кг" ? `${String(n).replace(".", ",")} кг` : `${n} × ${p.unit}`);
+const qty = (p: Product, n: number) => (p.unit === "кг" ? (n < 1 ? `${Math.round(n * 1000)} г` : `${String(n).replace(".", ",")} кг`) : `${n} × ${p.unit}`);
 const sum = (lines: Line[]) => lines.reduce((s, [slug, n]) => s + (P(slug).price ?? 0) * n, 0);
 
 const faq = [
@@ -86,7 +86,7 @@ export default function Page() {
 
       <section className="wrap mt-12 prose max-w-3xl">
         <h2>Икра в подарок</h2>
-        <p>Банка хорошей икры — подарок, который точно съедят. Знатоку — <Link href="/ikra/ikra-chavychi/">чавыча</Link> с самой крупной икринкой или <Link href="/ikra/ikra-kizhucha/">кижуч</Link> с ярким вкусом. Тем, кто любит классику, — <Link href="/ikra/ikra-kety-kamchatka/">камчатская кета</Link>. На каждой банке — этикетка рыбокомбината с датой выработки, так что подарок не стыдно вручить. К икре хорошо добавить <Link href="/ryba/kholodnoe-kopchenie/file-semgi-hk/">сёмгу холодного копчения</Link> или <Link href="/zamorozka/maslo-slivochnoe/">сливочное масло 72,5 %</Link>.</p>
+        <p>Банка хорошей икры — подарок, который точно съедят. Знатоку — <Link href="/ikra/ikra-chavychi/">чавыча</Link> с самой крупной икринкой или <Link href="/ikra/ikra-kizhucha/">кижуч</Link> с ярким вкусом. Тем, кто любит классику, — <Link href="/ikra/ikra-kety-kamchatka/">камчатская кета</Link>. Икру фасуем при вас из заводского куба с этикеткой рыбокомбината и датой выработки — так что подарок не стыдно вручить. К икре хорошо добавить <Link href="/ryba/kholodnoe-kopchenie/file-semgi-hk/">сёмгу холодного копчения</Link> или <Link href="/zamorozka/maslo-slivochnoe/">сливочное масло 72,5 %</Link>.</p>
         <h2>Заказы для офиса и корпоративов</h2>
         <p>Перед праздниками мы собираем одинаковые наборы для сотрудников и столы на корпоратив: икра, нарезка слабосолёной рыбы, копчёная форель. Привезём в один день по адресу офиса, по Октябрьскому и Кировскому районам — бесплатно. Если нужно больше 13 кг икры — посмотрите <Link href="/opt/">оптовые условия</Link>. В декабре курьеров на всех не хватает, поэтому корпоративные заказы просим согласовать заранее.</p>
         <h2>Что ещё на стол</h2>

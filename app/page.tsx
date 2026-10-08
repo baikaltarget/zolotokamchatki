@@ -24,7 +24,7 @@ export default function Home() {
           <div className="fade-up">
             <p className="text-gold2 text-sm font-semibold">{BRAND.tagline} · с {BRAND.founded} года</p>
             <h1 className="mt-4"><span className="text-caviar">Золото Камчатки</span> — рыбный магазин в Иркутске: икра <span className="h-light">с Камчатки</span> и своё копчение</h1>
-            <p className="mt-5 text-lg text-ivory/75 max-w-lg">Напрямую с рыбокомбинатов Камчатки и Охотского моря, с этикеткой завода на каждой банке. Даём попробовать перед покупкой. Плюс собственное холодное копчение и слабый посол.</p>
+            <p className="mt-5 text-lg text-ivory/75 max-w-lg">Напрямую с рыбокомбинатов Камчатки и Охотского моря, фасуем при вас из заводских кубов. Даём попробовать перед покупкой. Плюс собственное холодное копчение и слабый посол.</p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href={`tel:${BRAND.phoneRaw}`} className="btn btn-caviar">{BRAND.phone}</a>
               <Link href="/dostavka/" className="btn btn-ghost-light">Доставка по Иркутску</Link>
@@ -95,8 +95,8 @@ export default function Home() {
           <h2 className="mt-3">Завод → наш холодильник → ваш стол</h2>
           <ul className="mt-5 space-y-4 text-lg">
             <li><strong className="font-display uppercase text-caviar2">Без перекупщиков.</strong> Берём партии напрямую у рыбокомбинатов Камчатки и Охотского побережья больше 10 лет.</li>
-            <li><strong className="font-display uppercase text-caviar2">Этикетка на банке.</strong> Дата выработки, ТУ, состав — всё читается. Икры «из ведра» у нас нет.</li>
-            <li><strong className="font-display uppercase text-caviar2">Пробуете перед покупкой.</strong> Открытая банка каждого вида на витрине — сравните кету, нерку и горбушу.</li>
+            <li><strong className="font-display uppercase text-caviar2">Этикетка завода на кубе.</strong> Дата выработки, ТУ, состав — покажем до покупки.</li>
+            <li><strong className="font-display uppercase text-caviar2">Пробуете перед покупкой.</strong> Открытая банка каждого вида на витрине — сравните кету, кижуч и чавычу.</li>
             <li><strong className="font-display uppercase text-caviar2">Своё копчение.</strong> Форель холодного копчения на ольховой щепе — главный хит магазина.</li>
           </ul>
         </div>
