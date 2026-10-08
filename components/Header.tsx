@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { BRAND, SITE } from "@/lib/site";
+import CartLink from "./CartLink";
 
 export default function Header() {
   return (
@@ -21,6 +22,7 @@ export default function Header() {
             <span className="block text-[11px] text-stone">{BRAND.hours}</span>
             <span className="block text-[11px] text-stone">ТЦ «Кедр», пав. 4 и 4А</span>
           </span>
+          <CartLink />
           <a href={`tel:${BRAND.phoneRaw}`} className="btn btn-caviar !py-2 !px-4 text-sm whitespace-nowrap">{BRAND.phone}</a>
         </div>
       </div>
