@@ -10,23 +10,30 @@ const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replac
 export function GET() {
   const catId = new Map(categories.map((c, i) => [c.slug, i + 1]));
   const items = products.filter((p) => p.price && !p.noindex);
-  const offers = items.map((p) => {
-    const perKg = p.unit === "кг";
-    // sales_notes — не длиннее 50 символов
-    const notes = perKg && p.category === "ikra" ? "Цена за 1 кг, фасуем 250 и 500 г. Наличные" : perKg ? "Цена за 1 кг, на вес. Оплата наличными" : "Оплата наличными, самовывоз и доставка";
-    return `<offer id="${esc(p.slug)}" available="${p.preorder ? "false" : "true"}">
-<url>${esc(abs(productPath(p)))}</url>
-<price>${p.price}</price>
+  // Икра и другие товары с фасовками: каждая фасовка — отдельное предложение, объединённые group_id.
+  // Ссылка ведёт на карточку с выбранной фасовкой (?v=250-g), чтобы цена на странице совпала с фидом.
+  const offer = (p: (typeof items)[number], o: { id: string; url: string; price: number; name: string; notes: string; group?: number; grams?: number }) => `<offer id="${esc(o.id)}"${o.group ? ` group_id="${o.group}"` : ""} available="${p.preorder ? "false" : "true"}">
+<url>${esc(o.url)}</url>
+<price>${o.price}</price>
 <currencyId>RUR</currencyId>
 <categoryId>${catId.get(p.category)}</categoryId>
 <picture>${esc(SITE_URL + p.image)}</picture>
 <store>true</store>
 <pickup>true</pickup>
 <delivery>true</delivery>
-<name>${esc(productTitle(p))}${perKg ? ", 1 кг" : `, ${esc(p.unit)}`}</name>
+<name>${esc(o.name)}</name>
 <description><![CDATA[${(p.intro ?? p.desc ?? p.short).replace(/]]>/g, "")}]]></description>
-<sales_notes>${esc(notes)}</sales_notes>
-${p.origin ? `<param name="Происхождение">${esc(p.origin)}</param>\n` : ""}</offer>`;
+<sales_notes>${esc(o.notes)}</sales_notes>
+${o.grams ? `<param name="Вес" unit="г">${o.grams}</param>\n` : ""}${p.origin ? `<param name="Происхождение">${esc(p.origin)}</param>\n` : ""}</offer>`;
+  const offers = items.flatMap((p, idx) => {
+    const packs = (p.tiers ?? []).filter(([l]) => !/кг/.test(l));
+    if (packs.length) return packs.map(([l, v]) => {
+      const grams = parseInt(l, 10);
+      return offer(p, { id: `${p.slug}-${grams}`, url: `${abs(productPath(p))}?v=${grams}-g`, price: v, name: `${productTitle(p)}, ${l}`, notes: "Фасуем при вас из заводского куба. Наличные", group: idx + 1, grams });
+    });
+    const perKg = p.unit === "кг";
+    const notes = perKg ? "Цена за 1 кг, на вес. Оплата наличными" : "Оплата наличными, самовывоз и доставка";
+    return [offer(p, { id: p.slug, url: abs(productPath(p)), price: p.price as number, name: `${productTitle(p)}${perKg ? ", 1 кг" : `, ${p.unit}`}`, notes })];
   }).join("\n");
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

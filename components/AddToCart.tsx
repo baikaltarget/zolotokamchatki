@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { addToCart, variantsOf } from "@/lib/cart";
 import { fmt, productPath, productTitle, cat, type Product } from "@/lib/site";
@@ -10,6 +10,13 @@ export default function AddToCart({ p }: { p: Product }) {
   const [v, setV] = useState(0);
   const [qty, setQty] = useState(1);
   const [added, setAdded] = useState(false);
+  // ?v=250-g из товарного фида — сразу выбираем нужную фасовку
+  useEffect(() => {
+    const want = new URLSearchParams(window.location.search).get("v");
+    if (!want) return;
+    const i = vars.findIndex((x) => `${parseInt(x.label, 10)}-g` === want);
+    if (i >= 0) setV(i);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
   if (!vars.length) return null;
   const cur = vars[v];
   function add() {
