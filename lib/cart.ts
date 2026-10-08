@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import type { Product } from "./site";
+import { ecom } from "./ecom";
 
 /** Корзина в localStorage. Ничего не отправляет на сервер до оформления заказа. */
 export type CartItem = { key: string; slug: string; name: string; path: string; variant: string; price: number; qty: number; byWeight?: boolean };
@@ -22,7 +23,12 @@ export function addToCart(item: Omit<CartItem, "qty">, qty = 1) {
   write(items);
 }
 export function setQty(key: string, qty: number) {
-  write(readCart().map((i) => (i.key === key ? { ...i, qty } : i)).filter((i) => i.qty > 0));
+  const items = readCart(); const it = items.find((i) => i.key === key);
+  if (it && qty !== it.qty) {
+    const d = qty - it.qty; const ev = { id: it.slug, name: it.name, price: it.price, quantity: Math.abs(d), variant: it.variant };
+    ecom(d > 0 ? "add" : "remove", [ev]);
+  }
+  write(items.map((i) => (i.key === key ? { ...i, qty } : i)).filter((i) => i.qty > 0));
 }
 export function clearCart() { write([]); }
 export const cartTotal = (items: CartItem[]) => items.reduce((s, i) => s + i.price * i.qty, 0);
