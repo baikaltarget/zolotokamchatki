@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { cat, byCat, categories, SITE, productPath } from "@/lib/site";
+import { cat, byCat, categories, SITE, productPath, fmt } from "@/lib/site";
 import { md } from "@/lib/md";
 import Breadcrumbs from "./Breadcrumbs";
 import ProductCard from "./ProductCard";
@@ -11,7 +11,12 @@ import JsonLd from "./JsonLd";
 import { abs } from "@/lib/site";
 
 const catFaq: Record<string, { q: string; a: string }[]> = {
-  ikra: SITE.faq.filter((f) => /икр/i.test(f.q + f.a)).slice(0, 4),
+  ikra: [
+    { q: "Где купить красную икру в Иркутске?", a: "В магазине «Золото Камчатки» в ТЦ «Кедр», ул. Волжская, 3, павильоны 4 и 4А, ежедневно с 09:00 до 20:00. Икру фасуем при вас из заводского куба и даём попробовать. Можно заказать доставку по Иркутску." },
+    { q: "Сколько стоит красная икра?", a: "Икра кеты камчатской — 11 500 ₽ за кг: 250 г — 2 875 ₽, 500 г — 5 750 ₽. Кижуч и чавыча — 16 000 ₽ за кг: 125 г — 2 000 ₽, 250 г — 4 000 ₽, 500 г — 8 000 ₽. Нерку и охотскую кету привозим под заказ." },
+    { q: "Есть доставка икры по Иркутску?", a: "Да, от 2 000 ₽. По Октябрьскому и Кировскому районам — бесплатно, по остальным — 25 ₽ за километр. Шелехов, Мамоны, Пивовариха, Байкальский тракт — от 5 000 ₽. Икру везём в термопакете с хладоэлементом." },
+    ...SITE.faq.filter((f) => /икр/i.test(f.q + f.a)).slice(0, 3),
+  ],
   slabosolenaya: [
     { q: "Сколько хранится слабосолёное филе?", a: "В вакууме — до 10 дней при 0…+4 °C, после вскрытия — 2–3 дня в холодильнике под плёнкой." },
     { q: "Кости в филе есть?", a: "Крупные кости удалены. Мелкие рёберные у некоторых видов (омуль, муксун) могут встречаться — это особенность рыбы." },
@@ -56,6 +61,34 @@ export default async function CategoryPage({ slug }: { slug: string }) {
       <section className="wrap mt-10">
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{items.map((p) => <ProductCard key={p.slug} p={p} />)}</div>
       </section>
+      {slug === "ikra" && (
+        <section className="wrap mt-12">
+          <h2>Цены на красную икру в Иркутске по фасовкам</h2>
+          <p className="mt-2 text-stone max-w-3xl">Икра весовая: фасуем при вас из заводского куба. Цена за килограмм и за готовую фасовку.</p>
+          <div className="mt-5 overflow-x-auto">
+            <table className="w-full min-w-[520px] text-left border-collapse">
+              <thead><tr className="border-b border-ink/20 text-sm text-stone"><th className="py-2 pr-4 font-normal">Икра</th><th className="py-2 pr-4 font-normal">За кг</th><th className="py-2 pr-4 font-normal">125 г</th><th className="py-2 pr-4 font-normal">250 г</th><th className="py-2 font-normal">500 г</th></tr></thead>
+              <tbody>
+                {items.map((p) => {
+                  const t = (l: string) => p.tiers?.find(([x]) => x === l)?.[1] ?? (p.unit === l && p.price ? p.price : undefined);
+                  const perKg = p.unit === "кг" && p.price;
+                  const cell = (v?: number) => (v ? `${fmt(v)} ₽` : "—");
+                  return (
+                    <tr key={p.slug} className="border-b border-ivory2">
+                      <td className="py-2.5 pr-4"><Link href={productPath(p)} className="font-semibold hover:text-caviar2 underline decoration-gold/50">{p.name}</Link></td>
+                      <td className="py-2.5 pr-4">{perKg ? `${fmt(p.price as number)} ₽` : p.price ? "—" : "под заказ"}</td>
+                      <td className="py-2.5 pr-4">{cell(t("125 г"))}</td>
+                      <td className="py-2.5 pr-4">{cell(t("250 г"))}</td>
+                      <td className="py-2.5">{cell(t("500 г"))}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-3 text-sm text-stone">Фасовка 125 г — когда есть тара. Полный прайс магазина — на странице <Link href="/tseny/" className="underline">«Цены»</Link>, к празднику — <Link href="/novyj-god/" className="underline">икра на Новый год</Link>.</p>
+        </section>
+      )}
       <section className="wrap mt-14 grid lg:grid-cols-2 gap-8 items-start">
         <Vitrina title={`${c.name}: прайс`} items={items} />
         <div>

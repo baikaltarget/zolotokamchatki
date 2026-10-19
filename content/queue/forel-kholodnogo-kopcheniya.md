@@ -4,7 +4,7 @@ description: "Тушка или филе, как отличить настоящ
 date: "2026-11-21"
 image: "/img/blog-forel-hk.webp"
 updated: "2026-11-21"
-related: ["kholodnoe-vs-goryachee-kopchenie", "kak-krasivo-narezat-rybu", "rybnaya-tarelka-sostav"]
+related: ["kholodnoe-vs-goryachee-kopchenie", "kak-krasivo-narezat-rybu"]
 faq:
   - q: "Сколько хранится форель холодного копчения?"
     a: "В холодильнике 0…+4 °C в пергаменте — 2–3 недели. В вакууме — до месяца. В морозилке — до 2 месяцев без потери вкуса."
@@ -59,7 +59,7 @@ faq:
 
 **Классика:** чёрный хлеб, масло, лимон, красный лук.
 **Салат:** руккола, авокадо, черри, оливковое масло, форель.
-**Тарелка:** с [сёмгой](/ryba/slabosolenaya/file-semgi/) и [неркой](/ryba/slabosolenaya/file-nerki/) с/с — [состав тарелки](/blog/rybnaya-tarelka-sostav/).
+**Тарелка:** с [сёмгой](/ryba/slabosolenaya/file-semgi/) и [неркой](/ryba/slabosolenaya/file-nerki/) с/с — [состав тарелки](/blog/kak-krasivo-narezat-rybu/).
 **Паста:** сливки, форель, укроп, 10 минут.
 **Завтрак:** тост, сливочный сыр, форель, огурец.
 
