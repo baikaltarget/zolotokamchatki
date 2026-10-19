@@ -1603,7 +1603,9 @@
   ]
  },
  "yandex": null,
+ "metrika": null,
  "errors": {
-  "yandex": "через прокси: forbidden (напрямую: fetch failed; токен 55 симв., отпечаток 12173866)"
+  "yandex": "через прокси: forbidden (напрямую: fetch failed; токен 55 симв., отпечаток 12173866)",
+  "metrika": "/stat/v1/data: Access Denied"
  }
 }
