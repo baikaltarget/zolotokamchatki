@@ -1,0 +1,49 @@
+# Снятие позиций по запросу из чата: Google Search Console + Яндекс.Вебмастер → reports/positions-<дата>.json и .md
+# Запуск: Actions → «Снять позиции» → Run workflow (или Claude через API workflow_dispatch).
+# Секреты репозитория: GSC_SERVICE_ACCOUNT (JSON сервисного аккаунта Google, добавлен в Search Console),
+#                      YANDEX_WEBMASTER_TOKEN (OAuth, «Яндекс.Вебмастер: чтение»).
+# Яндекс с серверов GitHub не отвечает — запрос идёт через прокси на хостинге tourfishing.ru (российский IP).
+name: Снять позиции
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Период, дней"
+        default: "28"
+      filter:
+        description: "Часть URL или запроса (необязательно)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: positions
+  cancel-in-progress: false
+
+jobs:
+  positions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Выгрузка
+        env:
+          GSC_SERVICE_ACCOUNT: ${{ secrets.GSC_SERVICE_ACCOUNT }}
+          YANDEX_WEBMASTER_TOKEN: ${{ secrets.YANDEX_WEBMASTER_TOKEN }}
+          DAYS: ${{ github.event.inputs.days }}
+          FILTER: ${{ github.event.inputs.filter }}
+        run: node scripts/positions.mjs
+      - name: Сохранить отчёт
+        run: |
+          git config user.name "seo-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add reports
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Позиции $(date -u +%Y-%m-%d) [skip ci]"
+          git pull -q --rebase --autostash origin main
+          git push -q origin HEAD:main
