@@ -1,4 +1,4 @@
-// Снятие позиций: Google Search Console + Яндекс.Вебмастер за DAYS дней → reports/positions-<дата>.json (сырые данные)
+// Снятие позиций: Google Search Console + Яндекс.Вебмастер + Метрика (поисковый трафик) за DAYS дней → reports/positions-<дата>.json (сырые данные)
 // и reports/positions-<дата>.md (сводка, сравнение с прошлым снятием). Без секрета соответствующая часть пропускается.
 import fs from "node:fs";
 import crypto from "node:crypto";
@@ -6,6 +6,7 @@ import crypto from "node:crypto";
 const UNICODE = "золото-камчатки.рф";
 const PUNY = "xn----8sbazijcdmpba5cg7e.xn--p1ai";
 const SITE = `https://${PUNY}`;
+const METRIKA_ID = 112026044;
 const PROXY = "https://tourfishing.ru/api/yandex-report.php"; // российский IP, тот же аккаунт Яндекса
 const DAYS = Math.max(1, Math.min(90, parseInt(process.env.DAYS || "28", 10) || 28));
 const FILTER = (process.env.FILTER || "").trim().toLowerCase();
@@ -87,6 +88,36 @@ async function yandex() {
   }
 }
 
+/* ---------- Яндекс.Метрика: поисковый трафик ---------- */
+async function metrika() {
+  const token = (process.env.YANDEX_WEBMASTER_TOKEN || "").trim(); // тот же OAuth-токен, у приложения есть право «Метрика: чтение»
+  if (!token) { log("Метрика: нет токена — пропуск"); return null; }
+  const api = async (path, params = {}) => {
+    const all = path.startsWith("/stat") ? { ids: String(METRIKA_ID), date1: iso(start), date2: iso(end), accuracy: "full", ...params } : params;
+    const qs = new URLSearchParams(Object.entries(all).filter(([, v]) => v != null));
+    const r = await fetch(`https://api-metrika.yandex.net${path}?${qs}`, { headers: { Authorization: `OAuth ${token}` }, signal: AbortSignal.timeout(20000) });
+    const j = await r.json().catch(() => ({ message: `HTTP ${r.status}` }));
+    if (!r.ok || j.errors) throw new Error(`${path}: ${j.message || JSON.stringify(j.errors).slice(0, 200)}`);
+    return j;
+  };
+  const organic = "ym:s:lastTrafficSource=='organic'";
+  const rows = (j, names) => (j.data || []).map((d) => Object.fromEntries([...d.dimensions.map((x, i) => [names[i], (names[i] === "source" ? x.id : x.name) ?? x.id ?? null]), ...d.metrics.map((m, i) => [names[d.dimensions.length + i], m])]));
+  const sources = rows(await api("/stat/v1/data", { metrics: "ym:s:visits,ym:s:users,ym:s:bounceRate", dimensions: "ym:s:lastTrafficSource", sort: "-ym:s:visits" }), ["source", "visits", "users", "bounce"]);
+  const engines = rows(await api("/stat/v1/data", { metrics: "ym:s:visits,ym:s:bounceRate,ym:s:avgVisitDurationSeconds", dimensions: "ym:s:lastSearchEngineRoot", filters: organic, sort: "-ym:s:visits" }), ["engine", "visits", "bounce", "duration"]);
+  const weeks = rows(await api("/stat/v1/data", { metrics: "ym:s:visits", dimensions: "ym:s:startOfWeek,ym:s:lastSearchEngineRoot", filters: organic, sort: "ym:s:startOfWeek", limit: "200" }), ["week", "engine", "visits"]);
+  const phrases = rows(await api("/stat/v1/data", { metrics: "ym:s:visits,ym:s:bounceRate", dimensions: "ym:s:lastSearchPhrase,ym:s:lastSearchEngineRoot", filters: organic, sort: "-ym:s:visits", limit: "300" }), ["phrase", "engine", "visits", "bounce"]);
+  const landings = rows(await api("/stat/v1/data", { metrics: "ym:s:visits,ym:s:bounceRate", dimensions: "ym:s:startURLPath", filters: organic, sort: "-ym:s:visits", limit: "100" }), ["page", "visits", "bounce"]);
+  let goals = [];
+  try {
+    const g = ((await api(`/management/v1/counter/${METRIKA_ID}/goals`, {})).goals || []).slice(0, 10);
+    if (g.length) {
+      const all = await api("/stat/v1/data", { metrics: g.map((x) => `ym:s:goal${x.id}reaches`).join(","), dimensions: "ym:s:lastTrafficSource" });
+      goals = g.map((x, i) => ({ name: x.name, total: (all.data || []).reduce((s, d) => s + d.metrics[i], 0), organic: (all.data || []).filter((d) => d.dimensions[0].id === "organic").reduce((s, d) => s + d.metrics[i], 0) }));
+    }
+  } catch (e) { warn("Метрика: цели", e.message); }
+  return { counter: METRIKA_ID, sources, engines, weeks, phrases, landings, goals };
+}
+
 /* ---------- прошлое снятие ---------- */
 function previous() {
   if (!fs.existsSync("reports")) return null;
@@ -95,9 +126,10 @@ function previous() {
 }
 
 /* ---------- отчёт ---------- */
-const data = { date: iso(now), from: iso(start), to: iso(end), days: DAYS, filter: FILTER || null, google: null, yandex: null, errors: {} };
+const data = { date: iso(now), from: iso(start), to: iso(end), days: DAYS, filter: FILTER || null, google: null, yandex: null, metrika: null, errors: {} };
 try { data.google = await gsc(); } catch (e) { data.errors.google = e.message; warn("GSC", e.message); }
 try { data.yandex = await yandex(); } catch (e) { data.errors.yandex = e.message; warn("Вебмастер", e.message); }
+try { data.metrika = await metrika(); } catch (e) { data.errors.metrika = e.message; warn("Метрика", e.message); }
 const prev = previous();
 
 const md = [`# Позиции ${UNICODE} — ${iso(now)}`, ``, `Период: ${iso(start)} – ${iso(end)} (${DAYS} дн.)${FILTER ? `, фильтр «${FILTER}»` : ""}. Прошлое снятие: ${prev ? prev.date : "нет"}.`];
@@ -122,8 +154,26 @@ const section = (name, src, oldSrc) => {
 section("Google", data.google, prev?.google);
 section("Яндекс", data.yandex, prev?.yandex);
 
+/* Метрика */
+md.push(``, `## Метрика (счётчик ${METRIKA_ID})`, ``);
+if (!data.metrika) md.push(data.errors.metrika ? `Ошибка: ${data.errors.metrika}` : "Не подключено.");
+else {
+  const M = data.metrika, P = prev?.metrika;
+  const names = { organic: "Поиск", direct: "Прямые", referral: "Ссылки", social: "Соцсети", ad: "Реклама", internal: "Внутренние", messenger: "Мессенджеры", recommend: "Рекомендации" };
+  const pct = (x) => `${Math.round(x)} %`;
+  const was = (arr, k, v, f = "visits") => { const o = arr?.find((r) => r[k] === v); return o ? o[f] : "—"; };
+  md.push(`### Источники`, ``, `| Источник | Визиты | Было | Отказы |`, `|---|---|---|---|`, ...M.sources.map((r) => `| ${names[r.source] || r.source} | ${r.visits} | ${was(P?.sources, "source", r.source)} | ${pct(r.bounce)} |`));
+  md.push(``, `### Поисковые системы`, ``, `| Система | Визиты | Было | Отказы | Время, с |`, `|---|---|---|---|---|`, ...M.engines.map((r) => `| ${r.engine} | ${r.visits} | ${was(P?.engines, "engine", r.engine)} | ${pct(r.bounce)} | ${Math.round(r.duration)} |`));
+  const wk = [...new Set(M.weeks.map((r) => r.week))], en = [...new Set(M.weeks.map((r) => r.engine))];
+  if (wk.length) md.push(``, `### Поиск по неделям`, ``, `| Неделя с | ${en.join(" | ")} |`, `|${"---|".repeat(en.length + 1)}`, ...wk.map((w) => `| ${w} | ${en.map((e) => M.weeks.find((r) => r.week === w && r.engine === e)?.visits || 0).join(" | ")} |`));
+  const ph = M.phrases.filter((r) => r.phrase && match(r.phrase));
+  md.push(``, `### Поисковые фразы (топ-50)`, ``, ph.length ? [`| Фраза | Система | Визиты | Отказы |`, `|---|---|---|---|`, ...ph.slice(0, 50).map((r) => `| ${r.phrase} | ${r.engine} | ${r.visits} | ${pct(r.bounce)} |`)].join("\n") : "— фразы скрыты поисковиками или нет данных.");
+  md.push(``, `### Страницы входа из поиска`, ``, `| Страница | Визиты | Было | Отказы |`, `|---|---|---|---|`, ...M.landings.filter((r) => match(r.page || "")).slice(0, 30).map((r) => `| ${r.page} | ${r.visits} | ${was(P?.landings, "page", r.page)} | ${pct(r.bounce)} |`));
+  if (M.goals.length) md.push(``, `### Цели`, ``, `| Цель | Всего | Из поиска |`, `|---|---|---|`, ...M.goals.map((g) => `| ${g.name} | ${g.total} | ${g.organic} |`));
+}
+
 fs.mkdirSync("reports", { recursive: true });
 fs.writeFileSync(`reports/positions-${iso(now)}.json`, JSON.stringify(data, null, 1));
 fs.writeFileSync(`reports/positions-${iso(now)}.md`, md.join("\n") + "\n");
 log(md.join("\n"));
-if (!data.google && !data.yandex) { console.log("::error::Ни Google, ни Яндекс не отдали данные — см. предупреждения выше"); process.exitCode = 1; }
+if (!data.google && !data.yandex && !data.metrika) { console.log("::error::Ни Google, ни Яндекс, ни Метрика не отдали данные — см. предупреждения выше"); process.exitCode = 1; }
