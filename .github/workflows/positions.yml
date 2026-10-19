@@ -1,5 +1,6 @@
 # Снятие позиций по запросу из чата: Google Search Console + Яндекс.Вебмастер → reports/positions-<дата>.json и .md
 # Запуск: Actions → «Снять позиции» → Run workflow (или Claude через API workflow_dispatch).
+# Метрика (счётчик 112026044) читается тем же YANDEX_WEBMASTER_TOKEN.
 # Секреты репозитория: GSC_SERVICE_ACCOUNT (JSON сервисного аккаунта Google, добавлен в Search Console),
 #                      YANDEX_WEBMASTER_TOKEN (OAuth, «Яндекс.Вебмастер: чтение»).
 # Яндекс с серверов GitHub не отвечает — запрос идёт через прокси на хостинге tourfishing.ru (российский IP).
