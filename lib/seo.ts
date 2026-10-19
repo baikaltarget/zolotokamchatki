@@ -37,8 +37,8 @@ export function productMeta(p: Product): Metadata {
   const price = p.price ? `, ${fmt(p.price)} ₽ за ${p.unit}` : "";
   const t = productTitle(p);
   return meta({
-    title: `${t} — купить в Иркутске${price} | Золото Камчатки`,
-    description: `${t}: ${p.short.replace(/\.$/, "")}. Цена ${p.price ? fmt(p.price) + " ₽ / " + p.unit : "по телефону"}. Магазин в ТЦ «Кедр» (Волжская, 3), можно попробовать перед покупкой, доставка по Иркутску от 2000 ₽.`,
+    title: p.metaTitle ?? `${t} — купить в Иркутске${price} | Золото Камчатки`,
+    description: p.metaDesc ?? `${t}: ${p.short.replace(/\.$/, "")}. Цена ${p.price ? fmt(p.price) + " ₽ / " + p.unit : "по телефону"}.${p.category === "kholodnoe-kopchenie" ? " Своя коптильня на ольхе, без жидкого дыма." : ""} Магазин в ТЦ «Кедр» (Волжская, 3), можно попробовать перед покупкой, доставка по Иркутску от 2000 ₽.`,
     path: productPath(p), image: p.image, noindex: p.noindex,
   });
 }

@@ -2,7 +2,7 @@ import site from "@/content/site.json";
 export interface Product {
   slug: string; category: string; name: string; price: number | null; unit: string; image: string; short: string;
   desc?: string; details?: { h: string; p: string }[]; faq?: { q: string; a: string }[]; origin?: string; hit?: boolean;
-  preorder?: boolean; badge?: string; todo?: string; tiers?: [string, number][];
+  preorder?: boolean; badge?: string; todo?: string; tiers?: [string, number][]; metaTitle?: string; metaDesc?: string;
   /** Название под поисковый запрос: идёт в H1 и title. Если нет — берётся name */
   seoName?: string;
   /** Уникальный вводный абзац карточки */

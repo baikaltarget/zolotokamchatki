@@ -9,13 +9,16 @@ import Faq from "@/components/Faq";
 import LeadForm from "@/components/LeadForm";
 import Todo from "@/components/Todo";
 
-export const metadata = meta({ title: "Рыбный магазин «Золото Камчатки» в Иркутске — красная икра, копчёная рыба, морепродукты", description: "Рыбный магазин в ТЦ «Кедр» на Волжской, 3: красная икра напрямую с заводов Камчатки, рыба холодного копчения из своей коптильни, слабосолёная рыба, морепродукты. Пробуете перед покупкой, доставка по Иркутску от 2000 ₽. С 2013 года.", path: "/" });
+export const metadata = meta({ title: "Рыбный магазин «Золото Камчатки» в Иркутске — ТЦ «Кедр», Волжская, 3", description: "Рыбный магазин «Золото Камчатки» в ТЦ «Кедр» на Волжской, 3: развесная икра с заводов Камчатки, рыба холодного копчения из своей коптильни, слабосолёная рыба, заморозка и морепродукты. Ежедневно 09:00–20:00, доставка по Иркутску. С 2013 года.", path: "/" });
 
 export default function Home() {
   const ikra = byCat("ikra");
   const hits = products.filter((p) => p.hit);
   return (
     <>
+      <Link href="/novyj-god/" className="block bg-caviar text-ivory text-center text-sm sm:text-base py-2.5 px-4 hover:bg-caviar2">
+        <strong>Заказы к Новому году:</strong> икра и рыба к столу и в подарок, корпоративные наборы — <span className="underline">что и сколько брать →</span>
+      </Link>
       {/* HERO: витрина с ценами прямо в первом экране */}
       <section className="relative bg-ink text-ivory overflow-hidden">
         <Image src="/img/ikra-macro.webp" alt="" fill priority sizes="100vw" quality={55} className="object-cover opacity-30" />
@@ -23,14 +26,14 @@ export default function Home() {
         <div className="relative wrap grid lg:grid-cols-[1.05fr_1fr] gap-8 lg:gap-10 py-10 sm:py-12 lg:py-16 items-center">
           <div className="fade-up">
             <p className="text-gold2 text-sm font-semibold">{BRAND.tagline} · с {BRAND.founded} года</p>
-            <h1 className="mt-4"><span className="text-caviar">Золото Камчатки</span> — рыбный магазин в Иркутске: икра <span className="h-light">с Камчатки</span> и своё копчение</h1>
-            <p className="mt-5 text-lg text-ivory/75 max-w-lg">Напрямую с рыбокомбинатов Камчатки и Охотского моря, фасуем при вас из заводских кубов. Даём попробовать перед покупкой. Плюс собственное холодное копчение и слабый посол.</p>
+            <h1 className="mt-4">Рыбный магазин <span className="text-caviar">«Золото Камчатки»</span> в Иркутске</h1>
+            <p className="mt-5 text-lg text-ivory/75 max-w-lg">ТЦ «Кедр», ул. Волжская, 3, павильоны 4 и 4А. Икра с рыбокомбинатов Камчатки на развес — пробуете перед покупкой, своё холодное копчение, слабый посол, заморозка и морепродукты.</p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a href={`tel:${BRAND.phoneRaw}`} className="btn btn-caviar">{BRAND.phone}</a>
               <Link href="/dostavka/" className="btn btn-ghost-light">Доставка по Иркутску</Link>
             </div>
             <dl className="mt-8 grid grid-cols-3 gap-4 max-w-md text-sm">
-              <div><dt className="text-ivory/50 text-xs uppercase tracking-wider">Магазин</dt><dd className="mt-1">ТЦ «Кедр», пав. 4 и 4А</dd></div>
+              <div><dt className="text-ivory/50 text-xs uppercase tracking-wider">Адрес</dt><dd className="mt-1"><Link href="/kontakty/" className="hover:text-gold2">Волжская, 3, ТЦ «Кедр»</Link></dd></div>
               <div><dt className="text-ivory/50 text-xs uppercase tracking-wider">Часы</dt><dd className="mt-1">{BRAND.hours}</dd></div>
               <div><dt className="text-ivory/50 text-xs uppercase tracking-wider">Опыт</dt><dd className="mt-1">с {BRAND.founded} года</dd></div>
             </dl>
@@ -44,7 +47,7 @@ export default function Home() {
                     <li key={p.slug}><Link href={`/ikra/${p.slug}/`} className="flex items-baseline justify-between py-2 hover:text-gold2"><span className="tag-name text-lg">{p.name}</span><span className="font-display text-caviar text-xl whitespace-nowrap">{p.price ? `${p.price.toLocaleString("ru-RU")} ₽` : "по тел."}<span className="text-ivory/50 text-xs uppercase ml-1">/ {p.unit}</span></span></Link></li>
                   ))}
                 </ul>
-                <Link href="/ikra/" className="mt-2 inline-block text-sm text-gold2">Вся икра и цены →</Link>
+                <Link href="/ikra/" className="mt-2 inline-block text-sm text-gold2">Красная икра в Иркутске: все виды и цены за 250 и 500 г →</Link>
               </div>
             </div>
           </div>

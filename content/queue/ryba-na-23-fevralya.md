@@ -4,7 +4,7 @@ description: "Копчёная рыба и креветки к пиву на 23 
 date: "2027-01-17"
 image: "/img/blog-23-fevralya.webp"
 updated: "2027-01-17"
-related: ["rybnaya-tarelka-sostav", "forel-kholodnogo-kopcheniya", "kak-krasivo-narezat-rybu"]
+related: ["kak-krasivo-narezat-rybu", "forel-kholodnogo-kopcheniya"]
 faq:
   - q: "Что из рыбы подать на 23 февраля?"
     a: "Копчёная форель и кижуч, брюшки сёмги, корюшка, креветки к пиву. Плотное, дымное, солёное. Икра — по желанию, на чёрный хлеб."
@@ -27,7 +27,7 @@ faq:
 - [Тушка форели х/к](/ryba/kholodnoe-kopchenie/tushka-foreli-hk/) 400 г — главное
 - [Брюшки сёмги х/к](/ryba/kholodnoe-kopchenie/bryushki-semgi-hk/) 200 г — жирные, дымные
 - [Корюшка х/к](/ryba/kholodnoe-kopchenie/koryushka-krupnaya/) 200 г — к пиву классика
-- [Креветки тигровые](/zamorozka/krevetki-tigrovye/) 500 г — сварить с укропом и чесноком
+- [Креветки тигровые](/moreprodukty/krevetki-tigrovye/) 500 г — сварить с укропом и чесноком
 - Чёрный хлеб, лук, лимон
 
 От 2 500 ₽.
@@ -44,7 +44,7 @@ faq:
 - [Икра кеты](/ikra/ikra-kety-kamchatka/) 250 г — тарталетки со сливочным сыром
 - [Сёмга с/с](/ryba/slabosolenaya/file-semgi/) 250 г — тонкая нарезка розочками
 - [Форель с/с](/ryba/slabosolenaya/file-foreli/) 200 г — контраст цвета
-- [Креветки очищенные](/zamorozka/krevetki-tigrovye-ochishchennye/) 300 г — с авокадо и лимоном
+- [Креветки очищенные](/moreprodukty/krevetki-tigrovye-ochishchennye/) 300 г — с авокадо и лимоном
 - Лёгкий салат, шампанское
 
 От 4 500 ₽.
@@ -57,7 +57,7 @@ faq:
 
 ## Рецепты
 
-[Рыбная тарелка — состав](/blog/rybnaya-tarelka-sostav/), [нарезка](/blog/kak-krasivo-narezat-rybu/), [тарталетки](/blog/tartaletki-s-ikroj/), [креветки](/blog/kak-varit-krevetki/).
+[Рыбная тарелка: состав и нарезка](/blog/kak-krasivo-narezat-rybu/), [тарталетки](/blog/tartaletki-s-ikroj/), [креветки](/blog/kak-varit-krevetki/).
 
 ## Заказать
 
