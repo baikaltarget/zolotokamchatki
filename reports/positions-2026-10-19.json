@@ -1604,6 +1604,6 @@
  },
  "yandex": null,
  "errors": {
-  "yandex": "через прокси: forbidden"
+  "yandex": "через прокси: forbidden (напрямую: fetch failed; токен 55 симв., отпечаток 12173866)"
  }
 }
