@@ -52,7 +52,7 @@ async function gsc() {
 
 /* ---------- Яндекс.Вебмастер ---------- */
 async function yandex() {
-  const token = process.env.YANDEX_WEBMASTER_TOKEN;
+  const token = (process.env.YANDEX_WEBMASTER_TOKEN || "").trim(); // при вставке в секрет часто прилипает перенос строки
   if (!token) { log("Вебмастер: нет секрета YANDEX_WEBMASTER_TOKEN — пропуск"); return null; }
   const isOurs = (h) => (h.unicode_host_url || "").includes(UNICODE) || (h.host_id || "").includes(PUNY) || (h.ascii_host_url || "").includes(PUNY);
   const direct = async () => {
@@ -78,7 +78,13 @@ async function yandex() {
     if (!String(j.host || "").includes(UNICODE) && !String(j.host || "").includes(PUNY)) throw new Error(`прокси вернул другой сайт (${j.host}) — обновите yandex-report.php на tourfishing.ru`);
     return { host: j.host, queries: j.queries || [], summary: j.summary };
   };
-  try { return await direct(); } catch (e) { log(`Вебмастер напрямую: ${e.message} — пробую через прокси`); return await viaProxy(); }
+  try { return await direct(); } catch (e) {
+    warn("Вебмастер напрямую", e.message);
+    try { return await viaProxy(); } catch (e2) {
+      const fp = crypto.createHash("sha256").update(token).digest("hex").slice(0, 8);
+      throw new Error(`${e2.message} (напрямую: ${e.message}; токен ${token.length} симв., отпечаток ${fp})`);
+    }
+  }
 }
 
 /* ---------- прошлое снятие ---------- */
