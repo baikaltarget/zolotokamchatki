@@ -1603,9 +1603,820 @@
   ]
  },
  "yandex": null,
- "metrika": null,
+ "metrika": {
+  "counter": 112026044,
+  "sources": [
+   {
+    "source": "direct",
+    "visits": 350,
+    "users": 244,
+    "bounce": 22.28571429
+   },
+   {
+    "source": "organic",
+    "visits": 191,
+    "users": 168,
+    "bounce": 15.18324607
+   },
+   {
+    "source": "referral",
+    "visits": 40,
+    "users": 21,
+    "bounce": 25
+   },
+   {
+    "source": "internal",
+    "visits": 10,
+    "users": 8,
+    "bounce": 40
+   },
+   {
+    "source": "social",
+    "visits": 3,
+    "users": 3,
+    "bounce": 66.66666667
+   },
+   {
+    "source": "messenger",
+    "visits": 1,
+    "users": 1,
+    "bounce": 0
+   }
+  ],
+  "engines": [
+   {
+    "engine": "Yandex",
+    "visits": 124,
+    "bounce": 14.51612903,
+    "duration": 85.96774194
+   },
+   {
+    "engine": "Google",
+    "visits": 67,
+    "bounce": 16.41791045,
+    "duration": 111.23880597
+   }
+  ],
+  "weeks": [
+   {
+    "week": "2026-09-21",
+    "engine": "Yandex",
+    "visits": 25
+   },
+   {
+    "week": "2026-09-21",
+    "engine": "Google",
+    "visits": 9
+   },
+   {
+    "week": "2026-09-28",
+    "engine": "Yandex",
+    "visits": 21
+   },
+   {
+    "week": "2026-09-28",
+    "engine": "Google",
+    "visits": 18
+   },
+   {
+    "week": "2026-10-05",
+    "engine": "Yandex",
+    "visits": 39
+   },
+   {
+    "week": "2026-10-05",
+    "engine": "Google",
+    "visits": 29
+   },
+   {
+    "week": "2026-10-12",
+    "engine": "Yandex",
+    "visits": 39
+   },
+   {
+    "week": "2026-10-12",
+    "engine": "Google",
+    "visits": 11
+   }
+  ],
+  "phrases": [
+   {
+    "phrase": "золото камчатки иркутск",
+    "engine": "Yandex",
+    "visits": 8,
+    "bounce": 12.5
+   },
+   {
+    "phrase": "золото камчатки волжская тц кедр",
+    "engine": "Yandex",
+    "visits": 4,
+    "bounce": 0
+   },
+   {
+    "phrase": "дары камчатки иркутск",
+    "engine": "Yandex",
+    "visits": 3,
+    "bounce": 66.66666667
+   },
+   {
+    "phrase": "купить красную икру в иркутске",
+    "engine": "Yandex",
+    "visits": 3,
+    "bounce": 0
+   },
+   {
+    "phrase": "золото камчатки официальный сайт",
+    "engine": "Yandex",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутск дворец спорта труд продажа камчатской рыбы",
+    "engine": "Yandex",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "phrase": "2 гис дары камчатки иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "Золото Камчатки Волжская ул., 3 Цены",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "Золото камчатки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "Как проверить настоящая ли икра красная в домашних условиях",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "Красная икра в Иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "Ярмарка рыбы в иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "ассортимент и цены на рыбную продукцию в магазинах др камчатки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "где в иркутске купить настоящую красную икру с камчатки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "гост 18173-2004 настоящая ли икра красная",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "дары камчатки в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "дары камчатки иркутск  адреса",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "дары камчатки официальный сайт иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "доставка икры в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "золото камчатки икра",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "золото камчатки иркутск прайс-лист",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "из 1 кг. масляной рыбы сколько нарезки на стол",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икорный магазин в иркутске адреса",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "икра 38 иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра в кипятке не мутнеет и не белеет",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра горьковатая в банке почему?",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра иркутск купить",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра камчатки сайт",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра кедр на волжской",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра кеты в иркутске цена",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "икра кеты горчит что делать",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра киты золото камчатки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра красная почему горчит",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "икра лососевая горчит почему",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра лососевая цена за 1 кг иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра нерки горчит это нормально",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "имитация красной икры как отличить от настоящей",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутск волжская улица 3 золото камчатки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутск ленина 48 есть ли камчатская рыба",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутск рыба камчатки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутск стадион труд распродажа икры",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутск ярмарка икры",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутск ярмарка камчатской рыбы адрес 21 сентября",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутские телеграм каналы онлайн рыбные магазины",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как нарезать белую и краснуб рыбу",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "как нарезать масляную рыбу тонко на стол",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как отличить икру кеты оригинал или исскуственная",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как проверить икру красную в домашних условиях",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как проверить красную икру в кипятке",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как проверить красную икру на подлинность в домашних условиях в кипятке",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "какую икру обычно покупают на новый год",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "какую порцию кладут на стол красноц икры",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "камчатка 38 иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "камчатка рыбный магазин в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "камчатская рыба оптом и в розницу в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "кедр иркутск рыба",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "кета холодного копчения купить в иркутской области цена",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "красная икра иркутск купить",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "красная икра купить иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "креветки в Иркутске разновидности",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "купили икру кеты она мелкая, и внутри нет жидкости",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "купить брюшки семги в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "купить икру красную в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "купить креветки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "купить рыбу копченую в Иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "куплю капчоную семгу в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "лопается ли искусственная икра на языке",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "магазин богатство камчатки иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "магазин золото ккмчатки иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "магазин комчатка иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "на мелком море продается икра: она натуральная?",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "отличить красную икру от подделки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "охотская икра",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "почему горчит красная икра",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "почему икра красная горчит",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "прайс-лист магазин богатство камчатки в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "продают ли свежий улов красной икры в октябре 2026 в иркутске или она будет позже",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыба камчатки магазин хомутово",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыба с камчатки иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыбная нарезка из трех рыб",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыбные магазины в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыбный магазин шелехов",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыбокомбинат вострецова купить продукцию",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "сайты рыбных магазинов иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "сколько купить рыбы на три тарелки нарезки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "сколько на человека идет рыбная нарезка в ресторане",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "цены Икра красная лососевая вируктск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "шкурка красной икры жуётся",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "ярмарка икры рыбы в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "ярмарка красной икры в иркутске?",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   }
+  ],
+  "landings": [
+   {
+    "page": "/",
+    "visits": 100,
+    "bounce": 10
+   },
+   {
+    "page": "/blog/kak-otlichit-nastoyashchuyu-ikru/",
+    "visits": 14,
+    "bounce": 14.28571429
+   },
+   {
+    "page": "/ikra/",
+    "visits": 12,
+    "bounce": 8.33333333
+   },
+   {
+    "page": "/blog/pochemu-gorchit-ikra/",
+    "visits": 8,
+    "bounce": 37.5
+   },
+   {
+    "page": "/tseny/",
+    "visits": 7,
+    "bounce": 28.57142857
+   },
+   {
+    "page": "/blog/kak-krasivo-narezat-rybu/",
+    "visits": 6,
+    "bounce": 16.66666667
+   },
+   {
+    "page": "/opt/",
+    "visits": 6,
+    "bounce": 0
+   },
+   {
+    "page": "/zamorozka/",
+    "visits": 6,
+    "bounce": 16.66666667
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "visits": 4,
+    "bounce": 50
+   },
+   {
+    "page": "/ikra/ikra-kety-kamchatka/",
+    "visits": 3,
+    "bounce": 33.33333333
+   },
+   {
+    "page": "/moreprodukty/",
+    "visits": 3,
+    "bounce": 33.33333333
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/",
+    "visits": 3,
+    "bounce": 33.33333333
+   },
+   {
+    "page": "/dostavka/shelekhov/",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "page": "/o-magazine/",
+    "visits": 2,
+    "bounce": 50
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/bryushki-semgi-hk/",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "page": "/ryba/slabosolenaya/tunets-ss/",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "page": "/svezhaya-ikra/",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "page": "/blog/",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "page": "/blog/ikra-k-novomu-godu/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/blog/skolko-ikry-na-stol/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/dostavka/baykalskiy-trakt/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/ikra/ikra-kety-okhotsk/",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "page": "/kontakty/",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "page": "/moreprodukty/chuka/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/ryba/slabosolenaya/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/ryba/slabosolenaya/file-nerki/",
+    "visits": 1,
+    "bounce": 0
+   }
+  ],
+  "goals": [
+   {
+    "name": "Ecommerce: покупка",
+    "total": 0,
+    "organic": 0
+   },
+   {
+    "name": "Клик по телефону",
+    "total": 10,
+    "organic": 5
+   },
+   {
+    "name": "Клик по Telegram",
+    "total": 3,
+    "organic": 1
+   },
+   {
+    "name": "Клик в MAX",
+    "total": 6,
+    "organic": 3
+   },
+   {
+    "name": "Отправлена заявка",
+    "total": 1,
+    "organic": 0
+   },
+   {
+    "name": "Клик по картам",
+    "total": 0,
+    "organic": 0
+   },
+   {
+    "name": "Оптовое обращение",
+    "total": 2,
+    "organic": 2
+   },
+   {
+    "name": "Ecommerce: добавление в корзину",
+    "total": 6,
+    "organic": 3
+   }
+  ]
+ },
  "errors": {
-  "yandex": "через прокси: forbidden (напрямую: fetch failed; токен 55 симв., отпечаток 12173866)",
-  "metrika": "/stat/v1/data: Access Denied"
+  "yandex": "через прокси: curl: Connection timed out after 25002 milliseconds (напрямую: fetch failed; токен 55 симв., отпечаток 32e2339e)"
  }
 }
