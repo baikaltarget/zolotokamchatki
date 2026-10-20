@@ -32,6 +32,13 @@ export const catPath = (slug: string) => slash(cat(slug).path);
 export const productPath = (p: Product) => `${catPath(p.category)}${p.slug}/`;
 export const productTitle = (p: Product) => p.seoName ?? p.name;
 export const fmt = (n: number) => n.toLocaleString("ru-RU").replace(/ /g, " ");
+/** Какую цену показывать крупно: у икры — фасовку 250 г (цена за кг мелко рядом), у остального — цену за единицу */
+export const showPrice = (p: Product): { value: number; unit: string; note?: string } | null => {
+  const t = p.category === "ikra" && p.price && p.tiers?.find(([l]) => l === "250 г");
+  if (t) return { value: t[1], unit: "250 г", note: `${fmt(p.price as number)} ₽/кг` };
+  return p.price ? { value: p.price, unit: p.unit } : null;
+};
+export const noPriceLabel = (p: Product) => (p.preorder ? "под заказ" : "по тел.");
 export const priceLabel = (p: Product) => (p.price ? `${fmt(p.price)} ₽` : "по телефону");
 /** Домен в punycode: кириллицу в robots.txt, sitemap и canonical роботы читают некорректно */
 export const SITE_URL = (() => {

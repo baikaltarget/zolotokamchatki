@@ -1,4 +1,5 @@
 import Link from "next/link";
+import DarkPrice from "@/components/DarkPrice";
 import { meta } from "@/lib/seo";
 import { categories, byCat, productPath, fmt, BRAND } from "@/lib/site";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -18,7 +19,7 @@ export default function Page() {
               {byCat(c.slug).map((p) => (
                 <tr key={p.slug} className="border-b border-ivory/10 last:border-0">
                   <td className="py-2 pr-3"><Link href={productPath(p)} className="tag-name hover:text-gold2">{p.name}</Link>{p.origin && <span className="ml-2 text-[10px] text-gold tracking-widest uppercase">{p.origin}</span>}</td>
-                  <td className="py-2 text-right whitespace-nowrap font-display">{p.todo ? <Todo k={p.todo} className="inline-block"><span className="text-caviar text-lg">{p.price ? fmt(p.price) + " ₽" : "по тел."}</span></Todo> : <span className="text-caviar text-lg">{p.price ? fmt(p.price) + " ₽" : "по тел."}</span>}<span className="text-ivory/50 text-xs uppercase ml-1">{p.price ? `/ ${p.unit}` : ""}</span></td>
+                  <td className="py-2 text-right whitespace-nowrap font-display">{p.todo ? <Todo k={p.todo} className="inline-block"><DarkPrice p={p} className="text-lg" /></Todo> : <DarkPrice p={p} className="text-lg" />}</td>
                 </tr>
               ))}
             </tbody></table>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { SITE_URL, BRAND, abs, fmt, productPath, productTitle, type Product } from "./site";
+import { SITE_URL, BRAND, abs, fmt, productPath, productTitle, showPrice, type Product } from "./site";
 
 export function meta(o: { title: string; description: string; path: string; image?: string; type?: "website" | "article"; noindex?: boolean }): Metadata {
   const url = abs(o.path);
@@ -34,11 +34,12 @@ export const faqLd = (faq: { q: string; a: string }[]) => ({
 
 /** Единый шаблон title/description для карточки товара */
 export function productMeta(p: Product): Metadata {
-  const price = p.price ? `, ${fmt(p.price)} ₽ за ${p.unit}` : "";
+  const sp = showPrice(p);
+  const price = sp ? `, ${fmt(sp.value)} ₽ за ${sp.unit}` : "";
   const t = productTitle(p);
   return meta({
     title: p.metaTitle ?? `${t} — купить в Иркутске${price} | Золото Камчатки`,
-    description: p.metaDesc ?? `${t}: ${p.short.replace(/\.$/, "")}. Цена ${p.price ? fmt(p.price) + " ₽ / " + p.unit : "по телефону"}.${p.category === "kholodnoe-kopchenie" ? " Своя коптильня на ольхе, без жидкого дыма." : ""} Магазин в ТЦ «Кедр» (Волжская, 3), можно попробовать перед покупкой, доставка по Иркутску от 2000 ₽.`,
+    description: p.metaDesc ?? `${t}: ${p.short.replace(/\.$/, "")}. Цена ${sp ? fmt(sp.value) + " ₽ / " + sp.unit + (sp.note ? ` (${sp.note})` : "") : p.preorder ? "под заказ" : "по телефону"}.${p.category === "kholodnoe-kopchenie" ? " Своя коптильня на ольхе, без жидкого дыма." : ""} Магазин в ТЦ «Кедр» (Волжская, 3), можно попробовать перед покупкой, доставка по Иркутску от 2000 ₽.`,
     path: productPath(p), image: p.image, noindex: p.noindex,
   });
 }
