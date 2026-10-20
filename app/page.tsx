@@ -3,6 +3,7 @@ import Link from "next/link";
 import { meta } from "@/lib/seo";
 import { BRAND, SITE, byCat, categories, products, zonePages } from "@/lib/site";
 import Vitrina from "@/components/Vitrina";
+import DarkPrice from "@/components/DarkPrice";
 import { getPosts } from "@/lib/blog";
 import ProductCard from "@/components/ProductCard";
 import Faq from "@/components/Faq";
@@ -44,7 +45,7 @@ export default function Home() {
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink via-ink/70 to-transparent p-4 sm:p-6">
                 <ul className="divide-y divide-ivory/15">
                   {ikra.slice(0, 4).map((p) => (
-                    <li key={p.slug}><Link href={`/ikra/${p.slug}/`} className="flex items-baseline justify-between py-2 hover:text-gold2"><span className="tag-name text-lg">{p.name}</span><span className="font-display text-caviar text-xl whitespace-nowrap">{p.price ? `${p.price.toLocaleString("ru-RU")} ₽` : "по тел."}<span className="text-ivory/50 text-xs uppercase ml-1">/ {p.unit}</span></span></Link></li>
+                    <li key={p.slug}><Link href={`/ikra/${p.slug}/`} className="flex items-baseline justify-between py-2 hover:text-gold2"><span className="tag-name text-lg">{p.name}</span><DarkPrice p={p} className="text-xl" /></Link></li>
                   ))}
                 </ul>
                 <Link href="/ikra/" className="mt-2 inline-block text-sm text-gold2">Красная икра в Иркутске: все виды и цены за 250 и 500 г →</Link>
