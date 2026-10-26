@@ -64,7 +64,9 @@ async function yandex() {
       return j;
     };
     const { user_id } = await api("/user");
-    const host = ((await api(`/user/${user_id}/hosts`)).hosts || []).find(isOurs);
+    // несколько версий сайта (http/https, зеркала) — берём главное зеркало: подтверждённое, не зеркало, https
+    const score = (h) => (h.verified ? 4 : 0) + (h.main_mirror ? 0 : 2) + (String(h.host_id).startsWith("https:") ? 1 : 0);
+    const host = ((await api(`/user/${user_id}/hosts`)).hosts || []).filter(isOurs).sort((a, b) => score(b) - score(a))[0];
     if (!host) throw new Error(`среди сайтов аккаунта нет ${UNICODE}`);
     const ind = "query_indicator=TOTAL_SHOWS&query_indicator=TOTAL_CLICKS&query_indicator=AVG_SHOW_POSITION";
     const pop = await api(`/user/${user_id}/hosts/${host.host_id}/search-queries/popular?order_by=TOTAL_SHOWS&${ind}&limit=500&date_from=${iso(start)}&date_to=${iso(end)}`);
@@ -77,7 +79,7 @@ async function yandex() {
     const j = await r.json();
     if (j.error) throw new Error(`через прокси: ${j.error}`);
     if (!String(j.host || "").includes(UNICODE) && !String(j.host || "").includes(PUNY)) throw new Error(`прокси вернул другой сайт (${j.host}) — обновите yandex-report.php на tourfishing.ru`);
-    return { host: j.host, queries: j.queries || [], summary: j.summary };
+    return { host: j.host, hostId: j.host_id, candidates: j.candidates, queries: j.queries || [], summary: j.summary };
   };
   try { return await direct(); } catch (e) {
     warn("Вебмастер напрямую", e.message);
@@ -145,6 +147,7 @@ const section = (name, src, oldSrc) => {
   md.push(`Показов: **${imp}**, кликов: **${cl}**, CTR: ${imp ? ((cl / imp) * 100).toFixed(1) : 0} %, запросов: ${q.length}.`);
   if (oldSrc) { const oi = oldSrc.queries.reduce((s, r) => s + r.impressions, 0), oc = oldSrc.queries.reduce((s, r) => s + r.clicks, 0); md.push(`Прошлое снятие: ${oi} показов, ${oc} кликов.`); }
   if (src.summary) md.push(`Сводка Вебмастера: ${JSON.stringify(src.summary).slice(0, 400)}`);
+  if (src.hostId) md.push(`Хост: ${src.hostId}${src.candidates ? ` (версии сайта в аккаунте: ${src.candidates.join(", ")})` : ""}`);
   const om = mapOf(oldSrc?.queries);
   md.push(``, `### Топ-40 по показам`, ``, table([...q].sort((a, b) => b.impressions - a.impressions).slice(0, 40), om));
   md.push(``, `### Позиции 5–15 (≥ 5 показов) — ближе всего к топу`, ``, table(q.filter((r) => r.position >= 5 && r.position <= 15 && r.impressions >= 5).sort((a, b) => b.impressions - a.impressions).slice(0, 30), om));
