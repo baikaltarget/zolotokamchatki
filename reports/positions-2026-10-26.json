@@ -1988,12 +1988,3013 @@
   ]
  },
  "yandex": {
-  "host": "http://золото-камчатки.рф/",
-  "queries": [],
+  "host": "https://золото-камчатки.рф/",
+  "queries": [
+   {
+    "query": "что делать если красная икра горчит",
+    "impressions": 54,
+    "clicks": 0,
+    "position": 9.25925925925926
+   },
+   {
+    "query": "как проверить красную икру",
+    "impressions": 46,
+    "clicks": 0,
+    "position": 8.978260869565217
+   },
+   {
+    "query": "как проверить красную икру в домашних условиях",
+    "impressions": 32,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "как проверить красную икру в домашних условиях кипятке",
+    "impressions": 24,
+    "clicks": 0,
+    "position": 8.666666666666666
+   },
+   {
+    "query": "как проверить икру красную в домашних условиях",
+    "impressions": 24,
+    "clicks": 0,
+    "position": 9.416666666666666
+   },
+   {
+    "query": "гост 18173-2004 настоящая ли икра красная",
+    "impressions": 22,
+    "clicks": 0,
+    "position": 9.181818181818182
+   },
+   {
+    "query": "дары камчатки иркутск",
+    "impressions": 20,
+    "clicks": 0,
+    "position": 7.35
+   },
+   {
+    "query": "где купить красную копченую рыбу в иркутске",
+    "impressions": 19,
+    "clicks": 0,
+    "position": 9.736842105263158
+   },
+   {
+    "query": "почему красная икра горчит",
+    "impressions": 17,
+    "clicks": 0,
+    "position": 9.647058823529411
+   },
+   {
+    "query": "купить красную икру в иркутске",
+    "impressions": 16,
+    "clicks": 8,
+    "position": 8.5
+   },
+   {
+    "query": "как проверить икру",
+    "impressions": 16,
+    "clicks": 0,
+    "position": 9.8125
+   },
+   {
+    "query": "как отличить икру от имитации",
+    "impressions": 14,
+    "clicks": 0,
+    "position": 7.785714285714286
+   },
+   {
+    "query": "как проверить икру красную кипятком",
+    "impressions": 13,
+    "clicks": 0,
+    "position": 7.153846153846154
+   },
+   {
+    "query": "икра красная иркутск",
+    "impressions": 13,
+    "clicks": 0,
+    "position": 8.153846153846153
+   },
+   {
+    "query": "как отличить красную икру от подделки",
+    "impressions": 12,
+    "clicks": 0,
+    "position": 7.666666666666667
+   },
+   {
+    "query": "как отличить имитированную икру от настоящей красную",
+    "impressions": 12,
+    "clicks": 0,
+    "position": 9.666666666666666
+   },
+   {
+    "query": "красная икра горчит как исправить",
+    "impressions": 12,
+    "clicks": 1,
+    "position": 7.916666666666667
+   },
+   {
+    "query": "почему горчит икра горбуши",
+    "impressions": 11,
+    "clicks": 0,
+    "position": 6.2727272727272725
+   },
+   {
+    "query": "золото камчатки иркутск",
+    "impressions": 11,
+    "clicks": 5,
+    "position": 1.6363636363636365
+   },
+   {
+    "query": "почему икра горчит красная",
+    "impressions": 11,
+    "clicks": 0,
+    "position": 8.909090909090908
+   },
+   {
+    "query": "как проверить икру в кипятке",
+    "impressions": 11,
+    "clicks": 0,
+    "position": 8.545454545454545
+   },
+   {
+    "query": "красная икра горчит почему",
+    "impressions": 11,
+    "clicks": 0,
+    "position": 8.181818181818182
+   },
+   {
+    "query": "под каким углом нарезают рыбу",
+    "impressions": 10,
+    "clicks": 4,
+    "position": 5.2
+   },
+   {
+    "query": "как убрать горечь из красной икры",
+    "impressions": 10,
+    "clicks": 0,
+    "position": 7.2
+   },
+   {
+    "query": "как проверить красную икру кипятком",
+    "impressions": 10,
+    "clicks": 0,
+    "position": 8.9
+   },
+   {
+    "query": "почему икра горчит",
+    "impressions": 10,
+    "clicks": 0,
+    "position": 9.5
+   },
+   {
+    "query": "красная икра горчит почему и что делать",
+    "impressions": 10,
+    "clicks": 0,
+    "position": 8.1
+   },
+   {
+    "query": "как отличить настоящую красную икру от имитированной",
+    "impressions": 10,
+    "clicks": 0,
+    "position": 9.3
+   },
+   {
+    "query": "как проверить подлинность красной икры",
+    "impressions": 9,
+    "clicks": 0,
+    "position": 9.88888888888889
+   },
+   {
+    "query": "как проверить икру красную",
+    "impressions": 9,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "почему горчит красная икра",
+    "impressions": 9,
+    "clicks": 1,
+    "position": 8.222222222222221
+   },
+   {
+    "query": "как проверить настоящую икру красную",
+    "impressions": 8,
+    "clicks": 1,
+    "position": 7.5
+   },
+   {
+    "query": "икра горчит красная почему и что делать",
+    "impressions": 8,
+    "clicks": 1,
+    "position": 8.875
+   },
+   {
+    "query": "почему красная икра горчит и что делать",
+    "impressions": 8,
+    "clicks": 1,
+    "position": 7.375
+   },
+   {
+    "query": "как отличить красную икру от подделки в домашних",
+    "impressions": 8,
+    "clicks": 0,
+    "position": 8.625
+   },
+   {
+    "query": "как проверить икру кеты на подлинность",
+    "impressions": 7,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "рыбная нарезка",
+    "impressions": 7,
+    "clicks": 0,
+    "position": 11.142857142857142
+   },
+   {
+    "query": "сколько стоит красная икра в иркутске",
+    "impressions": 7,
+    "clicks": 0,
+    "position": 8.428571428571429
+   },
+   {
+    "query": "рыбный магазин иркутск",
+    "impressions": 7,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "красная икра пахнет сероводородом",
+    "impressions": 6,
+    "clicks": 0,
+    "position": 4
+   },
+   {
+    "query": "как проверить икру кипятком",
+    "impressions": 6,
+    "clicks": 0,
+    "position": 7.166666666666667
+   },
+   {
+    "query": "как проверить икру красную в домашних условиях натуральная или нет",
+    "impressions": 6,
+    "clicks": 0,
+    "position": 9.166666666666666
+   },
+   {
+    "query": "рыбная нарезка на праздничный стол",
+    "impressions": 6,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "икра в иркутске",
+    "impressions": 6,
+    "clicks": 2,
+    "position": 12.166666666666666
+   },
+   {
+    "query": "икра нерки горчит это нормально",
+    "impressions": 6,
+    "clicks": 2,
+    "position": 5.666666666666667
+   },
+   {
+    "query": "как проверить икру в воде красную на подлинность",
+    "impressions": 6,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "икра красная в иркутске купить цена",
+    "impressions": 6,
+    "clicks": 0,
+    "position": 10.666666666666666
+   },
+   {
+    "query": "почему икра горчит после засолки",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 9.2
+   },
+   {
+    "query": "проверка красной икры кипятком",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "как проверить красную икру на подлинность",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 8.8
+   },
+   {
+    "query": "икра горчит красная почему",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 9.8
+   },
+   {
+    "query": "как определить подлинность красной икры",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "если икра горчит что значит красная",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 8.4
+   },
+   {
+    "query": "как отличить икру красную натуральную от подделки",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "почему красная икра горькая",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 7.6
+   },
+   {
+    "query": "проверить красную икру в кипятке",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 7.2
+   },
+   {
+    "query": "икра иркутск",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 10.8
+   },
+   {
+    "query": "как проверить икру в воде красную",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 8.6
+   },
+   {
+    "query": "сколько можно хранить икру без холодильника",
+    "impressions": 5,
+    "clicks": 1,
+    "position": 6.2
+   },
+   {
+    "query": "как узнать настоящая ли икра красная",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 9.8
+   },
+   {
+    "query": "рыбная тарелка на праздничный стол оформление фото",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "как проверить настоящая красная икра или нет",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 7.8
+   },
+   {
+    "query": "как проверить красную икру в кипятке",
+    "impressions": 5,
+    "clicks": 0,
+    "position": 7.4
+   },
+   {
+    "query": "что входит в рыбную тарелку",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 11.75
+   },
+   {
+    "query": "икра горькая красная почему",
+    "impressions": 4,
+    "clicks": 1,
+    "position": 10.25
+   },
+   {
+    "query": "рыбная нарезка на праздничный стол оформление в домашних условиях фото",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 10.5
+   },
+   {
+    "query": "икра красная в иркутске купить",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 11.25
+   },
+   {
+    "query": "как проверить красную икру в воде",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "рыбная тарелка на праздничный стол как рассчитать",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 3.75
+   },
+   {
+    "query": "как отличить икру красную натуральную от имитированной",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 9.25
+   },
+   {
+    "query": "рыбные магазины в иркутске",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "красная рыба свежая цена в иркутске",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "икра нерки горчит причины",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 3.75
+   },
+   {
+    "query": "икра нерки горчит",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 6.25
+   },
+   {
+    "query": "как проверить икру красную в воде",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 6.5
+   },
+   {
+    "query": "иркутск дворец спорта труд ярмарка камчатской рыбы",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 3.75
+   },
+   {
+    "query": "рыбные магазины иркутск",
+    "impressions": 4,
+    "clicks": 1,
+    "position": 8.75
+   },
+   {
+    "query": "горчит красная икра",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 6.5
+   },
+   {
+    "query": "какую икру выбрать на новый год",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 9.5
+   },
+   {
+    "query": "рыбная нарезка на праздничный стол из каких рыб",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 10.25
+   },
+   {
+    "query": "иркутск икра красная",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "рыбная тарелка оформление",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 13.25
+   },
+   {
+    "query": "если красная икра горчит что это значит",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 8.75
+   },
+   {
+    "query": "красная икра иркутск купить",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 9.75
+   },
+   {
+    "query": "как проверить икра красная настоящая",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "почему икра нерки горчит",
+    "impressions": 4,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "красная икра подделка",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 10.666666666666666
+   },
+   {
+    "query": "икра оптом и в розницу interfoodgroup",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 10.666666666666666
+   },
+   {
+    "query": "как красиво нарезать форель на стол",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 8.333333333333334
+   },
+   {
+    "query": "как отличить поддельную икру от настоящей",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 10.666666666666666
+   },
+   {
+    "query": "проверить икру кипятком",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 8.666666666666666
+   },
+   {
+    "query": "как убрать горечь из икры",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "как проверить икру красную в кипятке",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 8.666666666666666
+   },
+   {
+    "query": "как убрать легкую горечь в красной икре",
+    "impressions": 3,
+    "clicks": 1,
+    "position": 6.333333333333333
+   },
+   {
+    "query": "как нарезать рыбу красиво на стол красную",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 12.333333333333334
+   },
+   {
+    "query": "рыбная нарезка в ресторане",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 10.666666666666666
+   },
+   {
+    "query": "как нарезать рыбу холодного копчения в домашних условиях красиво",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "чем убрать горечь в икре",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "как проверить красную икру в домашних условиях натуральная или нет",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 8.666666666666666
+   },
+   {
+    "query": "купить икру иркутск",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 6.666666666666667
+   },
+   {
+    "query": "как отличить натуральную икру от имитации красную",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 10.333333333333334
+   },
+   {
+    "query": "если красную икру залить кипятком что будет",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 8.666666666666666
+   },
+   {
+    "query": "сколько грамм икры в тарталетке",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 3.6666666666666665
+   },
+   {
+    "query": "почему кета горчит",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 5.666666666666667
+   },
+   {
+    "query": "как проверить красную икру кета",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 4.333333333333333
+   },
+   {
+    "query": "как проверить красную икру на качество в домашних условиях",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 8.666666666666666
+   },
+   {
+    "query": "сколько грамм икры на 1 бутерброд",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 4.333333333333333
+   },
+   {
+    "query": "рыбная тарелка",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "что сделать если икра гор чит",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "икра красная в иркутске купить цена за 1 кг",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 9.666666666666666
+   },
+   {
+    "query": "золото камчатки волжская ул., 3 цены",
+    "impressions": 3,
+    "clicks": 1,
+    "position": 1.3333333333333333
+   },
+   {
+    "query": "если вкус красной икры горький,почему",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 8.333333333333334
+   },
+   {
+    "query": "золото камчатки икра",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 5.333333333333333
+   },
+   {
+    "query": "икра кеты как отличить от подделки",
+    "impressions": 3,
+    "clicks": 1,
+    "position": 9.666666666666666
+   },
+   {
+    "query": "если икра горчит что значит",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 9.666666666666666
+   },
+   {
+    "query": "почему ягоды игры горчат",
+    "impressions": 3,
+    "clicks": 0,
+    "position": 4.666666666666667
+   },
+   {
+    "query": "сколько стоит 1 кг корюшки в иркутске сегодня",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7.5
+   },
+   {
+    "query": "можно заморозить красную икру в стеклянной банке на 3 месяца?",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "как собрать рыбную тарелку из 4 видов рыбы фото и граммовки",
+    "impressions": 2,
+    "clicks": 2,
+    "position": 2
+   },
+   {
+    "query": "почему горчит красная икра горбуши и что делать",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "должна ли икра растворятся в горячей воде",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7.5
+   },
+   {
+    "query": "как понять что икра красная настоящая",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10.5
+   },
+   {
+    "query": "есть ли смысл покупать красную икру в начале октября 2026 или она подешевеет",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 5.5
+   },
+   {
+    "query": "сколько в иркутске стоит икра минтая",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "как красиво выложить красную рыбу на тарелку",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "как отличить икру кеты оригинал или искусственная",
+    "impressions": 2,
+    "clicks": 2,
+    "position": 2
+   },
+   {
+    "query": "как убрать горечь с красной икры соленой",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9.5
+   },
+   {
+    "query": "как красиво и тонко нарезать рыбу",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "как отличить икру кеты от подделки",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 4.5
+   },
+   {
+    "query": "сколько надо рыбной нарезки на 17 человек",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10.5
+   },
+   {
+    "query": "как правильно нарезать рыбу на праздничный стол",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "золото камчатки ирк",
+    "impressions": 2,
+    "clicks": 1,
+    "position": 1.5
+   },
+   {
+    "query": "как проверить икру в воде",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "реклама икра рыба камчатки она какая имитированная или натуральная",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9.5
+   },
+   {
+    "query": "почему икра красная горчит",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "если икра горчит что делать",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "рыбная тарелка способ укладки красной рыбы",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9.5
+   },
+   {
+    "query": "как убрать горечь с рыбьей икры",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "рыбный магазин в иркутске",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7.5
+   },
+   {
+    "query": "сколько стоит килограмм красной икры в иркутской области",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "должна ли красная икра горчить",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9.5
+   },
+   {
+    "query": "как правильно нарезать рыбу на праздничный",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10.5
+   },
+   {
+    "query": "икра кеты иркутск",
+    "impressions": 2,
+    "clicks": 1,
+    "position": 15
+   },
+   {
+    "query": "красная икра в иркутске",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7.5
+   },
+   {
+    "query": "почему икра щекура горчит",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "дорого ли икру купить за 250 г 3000 на западе",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "как приготовить нерку в духовке а пергаменте",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 5.5
+   },
+   {
+    "query": "как спасти икру если горяит",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "почему икра нерки горькая",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 6.5
+   },
+   {
+    "query": "образец этикетки на икру кеты выработанную из мороженного сырья",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "золото камчатки",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "как проверить красную икру настоящая или нет",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7.5
+   },
+   {
+    "query": "рыба с камчатки иркутск",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "икра нерки горчит?",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "горькие икринки в красной икре",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "цена филе кеты иркутск онлайн",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 11.5
+   },
+   {
+    "query": "нерка после ыорели кажется аонючей росему",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 5.5
+   },
+   {
+    "query": "окисление жира в нерке и горький вкус",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 3
+   },
+   {
+    "query": "почему икра морсеого нда гряит",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "как проверить подлинность икры красной в домашних",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "икра полупрозрачная",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "красная икра нерки горчит",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 4.5
+   },
+   {
+    "query": "есть ли в иркутске магазин местной рыбы и где",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 11.5
+   },
+   {
+    "query": "как и чем тонко нарезать рыбу пластами",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "икра кеты пахнет лекарством",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 6.5
+   },
+   {
+    "query": "горькие икринки",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9.5
+   },
+   {
+    "query": "икра красная шелехов",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "как отличить настоящую икру от поддельной",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9.5
+   },
+   {
+    "query": "граммовка рыбы на тарелку 25 диаметр на 30 человек 4 вида",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "если красная икра горчит",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "почему у рыбы может быть горькая икра",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "красная икра иркутск",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "дворец спорта труд есть ли ярмарка камчатской рыбы",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 3
+   },
+   {
+    "query": "дары камчатки братск в сентябре 2026",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "почему горчит гребная икра",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "красная икра почему горчит",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "из чего может состоять рыбная нарезка",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 11.5
+   },
+   {
+    "query": "стоимость икры в иркутске",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 12.5
+   },
+   {
+    "query": "как можно исправить если красная икра горчит",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "икра иркутск магазины",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9.5
+   },
+   {
+    "query": "цены на красную икру в иркутске",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9.5
+   },
+   {
+    "query": "икра красная как проверить в воде",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "дары камчатки иркутск приложение скачать",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "какая икра лопается на языке",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 4.5
+   },
+   {
+    "query": "почему в икре попадаются горькие икринки",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7.5
+   },
+   {
+    "query": "как понять настоящая икра или нет красная",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "как красиво порезать масляную рыбу",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "под каким углом нарезается рыба",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "купить икру в иркутске с камчатки",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "почему нельзя второй раз замораживать красную икру",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "горчит красная икра почему",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 6.5
+   },
+   {
+    "query": "почему горчит икра нерки",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "сколько нужно красной икры на банкет из расчёта 40 человек",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "этикетка икры",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "рыбная тарелка состав",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "как проверить красную икру на подделку в воде",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "как определить натуральную икру красную",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "тарелка рыба и укроп",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "этикетка икры finelabel.ru",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "когда выгодно закупать икру к новому году",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 4
+   },
+   {
+    "query": "как нарезать семгу тонкими ломтиками на стол",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 11.5
+   },
+   {
+    "query": "сколько нужно красной икры на бутерброд",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 4.5
+   },
+   {
+    "query": "иркутск тц кедр рыба",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 5.5
+   },
+   {
+    "query": "рыбная тарелка на праздничный стол состав",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 11.5
+   },
+   {
+    "query": "хек в панировке купить в иркутске",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10.5
+   },
+   {
+    "query": "как правильно резать рыбу для нарезки",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7.5
+   },
+   {
+    "query": "купить икру на авито иркутск",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "как положить на тарелку 3 рыбы, чтобы досталось 9 посетителям",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "если горчит икра что это значит",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "когда на камчатке сбор икры",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 4
+   },
+   {
+    "query": "ловят ли красную икру в иркутске",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 2
+   },
+   {
+    "query": "как отличить имитацию икры кеты",
+    "impressions": 2,
+    "clicks": 1,
+    "position": 4.5
+   },
+   {
+    "query": "икра лососевая имитированная стольная горчит, как убрать горечь",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "красивая рыбная нарезка на праздничный стол в домашних условиях",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "тайский магазин кедр город иркуст байкальская улица",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "как избавиться от привкуса у красной икры",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "как убрать горечь из рыбной икры",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9.5
+   },
+   {
+    "query": "новоленино иркутск рыбный магазин",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10.5
+   },
+   {
+    "query": "купить икру красную в иркутске",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "рыбная нарезка на праздничный стол фото",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "почему икра может горчить",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "как украсить тарелку с красной рыбой",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "икра красная почему горчит",
+    "impressions": 2,
+    "clicks": 1,
+    "position": 7
+   },
+   {
+    "query": "можно ли хранить красную икру в стекөянной банке при температуре 0 градусов 3 месяца",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "сколько уходит гр икры на багет",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 6.5
+   },
+   {
+    "query": "можно ли убрать горечь с икры кеты",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "как отличить натуральную икру кеты от искусственной",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "как отличить подделку красной икры",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "икра красная в прозрачной банке она может горчить",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10.5
+   },
+   {
+    "query": "сколько стоит кг красной икры в иркутске в 2026г",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 6.5
+   },
+   {
+    "query": "почему попадают горькие икринки в красной икре",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7.5
+   },
+   {
+    "query": "почему красная икра с горчинкой",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 11.5
+   },
+   {
+    "query": "расчет нарезки рыбы соленой на человека",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7.5
+   },
+   {
+    "query": "грлова рыбы на тарелке",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 6.5
+   },
+   {
+    "query": "купить икру в иркутске",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "рыбная тарелка на праздничный стол оформление",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "где находится магазин дары камчатки в союзе иркутск",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 6.5
+   },
+   {
+    "query": "сколько бутербродов можно сделать из одной банки икры",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "как отличить имитацию красной икры от натуральной",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "как собрать для праздничного стола тарелку с морскими деликатесами",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 6.5
+   },
+   {
+    "query": "почему икра горбуши горчит она простояла 3 4 дня в банке с тобой",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "цена рыбы нерка малосольная иркутск",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "почему икра горчит красная лососевая",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10.5
+   },
+   {
+    "query": "рыбная нарезка фото",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10.5
+   },
+   {
+    "query": "из-за чего горчит икра красная",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "икра красная кеты цена за 1 кг в иркутске",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "фото рыбной нарезки на праздничный стол",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9.5
+   },
+   {
+    "query": "если икра стояла 10 часов без холодильника",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9.5
+   },
+   {
+    "query": "купили горькую красную икру как ее исправить чтобы она стала нормальной",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9.5
+   },
+   {
+    "query": "как проверить икру кеты",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "магазин дары камчатки на советской иркутск адрес и фото",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7.5
+   },
+   {
+    "query": "где в иркутске можно купить соленый омуль",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10.5
+   },
+   {
+    "query": "как убрать горечь с икры сушеной рыба",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7.5
+   },
+   {
+    "query": "как икру проверить настоящая она или нет",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "сколько стоит красная икра в магазине океан город иркутск",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "какая икра кеты лучше камчатская или охотская",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "способы проверить красную икру",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "красная икра в банке горчит промыть",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "почему может горчить икра",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "горчит икра красная почему",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "как проверить красную икру?",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10.5
+   },
+   {
+    "query": "есть ли красная икра в иркутске",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10.5
+   },
+   {
+    "query": "иркутск авито купить икру",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "стоимость красной икры на рынке алтынка город иркутск",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "если икра кеты горчит она испорчена",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "стоимость красной икры в иркутске",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "почему красная рыба горчит",
+    "impressions": 2,
+    "clicks": 1,
+    "position": 5
+   },
+   {
+    "query": "иза чего когда разделал рыбу красную с икрой желчи не было а икра горчит причины",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 3
+   },
+   {
+    "query": "красивая нарезка рыбы на праздничный стол ассорти",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10.5
+   },
+   {
+    "query": "филе из 4 видов рыб",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 4.5
+   },
+   {
+    "query": "почему икра горькая красная на вкус",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 8.5
+   },
+   {
+    "query": "как отличить восстановленную икру от синтетической",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "кедр волжская ул., 3, иркутск фото",
+    "impressions": 2,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "красная икра горчит как исправить в домашних условиях",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "волжская 3 кедр в иркутскаэйван",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "как порезать слабосоленую семгу на стол красиво",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "горчит икра нерки почему",
+    "impressions": 1,
+    "clicks": 1,
+    "position": 3
+   },
+   {
+    "query": "как проверить настоящая икра кета или нет",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 4
+   },
+   {
+    "query": "тайский магазин иркутск тц кедр номер телефона",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "варианты рыбной нарезки фото",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "как красиво сделать рыбную нарезку",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "25 грамм черной икры на сколь тарталеток хватит",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "как отличить настоящую икру?",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "икра 50 грамм /это сколько",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 2
+   },
+   {
+    "query": "какую рыбу поставить на стол на праздничный",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "как в домашних условиях проверить красную икру",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "рыбная нарезка с чем",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "как выложить рыбку на тарелку",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "сколько раз можно заморозить икру?",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "сколько икры нужно на 20 стол",
+    "impressions": 1,
+    "clicks": 1,
+    "position": 8
+   },
+   {
+    "query": "как собрать рыбную",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "сколько нужно красной икры на бутерброды на 40 человек",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 4
+   },
+   {
+    "query": "рыба в рыбную тарелку",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "как нарезать форель на стол",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "что дороже кета или нерка как перезагрузить алису",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "почему горчит икра",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "магазин рыбы на александровском тракте",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "цены на красную икру в 2026 осень",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "30 грамм икры это сколько",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "сколько стоит стоит икра кеты и нерки в иркутске",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "как выглядит имитация икры кеты",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "как проверить настоящее икра красная",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "как определить настоящую красную от имитированной",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "заряженная рыбная тарелка",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "красная икра магазин",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "купить икру красную иркутск цена за килограмм",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "каждому покупателю банка красной икры подарок",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "что сделать если икра горчит",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "как проверить икру водой красную",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "рыбная нарезка на новый год",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "темно красные икринки горькие",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "красная икра",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "белая рыба нарезка",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "чем убрать горечь из икры рыбной",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "икра в кипятке растворяется",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "оформление нарезок рыб",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "красная икра проверить на подлинность",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "сколько граммов икры на бутерброд",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 4
+   },
+   {
+    "query": "понимать рыбу за деньги в иркутске",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "кета стоимость за 1 кг",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "нерка в духовке с помидорами рецепт",
+    "impressions": 1,
+    "clicks": 1,
+    "position": 7
+   },
+   {
+    "query": "как отличить прошлогоднюю красную икру ?",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "как нарезать красную рыбу",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "если красная икра стала горьковатой,это значит она испортилась ?",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "ставят ли при сервировке стола в 1 тарелку два вида рыбы - скумбрия копченая и селёдка",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "можно ли есть красную икру если она горчит",
+    "impressions": 1,
+    "clicks": 3,
+    "position": 4
+   },
+   {
+    "query": "из 250 гр красной икры сколько можно сделать бутербродов",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 3
+   },
+   {
+    "query": "рыбное тарелка 1 порция",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "как красиво нарезать на стол рыбу стоит узнать",
+    "impressions": 1,
+    "clicks": 1,
+    "position": 12
+   },
+   {
+    "query": "калиерда иркутск",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "как порезать рыбу на стол красиво красную",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "икра кеты горчит",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "как определить что нерка испорчена",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "оформление рыбной нарезки на праздничный стол фото",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "если икринка на торелочке долго не сохнет значит потделка",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "икра нерки горчит или нет",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "почему белеет икра при кипятке",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "как проверить красную икру на натуральность в холодной воде",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 3
+   },
+   {
+    "query": "виды нарезок. рыбы",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "как проверить настоящая ли красная икра",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "икра красная купить в иркутске",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 14
+   },
+   {
+    "query": "как проверить красную икру настоящая ли",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "цена икры кеты иркутск",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "рыбная тарелка фото",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "куб с икрой 70 кг",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "что кладут в рыбную тарелку",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "горчит ли красная икра",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "горчит нерки владивосток г",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 4
+   },
+   {
+    "query": "как понять настоящая икра кеты или нет",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 4
+   },
+   {
+    "query": "может ли быть лососевая копченая икра горьковатой",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "красная икра иркутск в стекле",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "как проверить красную икру на натуральность в воде в домашних",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "как проверить икру красную в домашних",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "камчатская рыба оптом и в розницу в иркутске",
+    "impressions": 1,
+    "clicks": 1,
+    "position": 6
+   },
+   {
+    "query": "богатство камчатки иркутск каталог с ценами",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "вопрос про мидии sims иркутск",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 2
+   },
+   {
+    "query": "рыбы тарелка виды рыб",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "настоящая икра",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "250 г это сколько икры",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 2
+   },
+   {
+    "query": "брюшки сёмги иркутск",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "когда появляется икра нового улова",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "должна ли огорчить икра нерки",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "как определить настоящая красная икра или нет",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "дорадо свежемороженая купить в иркутске",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "рыбная нарезка как сделать красиво",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "чем пахнет икра кеты",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 3
+   },
+   {
+    "query": "собрать тарелку со скумбрией",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "как убрать горечь из красной икры в домашних условиях",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "кета горчит почему",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "сколько грамм икры в деньку рыбу",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 2
+   },
+   {
+    "query": "почему у соленой красной икры жесткая оболочка и горьчит",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "много перца в икре чем убрать горечь",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "почему красная икра горькая на вкус",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "как резать красную рыбу",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "рыбная тарелка на свадьбу",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "сколько хранится икра при комнатной температуре",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "волжские кальмары",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "можно ли разморозить икру а потом заморозить снова",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "можно ли замораживать икру красную повторно",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "как пожать к столу копченую нерку",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "икорный магазин в иркутске",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "сколько нарезать рыбы скумбрии на тридцать человек",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 4
+   },
+   {
+    "query": "как правильно нарезать кижуч нарезкой",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "как узнать икра красная настоящая или нет",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "как проверить натуральность красной икры в домашних",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "почему горчит икра и рыба у человека",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "красная икра очень горькая почему",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "как расчет количества икры на тарталетки",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "что горчит в красной икре более того",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "сильно ли горчит икра нерки",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "из 1 кг. масляной рыбы сколько нарезки на стол",
+    "impressions": 1,
+    "clicks": 1,
+    "position": 2
+   },
+   {
+    "query": "как вывести горечь из икры муксуна",
+    "impressions": 1,
+    "clicks": 1,
+    "position": 11
+   },
+   {
+    "query": "50 грамм икры красной это сколько бутербродов",
+    "impressions": 1,
+    "clicks": 1,
+    "position": 3
+   },
+   {
+    "query": "как выложить на тарелку красную рыбу",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "380894600489",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "какую икру купить зимой на новый год",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "как нарезать красную рыбу на стол",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "морепрод иркутск",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "как проверить икру красную водой",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "где в иркутске можно купить сырую икру",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "20-25 октября 2026 в иркутске выставка продажа дары камчатки",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "икра может горчить",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "как отличить настоящую икру от имитированной красную",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 18
+   },
+   {
+    "query": "икра кеты горчит что делать",
+    "impressions": 1,
+    "clicks": 1,
+    "position": 6
+   },
+   {
+    "query": "некоторые желтые горькие икринки что это",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "настоящая икра в кипятке",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "сколько можно хранить красную икру в морозилке индустриальная в закрытых банках консервах если 2 - 3 года что будет",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "ск грамм красной икры в чайной ложке",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "почему икра горькая",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "почему горчит нерка",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 3
+   },
+   {
+    "query": "алиса если икра горчит красная это что значит",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "сколько грамм рыбы нужно на тарелку 25см",
+    "impressions": 1,
+    "clicks": 3,
+    "position": 2
+   },
+   {
+    "query": "если икра горькая как спасти",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "как проверить настоящая икра нерки или нет в домашних условиях",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "сколько стоит икра нерки в иркутске за 1 кг",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "как красиво нарезать красную рыбу на праздничный стол",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "мороженое 1 кг",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 40
+   },
+   {
+    "query": "если горчит печень ткры",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "икра горчит нерки",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "магазин богатство камчатки в иркутске каталог",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "почему красная икра иногда попадается горькая rx иваново",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 2
+   },
+   {
+    "query": "баструмаькупиьь",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "почему горчит красная икра нерки",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "как проверить качество красной икры в домашних условиях кипятком",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "игра горбуши не побелела в кипятке",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "как рассчитать сколько нужно на рыбную тарелку рыбы",
+    "impressions": 1,
+    "clicks": 1,
+    "position": 6
+   },
+   {
+    "query": "как правильно оформить рыбную тарелку",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "что означает интенсивная горчинка в икре нерки",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "авито иркутск купить красную икру в иркутске",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "икра кеты как отличить от имитированной",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "цена на красную рыбу в иркутске",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "это нормально, если икра из банки горчит",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 4
+   },
+   {
+    "query": "сколько грамм красной икры на один бутерброд",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "фото праздничная рыбная тарелка",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "икра кеты как отличить от горбуши",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "сколько икры нужно на тарталетки",
+    "impressions": 1,
+    "clicks": 1,
+    "position": 4
+   },
+   {
+    "query": "сколько купить рыбы на три тарелки нарезки",
+    "impressions": 1,
+    "clicks": 1,
+    "position": 2
+   },
+   {
+    "query": "почему мне попалась горькая красная икра на рынке",
+    "impressions": 1,
+    "clicks": 2,
+    "position": 8
+   },
+   {
+    "query": "сибэкспоцентр иркутск камчатская икра цены 2026",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "если икра горчит красная",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "сколькобоция выносит икру",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "настоящая красная икра и подделка отличить оригинал",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "чай убирает горечь у икры",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 4
+   },
+   {
+    "query": "настоящая красная икра",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "филе семги иркутск",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "сколько см нужно нарезать рыбу на стол",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 3
+   },
+   {
+    "query": "чем опасны горькие икринки",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "в красной икре есть горькие икринки, из за чего это",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "как порезать красную рыбу на стол",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "как проверить икра красная",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "сколько хранится икра без холодильника в железной банке",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "икра киты золото камчатский ип соболев",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 1
+   },
+   {
+    "query": "на какой срок можно заморозить красную икру",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "сколько бутербродов с икрой в 200 граммах",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "60шт бутербродов сколько грамм нужно икры",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 2
+   },
+   {
+    "query": "горчица должна ли горчить красная икра",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "красная икра должна горчить",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "как проверить икру настоя",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "икра горчит",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "иркутск золото камчатки",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 1
+   },
+   {
+    "query": "сколько стоит кета в иркутске",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "где купить красную икру в шелехове",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "домашних условиях проверка икры на подлинность красной в режим",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "икра оранжевая мелкая с глазком",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "как определить подлинность икры красной",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "эксперимент что будет если залить восстановленную красную икру кипятком",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "как красиво нарезать копченую форель на стол",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 13
+   },
+   {
+    "query": "как проверить красную икру кеты",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "дары камчатки в челябинске торговый центр ярмарка цены на икру",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 14
+   },
+   {
+    "query": "как нарезать семгу на праздничный стол",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "почему икра горбуши горчит",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "rfr ghjdthbnm rhfcye. brhe",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "сколько способов нарезки рыбы и какие",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 2
+   },
+   {
+    "query": "икра красная цена в иркутске",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "икра красная красное золото как отличить подделку",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "красная икра за 200 рублей настоящая или искусственная 2026 год",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 6
+   },
+   {
+    "query": "мороженое цена за 1 кг",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 43
+   },
+   {
+    "query": "горчинка в красной икре",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "как выложить семгу на тарелку",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 8
+   },
+   {
+    "query": "сколько грамм икры красной в чайной ложке",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "4 вида рыбы на диаметр тарелки 25 фото нарезки",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 3
+   },
+   {
+    "query": "как в домашних условиях определить поддельную икру от настоящей",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "купить рыбу в иркутске",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 21
+   },
+   {
+    "query": "как нарезать красную рыбу кусок 200 грамм",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "паприка молотая цена за 1 кг",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 45
+   },
+   {
+    "query": "как красиво нарезать красную рыбу",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "нарезка рыб соленых",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "сколько граммов икры на мини бутерброд",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 3
+   },
+   {
+    "query": "красивые нарезки рыбы фото",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 7
+   },
+   {
+    "query": "рыбная нарезка и номер",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 5
+   },
+   {
+    "query": "сколько нужно рыбы форель, масляная в граммах на 1 го человека в нарезку",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 1
+   },
+   {
+    "query": "рыбная тарелка на праздничный стол",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "иркутск цена на икру",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 12
+   },
+   {
+    "query": "икра прозрачная с точкой",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "красная икра горькая",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 10
+   },
+   {
+    "query": "научное объяснение почему горькая красная икра",
+    "impressions": 1,
+    "clicks": 1,
+    "position": 5
+   },
+   {
+    "query": "кираиика иркутск",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 3
+   },
+   {
+    "query": "применительно к этому почему красная икра горчит",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 9
+   },
+   {
+    "query": "почему мне кажется в красной икре есть такой противный вкус рыбы хотя нормальная рыба нормальная а икра не очень",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   },
+   {
+    "query": "сколько грамм икры в одной рыбу",
+    "impressions": 1,
+    "clicks": 0,
+    "position": 11
+   }
+  ],
   "summary": {
    "sqi": 10,
-   "excluded_pages_count": 0,
-   "searchable_pages_count": 0,
+   "excluded_pages_count": 2,
+   "searchable_pages_count": 65,
    "site_problems": {}
   }
  },
