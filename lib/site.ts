@@ -38,6 +38,7 @@ export const showPrice = (p: Product): { value: number; unit: string; note?: str
   if (t) return { value: t[1], unit: "250 г", note: `${fmt(p.price as number)} ₽/кг` };
   return p.price ? { value: p.price, unit: p.unit } : null;
 };
+export const PRICE_NOTE = "Цены на сайте могут отличаться от цен в магазине: закупочные цены меняются ежедневно. Точную цену уточняйте по телефону.";
 export const noPriceLabel = (p: Product) => (p.preorder ? "под заказ" : "по тел.");
 export const priceLabel = (p: Product) => (p.price ? `${fmt(p.price)} ₽` : "по телефону");
 /** Домен в punycode: кириллицу в robots.txt, sitemap и canonical роботы читают некорректно */

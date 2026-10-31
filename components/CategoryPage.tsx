@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { cat, byCat, categories, SITE, productPath, fmt } from "@/lib/site";
+import { cat, byCat, categories, SITE, productPath, fmt, PRICE_NOTE } from "@/lib/site";
 import { md } from "@/lib/md";
 import Breadcrumbs from "./Breadcrumbs";
 import ProductCard from "./ProductCard";
@@ -13,7 +13,7 @@ import { abs } from "@/lib/site";
 const catFaq: Record<string, { q: string; a: string }[]> = {
   ikra: [
     { q: "Где купить красную икру в Иркутске?", a: "В магазине «Золото Камчатки» в ТЦ «Кедр», ул. Волжская, 3, павильоны 4 и 4А, ежедневно с 09:00 до 20:00. Икру фасуем при вас из заводского куба и даём попробовать. Можно заказать доставку по Иркутску." },
-    { q: "Сколько стоит красная икра?", a: "Икра кеты камчатской — 11 500 ₽ за кг: 250 г — 2 875 ₽, 500 г — 5 750 ₽. Кижуч и чавыча — 16 000 ₽ за кг: 125 г — 2 000 ₽, 250 г — 4 000 ₽, 500 г — 8 000 ₽. Нерка — 4 500 ₽ за 250 г, под заказ. Охотской кеты нет до лета 2027 года." },
+    { q: "Сколько стоит красная икра?", a: "Икра кеты камчатской — 16 000 ₽ за кг: 250 г — 4 000 ₽, 500 г — 8 000 ₽. Кижуч и чавыча — 17 000 ₽ за кг: 125 г — 2 125 ₽, 250 г — 4 250 ₽, 500 г — 8 500 ₽. Нерка — 5 000 ₽ за 250 г, под заказ. Охотской кеты нет до лета 2027 года." },
     { q: "Есть доставка икры по Иркутску?", a: "Да, от 2 000 ₽. По Октябрьскому и Кировскому районам — бесплатно, по остальным — 25 ₽ за километр. Шелехов, Мамоны, Пивовариха, Байкальский тракт — от 5 000 ₽. Икру везём в термопакете с хладоэлементом." },
     ...SITE.faq.filter((f) => /икр/i.test(f.q + f.a)).slice(0, 3),
   ],
@@ -86,7 +86,7 @@ export default async function CategoryPage({ slug }: { slug: string }) {
               </tbody>
             </table>
           </div>
-          <p className="mt-3 text-sm text-stone">Фасовка 125 г — когда есть тара. Полный прайс магазина — на странице <Link href="/tseny/" className="underline">«Цены»</Link>, к празднику — <Link href="/novyj-god/" className="underline">икра на Новый год</Link>.</p>
+          <p className="mt-3 text-sm text-stone">{PRICE_NOTE} Фасовка 125 г — когда есть тара. Полный прайс магазина — на странице <Link href="/tseny/" className="underline">«Цены»</Link>, к празднику — <Link href="/novyj-god/" className="underline">икра на Новый год</Link>.</p>
         </section>
       )}
       <section className="wrap mt-14 grid lg:grid-cols-2 gap-8 items-start">

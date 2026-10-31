@@ -70,6 +70,7 @@ export default function CartView() {
           ))}
         </ul>
         <p className="mt-4 text-right font-display text-2xl">Итого: {fmt(total)} ₽</p>
+        <p className="mt-1 text-right text-xs text-stone">Сумма предварительная: закупочные цены меняются ежедневно, точную сумму подтвердим по телефону.</p>
         {weight && <p className="mt-1 text-right text-sm text-stone">Весовые товары взвешиваем при сборке — точную сумму назовём при подтверждении.</p>}
       </div>
 
