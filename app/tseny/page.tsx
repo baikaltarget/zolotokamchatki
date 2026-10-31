@@ -4,7 +4,7 @@ import { meta } from "@/lib/seo";
 import { categories, byCat, productPath, fmt, BRAND } from "@/lib/site";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Todo from "@/components/Todo";
-export const metadata = meta({ title: "Цены на красную икру и рыбу в Иркутске — прайс-лист Золото Камчатки", description: "Полный прайс магазина: икра кеты 4 000 ₽ за 250 г, нерка, филе слабой соли от 225 ₽, холодное копчение от 1250 ₽/кг, заморозка и морепродукты. Обновляется в магазине.", path: "/tseny/" });
+export const metadata = meta({ title: "Цены на красную икру и рыбу в Иркутске — прайс-лист Золото Камчатки", description: "Полный прайс магазина: икра кеты 4 000 ₽ за 250 г, нерка, филе слабой соли от 225 ₽, холодное копчение от 1 550 ₽/кг, заморозка и морепродукты. Обновляется в магазине.", path: "/tseny/" });
 export default function Page() {
   return (
     <section className="wrap pt-6">
