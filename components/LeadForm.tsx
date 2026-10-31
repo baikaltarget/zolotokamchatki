@@ -36,7 +36,7 @@ export default function LeadForm({ product, compact = false }: { product?: strin
         <div className="relative">
           <input
             className={`w-full border rounded-tag px-3 py-2.5 h-[46px] ${touched && !isPhoneValid(form.phone) ? "border-nerka" : "border-ivory2"}`}
-            placeholder="+7 950 121-90-66" type="tel" inputMode="tel" autoComplete="tel" required aria-label="Телефон"
+            placeholder="+7 900 000-00-00" type="tel" inputMode="tel" autoComplete="tel" required aria-label="Телефон"
             value={form.phone}
             onChange={(e) => setForm({ ...form, phone: formatPhone(e.target.value) })}
             onBlur={() => setTouched(true)}
