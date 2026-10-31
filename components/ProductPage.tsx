@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { cat, byCat, productPath, productTitle, abs, BRAND, Product, fmt } from "@/lib/site";
+import { cat, byCat, productPath, productTitle, abs, BRAND, Product, fmt, PRICE_NOTE } from "@/lib/site";
 import { getPosts } from "@/lib/blog";
 import Breadcrumbs from "./Breadcrumbs";
 import PriceTag from "./PriceTag";
@@ -43,6 +43,7 @@ export default function ProductPage({ p }: { p: Product }) {
             <h1 className="mt-2">{title}</h1>
             {p.badge && <p className="mt-2 inline-block bg-gold/15 text-ink border border-gold/40 rounded-tag px-3 py-1 text-sm font-semibold">{p.badge}</p>}
             <Todo k={p.todo} className="mt-5 inline-block"><PriceTag p={p} size="lg" /></Todo>
+            {p.price && <p className="mt-1 text-xs text-stone max-w-md">{PRICE_NOTE}</p>}
             {perKg && g !== 1000 && <p className="mt-1 text-stone text-sm">≈ {fmt(perKg)} ₽ за кг</p>}
             {p.tiers && <ul className="mt-3 flex flex-wrap gap-2">{p.tiers.map(([l, v]) => <li key={l} className="border border-ink/20 rounded-tag px-3 py-1 text-sm">{l}: <b>{fmt(v)} ₽{/кг/.test(l) ? "/кг" : ""}</b></li>)}</ul>}
             <p className="mt-5 text-lg leading-relaxed">{p.intro ?? p.desc ?? p.short}</p>

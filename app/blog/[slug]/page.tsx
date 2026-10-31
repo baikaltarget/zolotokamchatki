@@ -38,6 +38,7 @@ export default async function Page({ params }: { params: P }) {
               </div>
             </div>
             <div className="relative aspect-[16/9] rounded-tag overflow-hidden mt-6"><Image src={post.image} alt={post.title} fill priority sizes="(max-width:1024px) 100vw, 800px" className="object-cover" /></div>
+            {/₽/.test(post.content) && <p className="mt-6 max-w-3xl text-sm text-stone border-l-2 border-gold pl-3">Цены в статье указаны на дату обновления и могут отличаться от цен в магазине: закупочные цены меняются ежедневно. Актуальные — в <a href="/tseny/" className="underline">прайсе</a> или по телефону.</p>}
             <div className="prose mt-6 max-w-3xl" dangerouslySetInnerHTML={{ __html: post.html }} />
             {post.faq && post.faq.length > 0 && <div className="max-w-3xl"><Faq items={post.faq} title="Частые вопросы" /></div>}
             <aside className="max-w-3xl mt-12 bg-white border border-ivory2 rounded-tag p-5 sm:p-6 flex gap-4 items-start">
