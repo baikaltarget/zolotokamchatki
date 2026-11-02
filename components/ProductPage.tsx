@@ -45,6 +45,7 @@ export default function ProductPage({ p }: { p: Product }) {
             <Todo k={p.todo} className="mt-5 inline-block"><PriceTag p={p} size="lg" /></Todo>
             {p.price && <p className="mt-1 text-xs text-stone max-w-md">{PRICE_NOTE}</p>}
             {perKg && g !== 1000 && <p className="mt-1 text-stone text-sm">≈ {fmt(perKg)} ₽ за кг</p>}
+            {p.category === "ikra" && <p className="mt-3 text-sm"><Link href="/ikra/" className="text-caviar2 underline">Купить красную икру в Иркутске: все виды и цены →</Link></p>}
             {p.tiers && <ul className="mt-3 flex flex-wrap gap-2">{p.tiers.map(([l, v]) => <li key={l} className="border border-ink/20 rounded-tag px-3 py-1 text-sm">{l}: <b>{fmt(v)} ₽{/кг/.test(l) ? "/кг" : ""}</b></li>)}</ul>}
             <p className="mt-5 text-lg leading-relaxed">{p.intro ?? p.desc ?? p.short}</p>
             <ul className="mt-5 grid grid-cols-2 gap-3 text-sm">
