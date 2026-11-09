@@ -1,0 +1,3878 @@
+{
+ "date": "2026-11-09",
+ "from": "2026-10-11",
+ "to": "2026-11-07",
+ "days": 28,
+ "filter": null,
+ "google": {
+  "site": "sc-domain:xn----8sbazijcdmpba5cg7e.xn--p1ai",
+  "queries": [
+   {
+    "query": "икра иркутск",
+    "clicks": 13,
+    "impressions": 52,
+    "ctr": 0.25,
+    "position": 8.76923076923077
+   },
+   {
+    "query": "икра красная иркутск",
+    "clicks": 6,
+    "impressions": 53,
+    "ctr": 0.11320754716981132,
+    "position": 9.566037735849056
+   },
+   {
+    "query": "красная икра иркутск",
+    "clicks": 4,
+    "impressions": 23,
+    "ctr": 0.17391304347826086,
+    "position": 6
+   },
+   {
+    "query": "икра купить иркутск",
+    "clicks": 2,
+    "impressions": 9,
+    "ctr": 0.2222222222222222,
+    "position": 9.555555555555555
+   },
+   {
+    "query": "красная икра иркутск цена",
+    "clicks": 2,
+    "impressions": 45,
+    "ctr": 0.044444444444444446,
+    "position": 7.777777777777778
+   },
+   {
+    "query": "купить икру в иркутске",
+    "clicks": 2,
+    "impressions": 34,
+    "ctr": 0.058823529411764705,
+    "position": 8.941176470588236
+   },
+   {
+    "query": "купить красную икру в иркутске",
+    "clicks": 2,
+    "impressions": 44,
+    "ctr": 0.045454545454545456,
+    "position": 7.681818181818182
+   },
+   {
+    "query": "семга холодного копчения",
+    "clicks": 2,
+    "impressions": 14,
+    "ctr": 0.14285714285714285,
+    "position": 58.92857142857143
+   },
+   {
+    "query": "rhfcyfz brhf regbnm",
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 8
+   },
+   {
+    "query": "доставка икры с камчатки",
+    "clicks": 1,
+    "impressions": 2,
+    "ctr": 0.5,
+    "position": 49.5
+   },
+   {
+    "query": "икра кеты иркутск",
+    "clicks": 1,
+    "impressions": 9,
+    "ctr": 0.1111111111111111,
+    "position": 7.333333333333333
+   },
+   {
+    "query": "кижуч горячего копчения",
+    "clicks": 1,
+    "impressions": 2,
+    "ctr": 0.5,
+    "position": 69
+   },
+   {
+    "query": "кижуч копченый цена за 1",
+    "clicks": 1,
+    "impressions": 13,
+    "ctr": 0.07692307692307693,
+    "position": 35.92307692307692
+   },
+   {
+    "query": "кижуч копченый цена за 1 кг",
+    "clicks": 1,
+    "impressions": 10,
+    "ctr": 0.1,
+    "position": 22.6
+   },
+   {
+    "query": "кижуч холодного копчения",
+    "clicks": 1,
+    "impressions": 7,
+    "ctr": 0.14285714285714285,
+    "position": 69.14285714285714
+   },
+   {
+    "query": "кижуч холодного копчения купить",
+    "clicks": 1,
+    "impressions": 5,
+    "ctr": 0.2,
+    "position": 37.2
+   },
+   {
+    "query": "копченая семга",
+    "clicks": 1,
+    "impressions": 3,
+    "ctr": 0.3333333333333333,
+    "position": 72.66666666666667
+   },
+   {
+    "query": "купить икру красную иркутск",
+    "clicks": 1,
+    "impressions": 4,
+    "ctr": 0.25,
+    "position": 6.25
+   },
+   {
+    "query": "купить красную икру",
+    "clicks": 1,
+    "impressions": 3,
+    "ctr": 0.3333333333333333,
+    "position": 5.666666666666667
+   },
+   {
+    "query": "масляная рыба холодного копчения",
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 68
+   },
+   {
+    "query": "нерка малосольная",
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 94
+   },
+   {
+    "query": "рыба семга копченая",
+    "clicks": 1,
+    "impressions": 5,
+    "ctr": 0.2,
+    "position": 56.8
+   },
+   {
+    "query": "семга камчатская",
+    "clicks": 1,
+    "impressions": 3,
+    "ctr": 0.3333333333333333,
+    "position": 62
+   },
+   {
+    "query": "семга подкопченная",
+    "clicks": 1,
+    "impressions": 7,
+    "ctr": 0.14285714285714285,
+    "position": 81
+   },
+   {
+    "query": "сколько стоит красная икра в иркутске",
+    "clicks": 1,
+    "impressions": 23,
+    "ctr": 0.043478260869565216,
+    "position": 6.086956521739131
+   },
+   {
+    "query": "соус для салата чука",
+    "clicks": 1,
+    "impressions": 1,
+    "ctr": 1,
+    "position": 27
+   },
+   {
+    "query": "сырая семга",
+    "clicks": 1,
+    "impressions": 3,
+    "ctr": 0.3333333333333333,
+    "position": 63
+   },
+   {
+    "query": "филе семги слабосоленая",
+    "clicks": 1,
+    "impressions": 7,
+    "ctr": 0.14285714285714285,
+    "position": 45.285714285714285
+   },
+   {
+    "query": "а в ноябре?",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "query": "а самый дешёвый вариант?",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "query": "в иркутске",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "query": "да",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "query": "да подсказать",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 13
+   },
+   {
+    "query": "доставка рыбы иркутск",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "query": "заказать икру с камчатки",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "query": "икорный магазин",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "query": "икра иркутск купить",
+    "clicks": 0,
+    "impressions": 10,
+    "ctr": 0,
+    "position": 8.7
+   },
+   {
+    "query": "икра кеты или горбуши",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 90
+   },
+   {
+    "query": "икра кеты или нерки",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 58.5
+   },
+   {
+    "query": "икра кеты купить",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "query": "икра кеты купить оптом",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 29
+   },
+   {
+    "query": "икра красная опт",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "query": "икра красная оптом без посредников",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 99
+   },
+   {
+    "query": "икра кунджи цена",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "query": "икра купить",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 12
+   },
+   {
+    "query": "икра лососевая купить",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 9.5
+   },
+   {
+    "query": "икра минтая фото",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 88
+   },
+   {
+    "query": "икра на новый год",
+    "clicks": 0,
+    "impressions": 22,
+    "ctr": 0,
+    "position": 14.454545454545455
+   },
+   {
+    "query": "икра на развес",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 23
+   },
+   {
+    "query": "икра на развес купить",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "query": "икра нерка или кета что лучше",
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0,
+    "position": 45.45454545454545
+   },
+   {
+    "query": "икра нерки или горбуши",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 46
+   },
+   {
+    "query": "икра нерки или кеты что лучше",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 27
+   },
+   {
+    "query": "икра оптом камчатка",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 54
+   },
+   {
+    "query": "икра рыба магазин",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   {
+    "query": "икра рыбы минтай",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 24
+   },
+   {
+    "query": "икра с камчатки напрямую купить оптом от производителя",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 65
+   },
+   {
+    "query": "икра семги цена",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 5
+   },
+   {
+    "query": "икра тут",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 40
+   },
+   {
+    "query": "какая икра вкуснее кеты или нерки",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 33
+   },
+   {
+    "query": "какую икру едят на новый год",
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 11.555555555555555
+   },
+   {
+    "query": "какую икру купить на новый год",
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 15
+   },
+   {
+    "query": "камчатская рыба магазин",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "query": "кета камчатская",
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 43.77777777777778
+   },
+   {
+    "query": "кижуч копченая цена за кг",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 22
+   },
+   {
+    "query": "кижуч копченый",
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 48.2
+   },
+   {
+    "query": "кижуч копченый купить",
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 48.142857142857146
+   },
+   {
+    "query": "кижуч копченый цена",
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 38.42857142857143
+   },
+   {
+    "query": "кижуч рыба копченая",
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 46.57142857142857
+   },
+   {
+    "query": "кижуч филе холодного копчения",
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 56.666666666666664
+   },
+   {
+    "query": "кижуч хк",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 31
+   },
+   {
+    "query": "кижуч холодного копчения цена",
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 47.666666666666664
+   },
+   {
+    "query": "когда лучше покупать икру красную",
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 7.666666666666667
+   },
+   {
+    "query": "когда лучше покупать красную икру",
+    "clicks": 0,
+    "impressions": 12,
+    "ctr": 0,
+    "position": 7.916666666666667
+   },
+   {
+    "query": "когда покупать красную икру",
+    "clicks": 0,
+    "impressions": 8,
+    "ctr": 0,
+    "position": 9.25
+   },
+   {
+    "query": "когда сезон икры",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 29
+   },
+   {
+    "query": "когда сезон красной икры",
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 9.333333333333334
+   },
+   {
+    "query": "копченая белая жирная рыба",
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 78
+   },
+   {
+    "query": "копченый кижуч",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 27
+   },
+   {
+    "query": "корзиночки для икры",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 25
+   },
+   {
+    "query": "красная икра",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "query": "красная икра горбуша или кета",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 79
+   },
+   {
+    "query": "красная икра кижуч цена",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "query": "красная икра купить",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 12
+   },
+   {
+    "query": "красная икра магазин",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 9.5
+   },
+   {
+    "query": "красная икра на новый год",
+    "clicks": 0,
+    "impressions": 21,
+    "ctr": 0,
+    "position": 16.666666666666664
+   },
+   {
+    "query": "красная икра рыба",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "query": "красная икра цена",
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 6.666666666666667
+   },
+   {
+    "query": "куб икры сколько кг",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "query": "купить икру",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 6.5
+   },
+   {
+    "query": "купить икру минтая",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 18
+   },
+   {
+    "query": "купить кг икры красной",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "query": "купить красную икру оптом",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 3
+   },
+   {
+    "query": "купить красную икру от производителя",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "query": "купить рыбу масляную холодного копчения",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 59
+   },
+   {
+    "query": "магазин камчатка",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "query": "магазин красная икра",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "query": "магазин красной икры",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "query": "масляная рыба камчатка",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "query": "масляная холодного копчения",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 72
+   },
+   {
+    "query": "морепродукты иркутск",
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 9.666666666666666
+   },
+   {
+    "query": "мясо тунца купить",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "query": "на новый год",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "query": "нерка или горбуша что вкуснее",
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 21
+   },
+   {
+    "query": "нерка или горбуша что лучше",
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 34
+   },
+   {
+    "query": "нерка или кета что лучше",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "query": "нерка слабосоленая цена",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 45.5
+   },
+   {
+    "query": "ореховый соус для салата чука",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 28
+   },
+   {
+    "query": "разница в стоимости",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 16
+   },
+   {
+    "query": "рыбная икра купить",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 14
+   },
+   {
+    "query": "сайт доставка рыбы",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 23
+   },
+   {
+    "query": "салат из кальмаров и красной икры",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 16
+   },
+   {
+    "query": "салат из кальмаров с красной икрой",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "query": "салат с кальмарами и икрой",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 15
+   },
+   {
+    "query": "салат с кальмарами и красной икрой рецепт",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "query": "салат царский",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 31
+   },
+   {
+    "query": "салат царский с красной икрой и семгой",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 42
+   },
+   {
+    "query": "салат чука состав",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 21
+   },
+   {
+    "query": "севрюга холодного копчения",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 105
+   },
+   {
+    "query": "семга копченая",
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 54
+   },
+   {
+    "query": "семга копченая цена",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 26
+   },
+   {
+    "query": "семга копченая цена за 1 кг",
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 46.4
+   },
+   {
+    "query": "семга слабосоленая лента состав",
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 38.5
+   },
+   {
+    "query": "семга холодного копчения купить",
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 55.77777777777778
+   },
+   {
+    "query": "семга холодного копчения цена",
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 60.833333333333336
+   },
+   {
+    "query": "сколько сейчас стоит красная икра",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 7
+   },
+   {
+    "query": "сколько стоит икра кижуча",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "query": "сколько стоит икра красная",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "query": "сколько стоит красная икра в 2026 году",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 1
+   },
+   {
+    "query": "сколько стоит форель холодного копчения",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 4
+   },
+   {
+    "query": "слабосоленая белая рыба",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 93
+   },
+   {
+    "query": "стоимость красной икры",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "query": "стоимость красной икры в 2026 году",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "query": "стоимость красной икры за кг",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "query": "такая",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 25
+   },
+   {
+    "query": "тарталетки для икры",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 15
+   },
+   {
+    "query": "филе семга слабосоленая",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 34
+   },
+   {
+    "query": "филе семги слабосоленой",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 47
+   },
+   {
+    "query": "филе семги холодного копчения",
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 66.2
+   },
+   {
+    "query": "филе слабосоленой семги",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 38
+   },
+   {
+    "query": "филе форели холодного копчения",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 61
+   },
+   {
+    "query": "цены на икру 2026",
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 8.6
+   },
+   {
+    "query": "цены на красную икру 2026",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 8.5
+   },
+   {
+    "query": "что вкуснее икра кеты или нерки",
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 49
+   },
+   {
+    "query": "что лучше нерка или кета",
+    "clicks": 0,
+    "impressions": 13,
+    "ctr": 0,
+    "position": 18.23076923076923
+   },
+   {
+    "query": "чука из чего",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "query": "чука салат",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 25
+   },
+   {
+    "query": "чука что такое",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 11
+   },
+   {
+    "query": "элит трейд иркутск прайс лист цены на продукты",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 22
+   }
+  ],
+  "pages": [
+   {
+    "page": "/",
+    "clicks": 78,
+    "impressions": 841,
+    "ctr": 0.09274673008323424,
+    "position": 8.133174791914389
+   },
+   {
+    "page": "/opt/",
+    "clicks": 10,
+    "impressions": 95,
+    "ctr": 0.10526315789473684,
+    "position": 12.842105263157896
+   },
+   {
+    "page": "/tseny/",
+    "clicks": 9,
+    "impressions": 219,
+    "ctr": 0.0410958904109589,
+    "position": 8.397260273972602
+   },
+   {
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 8,
+    "impressions": 212,
+    "ctr": 0.03773584905660377,
+    "position": 7.35377358490566
+   },
+   {
+    "page": "/svezhaya-ikra/",
+    "clicks": 8,
+    "impressions": 75,
+    "ctr": 0.10666666666666667,
+    "position": 6.12
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 6,
+    "impressions": 108,
+    "ctr": 0.05555555555555555,
+    "position": 35.44444444444444
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "clicks": 6,
+    "impressions": 86,
+    "ctr": 0.06976744186046512,
+    "position": 48.848837209302324
+   },
+   {
+    "page": "/blog/ikra-k-novomu-godu/",
+    "clicks": 4,
+    "impressions": 310,
+    "ctr": 0.012903225806451613,
+    "position": 8.419354838709676
+   },
+   {
+    "page": "/ikra/",
+    "clicks": 3,
+    "impressions": 118,
+    "ctr": 0.025423728813559324,
+    "position": 9.76271186440678
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/koryushka-krupnaya/",
+    "clicks": 3,
+    "impressions": 13,
+    "ctr": 0.23076923076923078,
+    "position": 8.461538461538462
+   },
+   {
+    "page": "/ryba/slabosolenaya/",
+    "clicks": 3,
+    "impressions": 42,
+    "ctr": 0.07142857142857142,
+    "position": 11.952380952380953
+   },
+   {
+    "page": "/ryba/slabosolenaya/tunets-ss/",
+    "clicks": 3,
+    "impressions": 16,
+    "ctr": 0.1875,
+    "position": 7
+   },
+   {
+    "page": "/dostavka/",
+    "clicks": 2,
+    "impressions": 35,
+    "ctr": 0.05714285714285714,
+    "position": 10.314285714285715
+   },
+   {
+    "page": "/dostavka/shelekhov/",
+    "clicks": 2,
+    "impressions": 17,
+    "ctr": 0.11764705882352941,
+    "position": 5.117647058823529
+   },
+   {
+    "page": "/ikra/ikra-kety-kamchatka/",
+    "clicks": 2,
+    "impressions": 53,
+    "ctr": 0.03773584905660377,
+    "position": 8
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/",
+    "clicks": 2,
+    "impressions": 24,
+    "ctr": 0.08333333333333333,
+    "position": 8.583333333333332
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/maslyanaya-ryba/",
+    "clicks": 2,
+    "impressions": 37,
+    "ctr": 0.05405405405405406,
+    "position": 21.2972972972973
+   },
+   {
+    "page": "/ryba/slabosolenaya/file-nerki/",
+    "clicks": 2,
+    "impressions": 29,
+    "ctr": 0.06896551724137931,
+    "position": 15.10344827586207
+   },
+   {
+    "page": "/blog/chuka-salat/",
+    "clicks": 1,
+    "impressions": 75,
+    "ctr": 0.013333333333333334,
+    "position": 7.88
+   },
+   {
+    "page": "/blog/tartaletki-s-ikroj/",
+    "clicks": 1,
+    "impressions": 53,
+    "ctr": 0.018867924528301886,
+    "position": 5.30188679245283
+   },
+   {
+    "page": "/ikra/ikra-chavychi/",
+    "clicks": 1,
+    "impressions": 16,
+    "ctr": 0.0625,
+    "position": 11.0625
+   },
+   {
+    "page": "/ikra/ikra-kizhucha/",
+    "clicks": 1,
+    "impressions": 21,
+    "ctr": 0.047619047619047616,
+    "position": 7.857142857142857
+   },
+   {
+    "page": "/o-magazine/",
+    "clicks": 1,
+    "impressions": 26,
+    "ctr": 0.038461538461538464,
+    "position": 10.461538461538462
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/bryushki-semgi-hk",
+    "clicks": 1,
+    "impressions": 4,
+    "ctr": 0.25,
+    "position": 5.5
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/tushka-foreli-hk/",
+    "clicks": 1,
+    "impressions": 12,
+    "ctr": 0.08333333333333333,
+    "position": 25.5
+   },
+   {
+    "page": "/ryba/slabosolenaya/file-semgi/",
+    "clicks": 1,
+    "impressions": 32,
+    "ctr": 0.03125,
+    "position": 28.15625
+   },
+   {
+    "page": "/zamorozka/",
+    "clicks": 1,
+    "impressions": 10,
+    "ctr": 0.1,
+    "position": 12.9
+   },
+   {
+    "page": "/zamorozka/chuka/",
+    "clicks": 1,
+    "impressions": 5,
+    "ctr": 0.2,
+    "position": 6
+   },
+   {
+    "page": "/blog/",
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 8.6
+   },
+   {
+    "page": "/blog/kak-khranit-ikru/",
+    "clicks": 0,
+    "impressions": 9,
+    "ctr": 0,
+    "position": 9
+   },
+   {
+    "page": "/blog/keta-ili-nerka/",
+    "clicks": 0,
+    "impressions": 79,
+    "ctr": 0,
+    "position": 25.89873417721519
+   },
+   {
+    "page": "/blog/polza-krasnoj-ikry/",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "page": "/blog/salat-carskij-s-ikroj/",
+    "clicks": 0,
+    "impressions": 18,
+    "ctr": 0,
+    "position": 17.055555555555557
+   },
+   {
+    "page": "/dostavka/baykalskiy-trakt/",
+    "clicks": 0,
+    "impressions": 19,
+    "ctr": 0,
+    "position": 11.842105263157896
+   },
+   {
+    "page": "/dostavka/kuybyshevskiy-rayon/",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 26
+   },
+   {
+    "page": "/dostavka/leninskiy-rayon/",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 10
+   },
+   {
+    "page": "/dostavka/mamony/",
+    "clicks": 0,
+    "impressions": 5,
+    "ctr": 0,
+    "position": 10.4
+   },
+   {
+    "page": "/dostavka/pivovarikha/",
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 16.833333333333336
+   },
+   {
+    "page": "/ikra/ikra-kety-okhotsk/",
+    "clicks": 0,
+    "impressions": 48,
+    "ctr": 0,
+    "position": 13.1875
+   },
+   {
+    "page": "/ikra/ikra-mintaya/",
+    "clicks": 0,
+    "impressions": 11,
+    "ctr": 0,
+    "position": 13.636363636363637
+   },
+   {
+    "page": "/ikra/ikra-nerki-kamchatka/",
+    "clicks": 0,
+    "impressions": 13,
+    "ctr": 0,
+    "position": 4.461538461538462
+   },
+   {
+    "page": "/ikra/ikra-seldi/",
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 5.5
+   },
+   {
+    "page": "/kontakty/",
+    "clicks": 0,
+    "impressions": 24,
+    "ctr": 0,
+    "position": 9.416666666666666
+   },
+   {
+    "page": "/moreprodukty/",
+    "clicks": 0,
+    "impressions": 18,
+    "ctr": 0,
+    "position": 12.277777777777779
+   },
+   {
+    "page": "/novyj-god/",
+    "clicks": 0,
+    "impressions": 6,
+    "ctr": 0,
+    "position": 5.333333333333333
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/bryushki-semgi-hk/",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/file-foreli-hk/",
+    "clicks": 0,
+    "impressions": 44,
+    "ctr": 0,
+    "position": 9.454545454545455
+   },
+   {
+    "page": "/ryba/slabosolenaya/file-muksuna/",
+    "clicks": 0,
+    "impressions": 7,
+    "ctr": 0,
+    "position": 6
+   },
+   {
+    "page": "/sbory/",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 8
+   },
+   {
+    "page": "/zamorozka/kalmar/",
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 11.666666666666666
+   },
+   {
+    "page": "/zamorozka/krevetki-tigrovye/",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 8.5
+   },
+   {
+    "page": "/zamorozka/maslo-slivochnoe/",
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 8.75
+   }
+  ],
+  "pairs": [
+   {
+    "query": "икра иркутск",
+    "page": "/",
+    "clicks": 13,
+    "impressions": 49,
+    "position": 7.6938775510204085
+   },
+   {
+    "query": "икра красная иркутск",
+    "page": "/",
+    "clicks": 6,
+    "impressions": 48,
+    "position": 8.270833333333332
+   },
+   {
+    "query": "красная икра иркутск",
+    "page": "/",
+    "clicks": 4,
+    "impressions": 23,
+    "position": 6
+   },
+   {
+    "query": "икра купить иркутск",
+    "page": "/",
+    "clicks": 2,
+    "impressions": 9,
+    "position": 9.555555555555555
+   },
+   {
+    "query": "купить икру в иркутске",
+    "page": "/",
+    "clicks": 2,
+    "impressions": 34,
+    "position": 8.941176470588236
+   },
+   {
+    "query": "купить красную икру в иркутске",
+    "page": "/",
+    "clicks": 2,
+    "impressions": 44,
+    "position": 7.681818181818182
+   },
+   {
+    "query": "семга холодного копчения",
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "clicks": 2,
+    "impressions": 14,
+    "position": 58.92857142857143
+   },
+   {
+    "query": "rhfcyfz brhf regbnm",
+    "page": "/",
+    "clicks": 1,
+    "impressions": 1,
+    "position": 8
+   },
+   {
+    "query": "доставка икры с камчатки",
+    "page": "/",
+    "clicks": 1,
+    "impressions": 2,
+    "position": 49.5
+   },
+   {
+    "query": "икра кеты иркутск",
+    "page": "/",
+    "clicks": 1,
+    "impressions": 6,
+    "position": 8.833333333333332
+   },
+   {
+    "query": "кижуч горячего копчения",
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 1,
+    "impressions": 2,
+    "position": 69
+   },
+   {
+    "query": "кижуч копченый цена за 1",
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 1,
+    "impressions": 13,
+    "position": 35.92307692307692
+   },
+   {
+    "query": "кижуч копченый цена за 1 кг",
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 1,
+    "impressions": 10,
+    "position": 22.6
+   },
+   {
+    "query": "кижуч холодного копчения",
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 1,
+    "impressions": 7,
+    "position": 69.14285714285714
+   },
+   {
+    "query": "кижуч холодного копчения купить",
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 1,
+    "impressions": 5,
+    "position": 37.2
+   },
+   {
+    "query": "копченая семга",
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "clicks": 1,
+    "impressions": 3,
+    "position": 72.66666666666667
+   },
+   {
+    "query": "красная икра иркутск цена",
+    "page": "/",
+    "clicks": 1,
+    "impressions": 42,
+    "position": 7.595238095238095
+   },
+   {
+    "query": "красная икра иркутск цена",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 1,
+    "impressions": 3,
+    "position": 8
+   },
+   {
+    "query": "купить икру красную иркутск",
+    "page": "/",
+    "clicks": 1,
+    "impressions": 4,
+    "position": 6.25
+   },
+   {
+    "query": "купить красную икру",
+    "page": "/",
+    "clicks": 1,
+    "impressions": 3,
+    "position": 5.666666666666667
+   },
+   {
+    "query": "масляная рыба холодного копчения",
+    "page": "/ryba/kholodnoe-kopchenie/maslyanaya-ryba/",
+    "clicks": 1,
+    "impressions": 1,
+    "position": 68
+   },
+   {
+    "query": "нерка малосольная",
+    "page": "/ryba/slabosolenaya/file-nerki/",
+    "clicks": 1,
+    "impressions": 1,
+    "position": 94
+   },
+   {
+    "query": "рыба семга копченая",
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "clicks": 1,
+    "impressions": 5,
+    "position": 56.8
+   },
+   {
+    "query": "семга камчатская",
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "clicks": 1,
+    "impressions": 3,
+    "position": 62
+   },
+   {
+    "query": "семга подкопченная",
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "clicks": 1,
+    "impressions": 7,
+    "position": 81
+   },
+   {
+    "query": "сколько стоит красная икра в иркутске",
+    "page": "/",
+    "clicks": 1,
+    "impressions": 22,
+    "position": 5.909090909090909
+   },
+   {
+    "query": "соус для салата чука",
+    "page": "/blog/chuka-salat/",
+    "clicks": 1,
+    "impressions": 1,
+    "position": 27
+   },
+   {
+    "query": "сырая семга",
+    "page": "/ryba/slabosolenaya/",
+    "clicks": 1,
+    "impressions": 1,
+    "position": 98
+   },
+   {
+    "query": "филе семги слабосоленая",
+    "page": "/ryba/slabosolenaya/file-semgi/",
+    "clicks": 1,
+    "impressions": 7,
+    "position": 45.285714285714285
+   },
+   {
+    "query": "а в ноябре?",
+    "page": "/blog/ikra-k-novomu-godu/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 2
+   },
+   {
+    "query": "а самый дешёвый вариант?",
+    "page": "/ryba/slabosolenaya/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 1
+   },
+   {
+    "query": "а самый дешёвый вариант?",
+    "page": "/ryba/slabosolenaya/file-semgi/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 1
+   },
+   {
+    "query": "в иркутске",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 1
+   },
+   {
+    "query": "да",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 6
+   },
+   {
+    "query": "да подсказать",
+    "page": "/kontakty/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 13
+   },
+   {
+    "query": "доставка рыбы иркутск",
+    "page": "/dostavka/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 8
+   },
+   {
+    "query": "заказать икру с камчатки",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 2
+   },
+   {
+    "query": "икорный магазин",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 6
+   },
+   {
+    "query": "икра иркутск",
+    "page": "/ikra/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 16
+   },
+   {
+    "query": "икра иркутск",
+    "page": "/ikra/ikra-chavychi/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 45
+   },
+   {
+    "query": "икра иркутск",
+    "page": "/ikra/ikra-kety-kamchatka/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 28
+   },
+   {
+    "query": "икра иркутск",
+    "page": "/opt/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 16.5
+   },
+   {
+    "query": "икра иркутск",
+    "page": "/svezhaya-ikra/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 23
+   },
+   {
+    "query": "икра иркутск купить",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 10,
+    "position": 8.7
+   },
+   {
+    "query": "икра кеты или горбуши",
+    "page": "/blog/keta-ili-nerka/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 90
+   },
+   {
+    "query": "икра кеты или нерки",
+    "page": "/blog/keta-ili-nerka/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 58.5
+   },
+   {
+    "query": "икра кеты иркутск",
+    "page": "/ikra/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 8
+   },
+   {
+    "query": "икра кеты иркутск",
+    "page": "/ikra/ikra-kety-kamchatka/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 15.5
+   },
+   {
+    "query": "икра кеты иркутск",
+    "page": "/opt/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 11.5
+   },
+   {
+    "query": "икра кеты купить",
+    "page": "/ikra/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 7
+   },
+   {
+    "query": "икра кеты купить оптом",
+    "page": "/opt/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 29
+   },
+   {
+    "query": "икра красная иркутск",
+    "page": "/dostavka/kuybyshevskiy-rayon/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 16
+   },
+   {
+    "query": "икра красная иркутск",
+    "page": "/ikra/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 10
+   },
+   {
+    "query": "икра красная иркутск",
+    "page": "/ikra/ikra-chavychi/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 31
+   },
+   {
+    "query": "икра красная иркутск",
+    "page": "/ikra/ikra-kizhucha/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 47
+   },
+   {
+    "query": "икра красная иркутск",
+    "page": "/novyj-god/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 6
+   },
+   {
+    "query": "икра красная опт",
+    "page": "/opt/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 1
+   },
+   {
+    "query": "икра красная оптом без посредников",
+    "page": "/opt/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 99
+   },
+   {
+    "query": "икра кунджи цена",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 1
+   },
+   {
+    "query": "икра купить",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 12
+   },
+   {
+    "query": "икра лососевая купить",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 9.5
+   },
+   {
+    "query": "икра минтая фото",
+    "page": "/ikra/ikra-mintaya/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 88
+   },
+   {
+    "query": "икра на новый год",
+    "page": "/blog/ikra-k-novomu-godu/",
+    "clicks": 0,
+    "impressions": 22,
+    "position": 14.454545454545455
+   },
+   {
+    "query": "икра на развес",
+    "page": "/ikra/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 23
+   },
+   {
+    "query": "икра на развес купить",
+    "page": "/ikra/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 3
+   },
+   {
+    "query": "икра нерка или кета что лучше",
+    "page": "/blog/keta-ili-nerka/",
+    "clicks": 0,
+    "impressions": 11,
+    "position": 45.45454545454545
+   },
+   {
+    "query": "икра нерки или горбуши",
+    "page": "/blog/keta-ili-nerka/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 46
+   },
+   {
+    "query": "икра нерки или кеты что лучше",
+    "page": "/blog/keta-ili-nerka/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 27
+   },
+   {
+    "query": "икра оптом камчатка",
+    "page": "/opt/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 54
+   },
+   {
+    "query": "икра рыба магазин",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 2
+   },
+   {
+    "query": "икра рыбы минтай",
+    "page": "/ikra/ikra-mintaya/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 24
+   },
+   {
+    "query": "икра с камчатки напрямую купить оптом от производителя",
+    "page": "/opt/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 65
+   },
+   {
+    "query": "икра семги цена",
+    "page": "/tseny/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 5
+   },
+   {
+    "query": "икра тут",
+    "page": "/ikra/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 40
+   },
+   {
+    "query": "какая икра вкуснее кеты или нерки",
+    "page": "/blog/keta-ili-nerka/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 33
+   },
+   {
+    "query": "какую икру едят на новый год",
+    "page": "/blog/ikra-k-novomu-godu/",
+    "clicks": 0,
+    "impressions": 9,
+    "position": 11.555555555555555
+   },
+   {
+    "query": "какую икру купить на новый год",
+    "page": "/blog/ikra-k-novomu-godu/",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 15
+   },
+   {
+    "query": "камчатская рыба магазин",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 3
+   },
+   {
+    "query": "кета камчатская",
+    "page": "/ikra/ikra-kety-okhotsk/",
+    "clicks": 0,
+    "impressions": 9,
+    "position": 43.77777777777778
+   },
+   {
+    "query": "кижуч копченая цена за кг",
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 22
+   },
+   {
+    "query": "кижуч копченый",
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 0,
+    "impressions": 5,
+    "position": 48.2
+   },
+   {
+    "query": "кижуч копченый купить",
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 0,
+    "impressions": 7,
+    "position": 48.142857142857146
+   },
+   {
+    "query": "кижуч копченый цена",
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 0,
+    "impressions": 7,
+    "position": 38.42857142857143
+   },
+   {
+    "query": "кижуч рыба копченая",
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 0,
+    "impressions": 7,
+    "position": 46.57142857142857
+   },
+   {
+    "query": "кижуч филе холодного копчения",
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 56.666666666666664
+   },
+   {
+    "query": "кижуч хк",
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 31
+   },
+   {
+    "query": "кижуч холодного копчения цена",
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 0,
+    "impressions": 9,
+    "position": 47.666666666666664
+   },
+   {
+    "query": "когда лучше покупать икру красную",
+    "page": "/blog/ikra-k-novomu-godu/",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 7.666666666666667
+   },
+   {
+    "query": "когда лучше покупать красную икру",
+    "page": "/blog/ikra-k-novomu-godu/",
+    "clicks": 0,
+    "impressions": 12,
+    "position": 7.916666666666667
+   },
+   {
+    "query": "когда покупать красную икру",
+    "page": "/blog/ikra-k-novomu-godu/",
+    "clicks": 0,
+    "impressions": 8,
+    "position": 9.25
+   },
+   {
+    "query": "когда сезон икры",
+    "page": "/blog/ikra-k-novomu-godu/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 29
+   },
+   {
+    "query": "когда сезон красной икры",
+    "page": "/blog/ikra-k-novomu-godu/",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 9.333333333333334
+   },
+   {
+    "query": "копченая белая жирная рыба",
+    "page": "/ryba/kholodnoe-kopchenie/maslyanaya-ryba/",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 78
+   },
+   {
+    "query": "копченый кижуч",
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 27
+   },
+   {
+    "query": "корзиночки для икры",
+    "page": "/blog/tartaletki-s-ikroj/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 25
+   },
+   {
+    "query": "красная икра",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 1
+   },
+   {
+    "query": "красная икра горбуша или кета",
+    "page": "/blog/keta-ili-nerka/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 79
+   },
+   {
+    "query": "красная икра иркутск",
+    "page": "/ikra/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 27
+   },
+   {
+    "query": "красная икра иркутск",
+    "page": "/opt/",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 16
+   },
+   {
+    "query": "красная икра иркутск",
+    "page": "/tseny/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 22
+   },
+   {
+    "query": "красная икра иркутск цена",
+    "page": "/ikra/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 9
+   },
+   {
+    "query": "красная икра иркутск цена",
+    "page": "/opt/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 11
+   },
+   {
+    "query": "красная икра иркутск цена",
+    "page": "/tseny/",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 16.333333333333336
+   },
+   {
+    "query": "красная икра кижуч цена",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 1
+   },
+   {
+    "query": "красная икра купить",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 12
+   },
+   {
+    "query": "красная икра магазин",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 9.5
+   },
+   {
+    "query": "красная икра на новый год",
+    "page": "/blog/ikra-k-novomu-godu/",
+    "clicks": 0,
+    "impressions": 21,
+    "position": 16.666666666666664
+   },
+   {
+    "query": "красная икра рыба",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 7
+   },
+   {
+    "query": "красная икра цена",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 6.666666666666667
+   },
+   {
+    "query": "куб икры сколько кг",
+    "page": "/ikra/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 6
+   },
+   {
+    "query": "купить икру",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 6.5
+   },
+   {
+    "query": "купить икру в иркутске",
+    "page": "/ikra/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 23
+   },
+   {
+    "query": "купить икру минтая",
+    "page": "/ikra/ikra-mintaya/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 18
+   },
+   {
+    "query": "купить кг икры красной",
+    "page": "/ikra/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 7
+   },
+   {
+    "query": "купить красную икру в иркутске",
+    "page": "/ikra/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 14
+   },
+   {
+    "query": "купить красную икру в иркутске",
+    "page": "/opt/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 22
+   },
+   {
+    "query": "купить красную икру в иркутске",
+    "page": "/tseny/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 19
+   },
+   {
+    "query": "купить красную икру оптом",
+    "page": "/opt/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 3
+   },
+   {
+    "query": "купить красную икру от производителя",
+    "page": "/opt/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 10
+   },
+   {
+    "query": "купить рыбу масляную холодного копчения",
+    "page": "/ryba/kholodnoe-kopchenie/maslyanaya-ryba/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 59
+   },
+   {
+    "query": "магазин камчатка",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 4
+   },
+   {
+    "query": "магазин красная икра",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 11
+   },
+   {
+    "query": "магазин красной икры",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 4
+   },
+   {
+    "query": "масляная рыба камчатка",
+    "page": "/ryba/kholodnoe-kopchenie/maslyanaya-ryba/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 7
+   },
+   {
+    "query": "масляная холодного копчения",
+    "page": "/ryba/kholodnoe-kopchenie/maslyanaya-ryba/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 72
+   },
+   {
+    "query": "морепродукты иркутск",
+    "page": "/moreprodukty/",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 9.666666666666666
+   },
+   {
+    "query": "мясо тунца купить",
+    "page": "/ryba/slabosolenaya/tunets-ss/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 7
+   },
+   {
+    "query": "на новый год",
+    "page": "/novyj-god/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 4
+   },
+   {
+    "query": "нерка или горбуша что вкуснее",
+    "page": "/blog/keta-ili-nerka/",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 21
+   },
+   {
+    "query": "нерка или горбуша что лучше",
+    "page": "/blog/keta-ili-nerka/",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 34
+   },
+   {
+    "query": "нерка или кета что лучше",
+    "page": "/blog/keta-ili-nerka/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 10
+   },
+   {
+    "query": "нерка слабосоленая цена",
+    "page": "/ryba/slabosolenaya/file-nerki/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 45.5
+   },
+   {
+    "query": "ореховый соус для салата чука",
+    "page": "/blog/chuka-salat/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 28
+   },
+   {
+    "query": "разница в стоимости",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 16
+   },
+   {
+    "query": "рыбная икра купить",
+    "page": "/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 14
+   },
+   {
+    "query": "сайт доставка рыбы",
+    "page": "/dostavka/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 23
+   },
+   {
+    "query": "салат из кальмаров и красной икры",
+    "page": "/blog/salat-carskij-s-ikroj/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 16
+   },
+   {
+    "query": "салат из кальмаров с красной икрой",
+    "page": "/blog/salat-carskij-s-ikroj/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 9
+   },
+   {
+    "query": "салат с кальмарами и икрой",
+    "page": "/blog/salat-carskij-s-ikroj/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 15
+   },
+   {
+    "query": "салат с кальмарами и красной икрой рецепт",
+    "page": "/blog/salat-carskij-s-ikroj/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 11
+   },
+   {
+    "query": "салат царский",
+    "page": "/blog/salat-carskij-s-ikroj/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 31
+   },
+   {
+    "query": "салат царский с красной икрой и семгой",
+    "page": "/blog/salat-carskij-s-ikroj/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 42
+   },
+   {
+    "query": "салат чука состав",
+    "page": "/blog/chuka-salat/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 21
+   },
+   {
+    "query": "севрюга холодного копчения",
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 105
+   },
+   {
+    "query": "семга копченая",
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "clicks": 0,
+    "impressions": 6,
+    "position": 54
+   },
+   {
+    "query": "семга копченая цена",
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 26
+   },
+   {
+    "query": "семга копченая цена за 1 кг",
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "clicks": 0,
+    "impressions": 5,
+    "position": 46.4
+   },
+   {
+    "query": "семга слабосоленая лента состав",
+    "page": "/ryba/slabosolenaya/file-semgi/",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 38.5
+   },
+   {
+    "query": "семга холодного копчения купить",
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "clicks": 0,
+    "impressions": 9,
+    "position": 55.77777777777778
+   },
+   {
+    "query": "семга холодного копчения цена",
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "clicks": 0,
+    "impressions": 6,
+    "position": 60.833333333333336
+   },
+   {
+    "query": "сколько сейчас стоит красная икра",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 7
+   },
+   {
+    "query": "сколько стоит икра кижуча",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 4
+   },
+   {
+    "query": "сколько стоит икра красная",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 10
+   },
+   {
+    "query": "сколько стоит красная икра в 2026 году",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 1
+   },
+   {
+    "query": "сколько стоит красная икра в иркутске",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 12
+   },
+   {
+    "query": "сколько стоит форель холодного копчения",
+    "page": "/ryba/kholodnoe-kopchenie/file-foreli-hk/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 4
+   },
+   {
+    "query": "слабосоленая белая рыба",
+    "page": "/ryba/slabosolenaya/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 93
+   },
+   {
+    "query": "стоимость красной икры",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 6
+   },
+   {
+    "query": "стоимость красной икры в 2026 году",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 8
+   },
+   {
+    "query": "стоимость красной икры за кг",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 9
+   },
+   {
+    "query": "сырая семга",
+    "page": "/ryba/slabosolenaya/file-semgi/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 45.5
+   },
+   {
+    "query": "такая",
+    "page": "/ikra/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 25
+   },
+   {
+    "query": "тарталетки для икры",
+    "page": "/blog/tartaletki-s-ikroj/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 15
+   },
+   {
+    "query": "филе семга слабосоленая",
+    "page": "/ryba/slabosolenaya/file-semgi/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 34
+   },
+   {
+    "query": "филе семги слабосоленой",
+    "page": "/ryba/slabosolenaya/file-semgi/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 47
+   },
+   {
+    "query": "филе семги холодного копчения",
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "clicks": 0,
+    "impressions": 5,
+    "position": 66.2
+   },
+   {
+    "query": "филе слабосоленой семги",
+    "page": "/ryba/slabosolenaya/file-semgi/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 38
+   },
+   {
+    "query": "филе форели холодного копчения",
+    "page": "/ryba/kholodnoe-kopchenie/file-foreli-hk/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 61
+   },
+   {
+    "query": "цены на икру 2026",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 5,
+    "position": 8.6
+   },
+   {
+    "query": "цены на красную икру 2026",
+    "page": "/blog/tseny-na-ikru-2026/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 8.5
+   },
+   {
+    "query": "что вкуснее икра кеты или нерки",
+    "page": "/blog/keta-ili-nerka/",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 49
+   },
+   {
+    "query": "что лучше нерка или кета",
+    "page": "/blog/keta-ili-nerka/",
+    "clicks": 0,
+    "impressions": 13,
+    "position": 18.23076923076923
+   },
+   {
+    "query": "чука из чего",
+    "page": "/blog/chuka-salat/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 11
+   },
+   {
+    "query": "чука салат",
+    "page": "/blog/chuka-salat/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 25
+   },
+   {
+    "query": "чука что такое",
+    "page": "/blog/chuka-salat/",
+    "clicks": 0,
+    "impressions": 1,
+    "position": 11
+   },
+   {
+    "query": "элит трейд иркутск прайс лист цены на продукты",
+    "page": "/tseny/",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 22
+   }
+  ]
+ },
+ "yandex": {
+  "host": "https://золото-камчатки.рф/",
+  "queries": [],
+  "summary": {
+   "sqi": 10,
+   "excluded_pages_count": 2,
+   "searchable_pages_count": 65,
+   "site_problems": {}
+  }
+ },
+ "metrika": {
+  "counter": 112026044,
+  "sources": [
+   {
+    "source": "organic",
+    "visits": 341,
+    "users": 310,
+    "bounce": 14.07624633
+   },
+   {
+    "source": "direct",
+    "visits": 132,
+    "users": 97,
+    "bounce": 27.27272727
+   },
+   {
+    "source": "referral",
+    "visits": 54,
+    "users": 37,
+    "bounce": 24.07407407
+   },
+   {
+    "source": "internal",
+    "visits": 17,
+    "users": 4,
+    "bounce": 11.76470588
+   },
+   {
+    "source": "social",
+    "visits": 1,
+    "users": 1,
+    "bounce": 100
+   }
+  ],
+  "engines": [
+   {
+    "engine": "Yandex",
+    "visits": 206,
+    "bounce": 13.59223301,
+    "duration": 60.10194175
+   },
+   {
+    "engine": "Google",
+    "visits": 134,
+    "bounce": 14.92537313,
+    "duration": 77.02238806
+   },
+   {
+    "engine": "Rambler",
+    "visits": 1,
+    "bounce": 0,
+    "duration": 15
+   }
+  ],
+  "weeks": [
+   {
+    "week": "2026-10-05",
+    "engine": "Yandex",
+    "visits": 8
+   },
+   {
+    "week": "2026-10-05",
+    "engine": "Google",
+    "visits": 2
+   },
+   {
+    "week": "2026-10-12",
+    "engine": "Yandex",
+    "visits": 41
+   },
+   {
+    "week": "2026-10-12",
+    "engine": "Google",
+    "visits": 14
+   },
+   {
+    "week": "2026-10-19",
+    "engine": "Yandex",
+    "visits": 42
+   },
+   {
+    "week": "2026-10-19",
+    "engine": "Google",
+    "visits": 27
+   },
+   {
+    "week": "2026-10-26",
+    "engine": "Yandex",
+    "visits": 68
+   },
+   {
+    "week": "2026-10-26",
+    "engine": "Google",
+    "visits": 38
+   },
+   {
+    "week": "2026-11-02",
+    "engine": "Yandex",
+    "visits": 47
+   },
+   {
+    "week": "2026-11-02",
+    "engine": "Google",
+    "visits": 53
+   },
+   {
+    "week": "2026-11-02",
+    "engine": "Rambler",
+    "visits": 1
+   }
+  ],
+  "phrases": [
+   {
+    "phrase": "золото камчатки иркутск",
+    "engine": "Yandex",
+    "visits": 14,
+    "bounce": 7.14285714
+   },
+   {
+    "phrase": "дары камчатки иркутск",
+    "engine": "Yandex",
+    "visits": 5,
+    "bounce": 40
+   },
+   {
+    "phrase": "как проверить красную икру в домашних условиях",
+    "engine": "Yandex",
+    "visits": 4,
+    "bounce": 0
+   },
+   {
+    "phrase": "золото камчатки официальный сайт",
+    "engine": "Yandex",
+    "visits": 3,
+    "bounce": 0
+   },
+   {
+    "phrase": "Золото камчатки",
+    "engine": "Yandex",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "phrase": "золото камчатки",
+    "engine": "Yandex",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра лососевая  цена в иркутске",
+    "engine": "Yandex",
+    "visits": 2,
+    "bounce": 50
+   },
+   {
+    "phrase": "как проверить икру в воде красную на подлинность",
+    "engine": "Yandex",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "phrase": "как проверить красную икру на качество в домашних условиях",
+    "engine": "Yandex",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "phrase": "купить красную икру в иркутске",
+    "engine": "Yandex",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "phrase": "купить натуральную икру в иркутске",
+    "engine": "Yandex",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыба камчатки иркутск",
+    "engine": "Yandex",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыбные магазины в иркутске",
+    "engine": "Yandex",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "phrase": "форель иркутск цены",
+    "engine": "Yandex",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "phrase": "В иркутске продажа товаров из камчатки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "Дары Камчатки в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "Иркутск в магазине для Петропавловск-Камчатский рыба",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "Иркутск камчатская рыба",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "КАК ПРОВЕРИТЬ ИКРУ КИТЫ",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "Как нарезать тонкими слайсами рыбу",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "Как оформить икру в подарок",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "Как проверить икру Камчатку недорогую кипятком залить",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "Красиво нарезать рыбу на праздничный стол",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "РЫБНЫЕ МАГАЗИНЫ ИРКУТСКА",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "Сколько стоит икра в иркутске октябрь 2026",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "Форель копченая как нарезать на стол",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "Что еще положить в подарок к икре",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "Ярмарка рыбы в иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "авито иркутск икра",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "байкал таргет",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "где купить качественной красной икры ведро недорого",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "горячее и холодное копчение.какое полезнее",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "гост 18173-2004 икра лососевая зернистая баночная подделка или натуральная",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "гост 18173-2004 настоящая ли",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "гост 18173-2004 настоящая ли икра красная",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "дары Камчатки доставка Иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "дары камчатки в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "дары камчатки иркутск в магазине кедр",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "дары камчатки иркутск официальный сайт каталог товаров и цены",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "дары камчатки официальный сайт иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "доставка икры в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "если красная икра не пахнет рыбой , кислая, и не белеет в кипятке",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "золото камчатки волжская улица магазин кедр  иркутск отзывы",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "золото камчатки иркутск прайс",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "золото камчатки иркутск прайс-лист",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "из чего обычно состоит рыбная тарелка из трех видов рыбы",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икорный магазин в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра 38 иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра в иркутске купить",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра в кипятке не мутнеет и не белеет",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра горчит красная почему",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "икра иркутск",
+    "engine": "Rambler",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра кедр на волжской",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра кетовая цена иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра кеты в иркутске цена",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "икра красная в иркутске купить",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра красная в иркутске купить цена за 1",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра лососевая внутри жидкая но нет запаха",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра лососевая горчит почему",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра лососевая цена за 1 кг иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра сельди в ястыках в Иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икра сельди купить в иркутской обл",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "икринка в кипятке лопаетсч",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "имитауия икры желатин растпопчется в кепчтке или нет",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутск магазин золото камчатки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутск продукты с камчатки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутск рыба камчатки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутск рыба кита стоимость",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутск рыба с камчатки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутск рынок кедр на волжской",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "иркутские телеграм каналы онлайн рыбные магазины",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как красиво порезать  форель холрдного корчения на стол",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как наиезают масляную рыбу",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как нарезать масляную рыбу тонко на стол",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как отличить красную икру от подделки в домашних",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как подарить рыбную икру в наборе",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "как проверит зернистую икру",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как проверить качество икры красной в домашних условиях",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как проверить красную икру в домашних условиях натуральная",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как проверить красную икру в домашних условиях натуральная или",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как проверить красную икру кипятком",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как проверить красную икру на подлинность в домашних условиях в кипятке",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как проверить настоящая ли икра кеты",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как проверить подлинность икра кеты дома",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "как тонко порезать красную рыбу",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "какое копчение полезнее горячее или холодное",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "какой глазок должен быть в икринке",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "какую порцию кладут на стол красноц икры",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "камчатка 38 иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "камчатская рыба иркутск часы работы",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "кедр иркутск волжская",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "кедр иркутск рыба",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "кета холодного копчения купить в иркутской области цена",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "колпаковский рыбокомбинат камчатка отдел реализации икры",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "кто поставщик хек в панировке ангарск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "купить икру красную в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "купить рыбу копченую в Иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "купить чавычу в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "куплю капчоную семгу в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "магазин Камчатка в Иркутске адрес",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "магазин богатство камчатки иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "магазин дары камчатки братск 2026 год",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "магазин золото ккмчатки иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "магазин камчатка рядом иркутск официальный сайт каталог товаров и цены",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "магазин кедр иркутск  рыбный отдел",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "магазин кедр иркутск волжская  икра лососевая",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "магазин комчатка иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "магазин морепродуктов",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "магазин рыбы Иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "маслиничная рыба с камчатки",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "морепродукты",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "нарезка из рыбы иркутск доставка",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "нарезка рыбная",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "овальная форма красной икры",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "оставляет ли икра цвет на тарелке",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "от чего горчит икра горбуши",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "охотская икра",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "почему икра горчит красная",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "почему икра из нерки горчит",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "почему красная икра горькая на вкус",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "прайс-лист магазин богатство камчатки в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "проверить красную икру кипятком",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "провермть икру вводе",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "продают ли свежий улов красной икры в октябре 2026 в иркутске или она будет позже",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "продуктовые магазины иркутск рыбные",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыба иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыба с камчатки иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыба с уамчатки иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыбная тарелка",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыбная ярмарка дары камчатки иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыбный магазин иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "рыбный магазин на байкальской",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "рыбный магазин тц кедр иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "сайты рыбных магазинов иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "сколько нужно рыбной нарезки на 12 человек",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "сколько рыбы на стол",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "стоимост икры кеты в иркутске",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "филе кеты копченое цена Иркутск олиговская",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "филе нерки в духовке на пергаменте сколько готовится?",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "цены Икра красная лососевая вируктск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "цены на рыбу в иркутске 2026",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "phrase": "что происходит с икрой в горячей воде",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "phrase": "ярмарка с камчатки иркутск",
+    "engine": "Yandex",
+    "visits": 1,
+    "bounce": 0
+   }
+  ],
+  "landings": [
+   {
+    "page": "/",
+    "visits": 174,
+    "bounce": 9.1954023
+   },
+   {
+    "page": "/blog/kak-otlichit-nastoyashchuyu-ikru/",
+    "visits": 37,
+    "bounce": 10.81081081
+   },
+   {
+    "page": "/tseny/",
+    "visits": 19,
+    "bounce": 5.26315789
+   },
+   {
+    "page": "/ikra/",
+    "visits": 15,
+    "bounce": 20
+   },
+   {
+    "page": "/blog/kak-krasivo-narezat-rybu/",
+    "visits": 14,
+    "bounce": 35.71428571
+   },
+   {
+    "page": "/opt/",
+    "visits": 10,
+    "bounce": 10
+   },
+   {
+    "page": "/blog/pochemu-gorchit-ikra/",
+    "visits": 8,
+    "bounce": 25
+   },
+   {
+    "page": "/blog/tseny-na-ikru-2026/",
+    "visits": 7,
+    "bounce": 14.28571429
+   },
+   {
+    "page": "/svezhaya-ikra/",
+    "visits": 7,
+    "bounce": 0
+   },
+   {
+    "page": "/ikra/ikra-kety-kamchatka/",
+    "visits": 4,
+    "bounce": 50
+   },
+   {
+    "page": "/blog/ikra-v-podarok/",
+    "visits": 3,
+    "bounce": 66.66666667
+   },
+   {
+    "page": "/ikra/ikra-kizhucha/",
+    "visits": 3,
+    "bounce": 33.33333333
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/koryushka-krupnaya/",
+    "visits": 3,
+    "bounce": 33.33333333
+   },
+   {
+    "page": "/sbory/",
+    "visits": 3,
+    "bounce": 0
+   },
+   {
+    "page": "/zamorozka/",
+    "visits": 3,
+    "bounce": 33.33333333
+   },
+   {
+    "page": "/blog/kholodnoe-vs-goryachee-kopchenie/",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "page": "/dostavka/shelekhov/",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "page": "/ikra/ikra-seldi/",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "page": "/moreprodukty/",
+    "visits": 2,
+    "bounce": 50
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/",
+    "visits": 2,
+    "bounce": 50
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/maslyanaya-ryba/",
+    "visits": 2,
+    "bounce": 0
+   },
+   {
+    "page": "/ryba/slabosolenaya/",
+    "visits": 2,
+    "bounce": 50
+   },
+   {
+    "page": "/ryba/slabosolenaya/tunets-ss/",
+    "visits": 2,
+    "bounce": 50
+   },
+   {
+    "page": "/blog/ikra-k-novomu-godu/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/blog/nerka-v-pergamente/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/blog/skolko-ikry-na-stol/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/blog/tartaletki-s-ikroj/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/dostavka/",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "page": "/ikra/ikra-chavychi/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/ikra/ikra-kety-okhotsk/",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "page": "/ikra/ikra-nerki-kamchatka/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/moreprodukty/chuka/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/o-magazine/",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/bryushki-semgi-hk/",
+    "visits": 1,
+    "bounce": 100
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/file-kizhucha-hk/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/ryba/kholodnoe-kopchenie/file-semgi-hk/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/ryba/slabosolenaya/file-nerki/",
+    "visits": 1,
+    "bounce": 0
+   },
+   {
+    "page": "/zamorozka/khek-v-panirovke/",
+    "visits": 1,
+    "bounce": 0
+   }
+  ],
+  "goals": [
+   {
+    "name": "Ecommerce: покупка",
+    "total": 0,
+    "organic": 0
+   },
+   {
+    "name": "Клик по телефону",
+    "total": 16,
+    "organic": 10
+   },
+   {
+    "name": "Клик по Telegram",
+    "total": 9,
+    "organic": 2
+   },
+   {
+    "name": "Клик в MAX",
+    "total": 16,
+    "organic": 8
+   },
+   {
+    "name": "Отправлена заявка",
+    "total": 1,
+    "organic": 0
+   },
+   {
+    "name": "Клик по картам",
+    "total": 1,
+    "organic": 1
+   },
+   {
+    "name": "Оптовое обращение",
+    "total": 10,
+    "organic": 4
+   },
+   {
+    "name": "Ecommerce: добавление в корзину",
+    "total": 14,
+    "organic": 7
+   }
+  ]
+ },
+ "errors": {}
+}
